@@ -1,0 +1,628 @@
+html, body, h2, h1, h3, h4, p{  
+	font-family: "Montserrat", sans-serif;
+    margin: 0;  
+	padding: 0; 
+	color: black;
+}
+
+html {
+	box-sizing: border-box;
+	overflow: auto;
+	height: auto;
+	scroll-behavior: smooth;
+	
+}
+
+h4 {
+	font-size: 23px;
+	line-height: 31px;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: 0px;
+	text-transform: none;
+}
+
+h2 {
+	font-size: 43px;
+	line-height: 47px;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: 0px;
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 16px;
+	line-height: 26px;
+	font-style: normal;
+	font-weight: 400;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+
+	header {
+		margin-top: -16px;
+		background-image: url("../images/header/jr-dark.jpg");
+		background-position: center 30%;
+		background-repeat: repeat;
+		background-size: auto;
+		height: 582px;
+		padding-top: 0px;
+		margin-left: -10px;
+		margin-right: -10px;
+	}
+
+		/* #cabecalho {	
+			display: flex;
+			position: fixed;
+			top: 0;
+			right: 0;
+			left: 0;	
+			max-width: auto;	
+			height: 110px;
+			margin: 0 auto;
+			padding-top: 0px;
+			margin-top: -15px;
+			margin-left: -10px;
+			margin-right: -10px;
+			margin-bottom: 15px;
+			justify-content: space-between;
+			background-color: black;
+		} */
+
+			
+
+
+			#logo {	
+				align-items: center;
+				margin-top: 10px;
+				padding-left: 60px;
+				transform: scale(0.8);
+				margin-left: -11px;
+				height: 100px;
+				width: auto;
+			}
+
+			#logo-drop-down {
+				display: none;
+				width: 70px;
+				height: 70px;
+				padding-top: 25px;
+				padding-right: 40px;
+			}
+
+			#links {
+				align-items: center;
+				padding-right: 40px;
+			}
+
+				#links ul {
+					padding: 0px;
+					margin: 0px;
+					float: right;
+					list-style-type: none;
+					margin-top: 0px;
+					margin-right: 15px;
+				}
+
+				#links li {
+					display: inline;
+				}
+
+				a:link {
+					text-decoration: none;
+				}
+
+				#links a {
+					padding: 0px 5px;
+					display: inline-block;
+					font-size: 12px;
+					color: #ffffff;
+					font-style: normal;
+					font-weight: 900;
+					letter-spacing: 0px;
+					text-transform: uppercase;
+					line-height: 140px;
+				}
+
+				#links a:hover {
+					font-size: 13px;
+					color: #39ff14;
+				}
+
+			#links-drop-down {
+				display: none;
+			}
+
+				/* #hamburguer{
+					display: none;
+					width: 70px;
+					height: 70px;
+					padding-top: 25px;
+					padding-left: 50px;
+				} */
+
+
+
+		#title-large {
+			text-align: center;
+			color: #ffffff;
+			font-size: 57px;
+			line-height: 60px;
+			letter-spacing: 1px;
+			padding-bottom: 50px;
+			padding-top: 300px;
+		}
+
+
+	#title-empresas {
+		text-align: center;
+		padding-top: 50px;
+		
+	}
+
+	#sub-title-empresas {
+		text-align: center;
+		padding-top: 100px;
+		padding-bottom: 100px;
+		/* max-width: 800px; */
+		/* margin-left: auto;
+		margin-right: auto; */
+		padding-right: 200px;
+		padding-left: 200px;
+	}	
+
+
+	#list {
+		display: grid;
+		row-gap: 20px;
+		column-gap: 20px;
+		grid-template-columns: repeat(5, 1fr);
+		align-items: center;
+		justify-items: center;
+		justify-content: center;
+		align-content: center;
+		padding-bottom: 40px;
+	}
+
+		.logo-empresa {
+			display: grid;
+			padding: 30px;
+			border-radius: 1rem;
+			border-style: solid;
+			border-color: black;
+			width: 130px;
+			height: 130px;
+			align-items: center;
+			justify-items: center;
+			justify-content: center;
+			align-content: center;
+		}
+
+		
+
+	
+		.logos {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			grid-template-rows: 1fr 1fr;
+			background-color: black;
+			margin-right: -20px;
+			margin-left: -20px;
+			height: 300px;
+			align-items: center;
+			justify-items: center;
+			grid-template-areas:
+				"logo-agencia-footer logo-ufrj social"
+				"cop cop cop";
+		}
+
+			#logo-agencia-footer {
+				grid-area: logo-agencia-footer;
+				height: 130px;
+				width: 130px;
+			}
+
+			#logo-ufrj {
+				grid-area: logo-ufrj;
+				height: 280px;
+				width: 280px;
+			}
+
+			#social {
+				grid-area: social;
+				background-color: black;
+			}
+
+				#social ul {
+					display: grid;
+					grid-template-columns: 1fr 1fr;
+					column-gap: 10px;
+					justify-self: center;
+					margin: 0px;
+					list-style-type: none;
+					background-color: black;
+				}
+
+					#linkedin {
+						text-align: left;
+					}
+
+					#facebook {
+						text-align: right;
+					}
+
+					#social a {
+						width: 50px;
+						height: 50px;
+						background-color: black;
+					}
+
+			#cop {
+				background-color: black;
+				grid-column-start: 1;
+				grid-column-end: 4;
+				grid-area: cop;
+				justify-self: stretch;
+				align-self: stretch;
+				background-color: black;
+			}
+
+				#cop p {
+					color: white;
+					text-align: center;
+					font-family: "Montserrat", sans-serif;
+					font-size: 11px;
+					line-height: 62px;
+					font-weight: 700;
+					text-transform: uppercase;
+				}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 900px) and (max-width: 1150px) {
+
+	#list {
+		display: grid;
+		row-gap: 30px;
+		column-gap: 30px;
+		grid-template-columns: repeat(4, 1fr);
+		align-items: center;
+		justify-items: center;
+		justify-content: center;
+		align-content: center;
+		padding-bottom: 40px;
+	}
+
+	#sub-title-empresas{
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+
+	#list {
+		display: grid;
+		row-gap: 30px;
+		column-gap: 30px;
+		grid-template-columns: repeat(3, 1fr);
+		align-items: center;
+		justify-items: center;
+		justify-content: center;
+		align-content: center;
+		padding-bottom: 40px;
+	}
+
+	#sub-title-empresas{
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+}
+
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+
+	#list {
+		display: grid;
+		row-gap: 30px;
+		column-gap: 30px;
+		grid-template-columns: repeat(2, 1fr);
+		align-items: center;
+		justify-items: center;
+		justify-content: center;
+		align-content: center;
+		padding-bottom: 40px;
+	}
+
+	#logo-agencia-footer {
+		grid-area: logo-agencia-footer;
+		height: 75px;
+		width: 75px;
+	}
+
+	#logo-ufrj {
+		grid-area: logo-ufrj;
+		height: 180px;
+		width: 180px;
+	}
+
+	#social a {
+		width: 40px;
+		height: 40px;
+		background-color: black;
+	}
+
+	#cop p {
+		color: white;
+		text-align: center;
+		font-family: "Montserrat", sans-serif;
+		font-size: 9px;
+		line-height: 62px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+	#sub-title-empresas{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+
+	#list {
+		display: grid;
+		row-gap: 30px;
+		column-gap: 30px;
+		grid-template-columns: repeat(2, 1fr);
+		align-items: center;
+		justify-items: center;
+		justify-content: center;
+		align-content: center;
+		padding-bottom: 40px;
+	}
+
+	.logo-empresa {
+		display: grid;
+		padding: 30px;
+		border-radius: 1rem;
+		border-style: solid;
+		width: 70px;
+		height: 70px;
+		align-items: center;
+		justify-items: center;
+		justify-content: center;
+		align-content: center;
+
+	}
+
+	.logos {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+		background-color: black;
+		margin-right: -20px;
+		margin-left: -20px;
+		grid-template-areas:
+			"logo-agencia-footer"
+			"logo-ufrj"
+			"social"
+			"cop"
+		;
+	}
+
+	#logo-agencia-footer {
+		grid-area: logo-agencia-footer;
+		height: 75px;
+		width: 75px;
+		padding-top: 15px;
+	}
+
+	#logo-ufrj {
+		grid-area: logo-ufrj;
+		height: 180px;
+		width: 180px;
+	}
+
+	#social a {
+		width: 40px;
+		height: 40px;
+		background-color: black;
+	}
+
+	#social {
+		grid-area: social;
+		background-color: black;
+		align-self: stretch;
+		justify-self: stretch;
+	}
+
+	#facebook {
+		text-align: right;
+		padding-right: 30px;
+	}
+
+	#cop p {
+		color: white;
+		text-align: center;
+		font-family: "Montserrat", sans-serif;
+		font-size: 11px;
+		line-height: 62px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+
+	#title-large {
+		text-align: center;
+		color: #ffffff;
+		font-size: 38px;
+		line-height: 60px;
+		letter-spacing: 1px;
+		padding-bottom: 50px;
+		padding-top: 200px;
+	}
+
+	#sub-title-empresas{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+
+@media only screen and (min-width: 400px) and (max-width: 900px) {
+
+	.logos {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		background-color: black;
+		margin-right: -20px;
+		margin-left: -20px;
+		height: 300px;
+		align-items: center;
+		justify-items: center;
+		grid-template-areas:
+			"logo-agencia-footer logo-ufrj "
+			"social cop";
+	}
+
+	#social {
+		grid-area: social;
+		background-color: black;
+		align-self: stretch;
+		justify-self: stretch;
+	}
+}
+
+@media only screen and (max-width: 850px) {
+
+	/* #cabecalho {	
+		display: flex;
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;		
+		max-width: auto;		
+		height: 110px;
+		margin: 0 auto;
+		padding-top: 0px;
+		margin-top: -15px;
+		margin-left: -10px;
+		margin-right: -10px;
+		margin-bottom: 15px;
+		justify-content: space-between;		
+		background-color: black;
+	} */
+
+	#logo {	
+		display: none;
+		align-items: center;	
+		margin-top: 10px;
+		padding-left: 60px;
+		transform: scale(0.9);
+		margin-left: -11px;
+		height: 100px;
+		width: auto;
+	}	
+	
+	#links {
+		display: none;
+		align-items: center;
+		padding-right: 40px;
+	}
+
+	#logo-drop-down {
+		display: inherit;
+		width: 70px;
+		height: 70px;
+		padding-top: 25px;
+		padding-right: 75px;
+		margin-right: auto;		
+	}
+
+	/* #hamburguer{
+		display: inherit;		
+		width: 70px;
+		height: 70px;			
+		padding-top: 10px;
+	}
+
+	#cabecalho img:hover{
+		display: none;
+	} */
+
+	
+
+
+	#links-drop-down {
+		display: inherit;		
+		position: absolute;		
+		display: block;
+	}
+	
+	#links-drop-down li{
+		list-style-type: none;
+	}
+	
+	#links-drop-down li ul {
+		display: none;
+		padding-left: 20px;		
+		height: 340px;		
+		padding-top: 0px;		
+		list-style-type: none;	
+		background-color: black;
+		width: 200px;
+		border-radius: 20px;
+	}
+
+	#links-drop-down li ul li a{
+		padding-right: 30px;	
+	}
+	
+	#links-drop-down a {
+		padding: 0px 5px;
+		display: inline-block;
+		font-size: 12px;
+		color: #ffffff;
+		font-style: normal;
+		font-weight: 900;
+		letter-spacing: 0px;
+		text-transform: uppercase;
+		line-height: 80px;
+	}
+
+}	
+
+	
