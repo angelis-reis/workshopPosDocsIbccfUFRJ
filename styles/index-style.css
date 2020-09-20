@@ -50,16 +50,50 @@ body {
 }
 
 	header {
-		margin-top: 90px;
-		background-image: url("../images/header/ponte_estaiada2.jpg");
-		background-size: cover;
-		background-position: center 30%;
-		background-repeat: no-repeat;
+		margin-top: 80px;
 		height: 900px;
 		padding-top: 10px;
 		margin-left: -10px;
 		margin-right: -10px;
 	}
+
+		#videoBG {
+			position:fixed;
+			z-index: -1;
+
+			width:130%;
+			height: auto;
+			left: -300px;
+		}
+
+
+
+		@media (min-aspect-ratio: 16/9) {
+			#videoBG {
+				width:130%;
+				height: auto;
+			}
+		}
+		@media (max-aspect-ratio: 16/9) {
+			#videoBG { 
+				width:auto;
+				height: 100%;
+			}
+		}
+		@media (max-width: 767px) {
+			#videoBG {
+				
+			}
+			body {
+				background: url('../images/poster.png');
+				background-size: cover%;
+				background-position: center 10%;
+				background-repeat: no-repeat;
+			}
+		}
+
+
+
 
 		.title-large1 {
 			text-align: center;
