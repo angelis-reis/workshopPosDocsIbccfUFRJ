@@ -26,29 +26,16 @@ html, body, h2
     "logo links botao1";
 }
 
-    #button-inscricao-1 {
-        background-color: #73c1a9 ;
-        color: #fff;
-        text-align: center;
-        border-radius: 35px;        
-        font-size: 20px;
-        font-weight: bolder;
-        padding: 20px 43px;
+    #button-header {     
         margin-right: 30px;
         margin-bottom: 10px;
-        font-family: "Open Sans", sans-serif;
-        cursor: pointer; 
-        width: 150px; 
-        height: 30px;
         grid-area: botao1;
         justify-self: center;
         align-self: center;
              
     }
  
-    #button-inscricao-1:hover {
-        background-color: #54927f;
-    }
+    
 
     #logo {	
         
@@ -251,7 +238,7 @@ html, body, h2
 
 
 
-@media only screen and (max-width: 1050px) {
+/* @media only screen and (max-width: 1050px) {
 
     #links{
         display: none;
@@ -372,7 +359,7 @@ html, body, h2
     }
 
 
-}
+} */
 
 
 
