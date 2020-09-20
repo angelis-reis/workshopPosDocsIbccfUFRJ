@@ -50,38 +50,79 @@ body {
 }
 
 	header {
-		margin-top: -16px;
+		margin-top: 90px;
 		background-image: url("../images/header/ponte_estaiada2.jpg");
 		background-size: cover;
 		background-position: center 30%;
 		background-repeat: no-repeat;
-		height: 582px;
-		padding-top: 0px;
+		height: 900px;
+		padding-top: 10px;
 		margin-left: -10px;
 		margin-right: -10px;
 	}
 
-		#title-large {
+		.title-large1 {
 			text-align: center;
 			color: #ffffff;
-			font-size: 57px;
-			line-height: 60px;
-			letter-spacing: 1px;
-			padding-bottom: 50px;
-			padding-top: 300px;
+			font-family: 'versaversa';
+			font-size: 2.5rem;
+			line-height: 1;
+			padding: 1rem .5rem .5rem .5rem;
+			margin-bottom: 5px;
+			
+			width: auto;
 		}
 
-	#subtitle {
-		text-align: center;
-		padding-bottom: 100px;
-		padding-top: 80px;
-		padding-right: 200px;
-		padding-left: 200px;
-	}
+			.title-large1 strong{
+				background-color: #54bb35;
+				padding-left: 10px;
+				padding-right: 10px;
 
-		#subtitle h4{
-			padding-bottom: 80px;;
+			}
+
+		.title-large2 {
+			text-align: center;
+			color: #ffffff;
+			font-family: 'versaversa';
+			font-size: 2.5rem;
+			line-height: 1;
+			padding: 1rem .5rem .5rem .5rem;
+			margin-bottom: 5px;
+			
 		}
+
+		.title-large2 strong{
+			background-color: #0c6914;
+			padding-left: 10px;
+			padding-right: 10px;
+
+		}
+
+
+		.title-large3 {
+			text-align: center;
+			color: #ffffff;
+			font-family: 'versaversa';
+			font-size: 2.5rem;
+			line-height: 1;
+			padding: 1rem .5rem .5rem .5rem;
+			
+			margin-bottom: 100px;
+			margin-top: 100px;
+		}
+
+		#temporizador{
+			background-color: midnightblue;
+			height: 150px;
+			width: 800px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 100px;
+			margin-top: 100px;
+		}
+
+	
+
 
 		.button1 {
 			border-radius: 15px;
