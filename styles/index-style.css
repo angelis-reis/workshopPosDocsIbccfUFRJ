@@ -45,6 +45,7 @@ img {
 }
 
 body {
+	padding-right: -10px;;
 	
 	
 }
@@ -226,7 +227,7 @@ body {
 
 
 	#programacao {
-		background-color: #2c4059;
+		background-color: #e44b67;
 		height: 400px;
 		margin-left: -8px;
 		margin-right: -8px;
@@ -248,7 +249,7 @@ body {
 
 					
 	#inscricao{
-		background-color: #7c7b3a;
+		background-color: #ffffff;
 		margin-left: -8px;
 		margin-right: -8px;
 	}
@@ -257,25 +258,24 @@ body {
 
 		#ingresso{
 			display: grid;
-			grid-template-rows: 150px 150px 200px 30px;
+			grid-template-rows: 120px 120px 180px 20px;
 			font-size: 30px;
-			padding-top: 200px;
-			padding-bottom: 200px;			
+			padding-top: 100px;
+			padding-bottom: 100px;			
 			margin-left: auto;
 			margin-right: auto;
-			width: 500px;
-			height: 460px;
+			grid-template-columns: 450px;
+			width: 450px;
+			
 			align-items: center;
 			justify-items: center;	
 			color: #ffffff
 		}
 
-			#ingresso span a:hover{
-				line-height: 1.5;
-			}
+			
 
 			#ingresso span{
-				padding-top: 80px;
+				padding-top: 40px;
 				text-align: center;
 				background-color: #534893;
 				justify-self: stretch;
@@ -291,35 +291,49 @@ body {
 				align-self: center;
 			}
 
+			#recorte{
+				display:flex;
+			}
+
 			.bolas{
-				display: flex-inline;
-				background-color: #0e0e0d;
-				width: 80px;
+				background-color: #ffffff;
+				width: 70px;
 				border-top: solid;
-				border-color: #7c7b3a;
+				border-color: #ffffff;
 				border-radius: 50%;
 				padding-top: 80px;
+
+			}
 
 		
 	#contato{
 
-		background-color: #a12371;
-		height: 700px;
+		background-color: #46b5e3;
+		color: #ffffff;
+		font-size: 25px;
 		margin-left: -8px;
 		margin-right: -8px;
+		text-align: center;
+		padding-top: 100px;
+		padding-bottom: 100px;
 	}
 
 	#realizacao{
-
-
-		background-color: #23a190;
-		height: 700px;
+		display: grid;
+		grid-template-columns: 1fr 2fr 2fr ;
+		background-color: #ffffff;
+		height: 500px;
 		margin-left: -8px;
 		margin-right: -8px;
-
-		
-
+		align-items: center;
+		justify-items: center;
 	}
+
+		#realizacao span{
+			color: #000000;
+			font-size: 25px;
+
+		}
 
 
 

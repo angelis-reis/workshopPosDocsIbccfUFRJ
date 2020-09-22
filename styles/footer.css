@@ -18,7 +18,8 @@ footer {
         background-color: black;
         margin-right: -20px;
         margin-left: -20px;
-        height: 300px;
+        height: 250px;
+        padding-top: 40px;
         align-items: center;
         justify-items: center;
         grid-template-areas:
@@ -29,13 +30,13 @@ footer {
         #logo-agencia-footer {
             grid-area: logo-agencia-footer;
             height: 130px;
-            width: 130px;
+            width: 250px;
         }
 
         #logo-ufrj {
             grid-area: logo-ufrj;
-            height: 280px;
-            width: 280px;
+            height: 150px;
+            width: 235px;
         }
 
         #social {
@@ -83,7 +84,7 @@ footer {
                 color: white;
                 text-align: center;
                 font-family: "Montserrat", sans-serif;
-                font-size: 11px;
+                font-size: 14px;
                 line-height: 62px;
                 font-weight: 700;
                 text-transform: uppercase;
