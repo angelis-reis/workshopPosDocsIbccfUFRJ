@@ -211,7 +211,9 @@ body {
 				}
 
 					.foto-palestrante img{
-						fit-content: cover;
+						width: 100%;
+						height: auto;
+						/* fit-content: cover; */
 
 						/*align-self: stretch;
 						justify-self: stretch; */
