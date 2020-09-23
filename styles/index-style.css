@@ -36,8 +36,6 @@ p {
 	line-height: 26px;
 	font-style: normal;
 	font-weight: 400;
-	margin-top: 15px;
-	margin-bottom: 15px;
 }
 
 img {
@@ -154,6 +152,7 @@ body {
 	 
 			.button-inscricao:hover {
 				background-color: #54927f;
+				scale: 1.05;
 			}
 
 		#button-titulo{
@@ -161,8 +160,117 @@ body {
 
 		}
 
+			
+
 	
-	
+		#informacoes-evento{
+			height: auto;
+			background-color: #f4f4fb;
+			
+		}
+
+			#titulo-informacoes{
+				font-size: 35px;
+				padding-top: 100px;
+				margin-left: 310px;
+				padding-bottom: 80px;
+			}
+
+
+			#cards-evento{
+				margin-left: auto;
+				margin-right: auto;
+				display: grid;
+				justify-content: center;  
+				gap: 40px 40px;
+				padding-bottom: 100px;
+				grid-template-columns: 400px 400px 400px;
+				grid-template-rows: 500px;
+
+			}
+
+				#card-evento-1{
+					justify-self: stretch;
+					align-self: stretch;
+					overflow: hidden;
+
+					/* overflow: hidden esconde o que ultrapassar do container */
+					
+					
+				}
+
+					
+
+				#card-evento-2{
+					justify-self: stretch;
+					align-self: stretch;
+					overflow: hidden;
+
+				}
+
+
+				#card-evento-3{
+					justify-self: stretch;
+					align-self: stretch;
+					overflow: hidden;
+
+				}
+
+					
+
+
+					.photo{
+						width: 400px;
+						height: 300px;
+						align-self: center;
+						justify-self: center;
+						padding-bottom: 40px;
+						transition-duration: 0.45s;
+						
+					}
+
+						.photo:hover{
+							scale: 1.05;
+							transition-duration: 0.45s;
+							
+						}
+
+					
+
+					.texto-evento{
+						display: grid;
+						width: 400px;
+					}
+
+					
+						.card-title{
+							display: grid;
+							background-color: rgb(255, 255, 255);
+							color: rgb(0, 0, 0);
+							text-align: center;
+							font-size: 35px;
+							align-self: stretch;
+							justify-self: stretch;
+							padding-top: 10px;
+							
+						}
+
+						.card-text{
+							display: grid;
+							background-color: rgb(255, 255, 255);
+							padding:10px;
+							text-align: center;
+										
+							color: rgb(0, 0, 0);
+							
+						}		
+
+
+			
+
+			
+
+				
 		
 
 		
