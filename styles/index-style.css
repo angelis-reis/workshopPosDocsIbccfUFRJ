@@ -1,5 +1,5 @@
 html, body, h2, h1, h3, h4, p{  
-	font-family: "Montserrat", sans-serif;
+	font-family: "Raleway", sans-serif;
     margin: 0;  
 	padding: 0; 
 	color: black;
@@ -32,10 +32,6 @@ h2 {
 }
 
 p {
-	font-size: 16px;
-	line-height: 26px;
-	font-style: normal;
-	font-weight: 400;
 }
 
 img {
@@ -55,6 +51,25 @@ body {
 		margin-left: -10px;
 		margin-right: -10px;
 	}
+
+		.title{
+			font-family: 'versaversa';
+			font-size: 2.1rem;
+			line-height: 1.2em;
+			text-transform: uppercase;
+			color: black;
+		}
+
+		.subtitle{
+			font-family: 'versaversa';
+			font-size: 1.6em;
+			line-height: 1.2em;
+			text-transform: uppercase;
+			color: black;
+		}
+
+
+		
 
 		#titulo{
 			text-align: center;
@@ -82,8 +97,8 @@ body {
 
 
 		.title-large1 {
-			color: #ffffff;
 			font-family: 'versaversa';
+			color: #ffffff;
 			font-size: 2.5rem;
 			line-height: 1;
 			padding: 1rem .5rem .5rem .5rem;
@@ -100,10 +115,10 @@ body {
 			}
 
 		.title-large2 {
+			font-family: "RalewayBold", sans-serif;
 			color: #ffffff;
-			font-family: 'versaversa';
-			font-size: 2.5rem;
-			line-height: 1;
+			font-size: 2.1rem;
+			line-height: 1em;
 			padding: 1rem .5rem .5rem .5rem;
 			margin-bottom: 5px;
 			
@@ -118,11 +133,12 @@ body {
 
 
 		.title-large3 {
+			font-family: 'sora';
 			color: #ffffff;
-			font-family: 'versaversa';
-			font-size: 2.5rem;
-			line-height: 1;
+			font-size: 2rem;
+			line-height: 1.2em;
 			padding: 1rem .5rem .5rem .5rem;
+			
 			
 			margin-bottom: 60px;
 			margin-top: 60px;
@@ -146,7 +162,6 @@ body {
 			font-size: 20px;
 			font-weight: bolder;
 			padding: 20px 43px;
-			font-family: "Open Sans", sans-serif;
 			cursor: pointer;
 		}
 	 
@@ -170,7 +185,9 @@ body {
 		}
 
 			#titulo-informacoes{
-				font-size: 35px;
+				
+				
+
 				padding-top: 100px;
 				margin-left: 310px;
 				padding-bottom: 80px;
@@ -246,15 +263,15 @@ body {
 						.card-title{
 							display: grid;
 							background-color: rgb(255, 255, 255);
-							color: rgb(0, 0, 0);
 							text-align: center;
-							font-size: 35px;
 							align-self: stretch;
 							justify-self: stretch;
 							padding-top: 10px;
+							padding-bottom: 15px;
 							
 						}
 
+						
 						.card-text{
 							display: grid;
 							background-color: rgb(255, 255, 255);
@@ -670,20 +687,27 @@ body {
 
 
 				.nome-foto{
-					padding-top: 210px;
+					padding-top: 370px;
 					color: #ffffff;
-					font-size: 30px;
 					text-align: left;
 					margin-left: 15px;
+
+					font-family: 'versaversa';
+					font-size: 1.8em;
+					line-height: 1.2em;
+					text-transform: uppercase;
 
 
 				}
 
 				.descricao-foto{
 					color: #ffffff;
-					font-size: 22px;
+					font-size: 1.5em;
 					text-align: left;
 					margin-left: 15px;
+					font-family: 'versaversa';
+					font-size: 1.4em;
+					line-height: 1.2em;
 
 				}
 
@@ -691,7 +715,7 @@ body {
 
 				
 				#titulo-palestrantes {
-					text-align: center;
+					text-align: left;
 					color: rgb(0, 0, 0);
 					margin-top: -4px;
 					margin-left: 10px;
@@ -814,7 +838,6 @@ body {
 
 		background-color: #0A3200;
 		color: #ffffff;
-		font-size: 25px;
 		margin-left: -8px;
 		margin-right: -8px;
 		text-align: center;
@@ -834,9 +857,6 @@ body {
 	}
 
 		#realizacao span{
-			color: #000000;
-			font-size: 25px;
-
 		}
 
 
@@ -892,13 +912,7 @@ body {
 	}
 }
 
-@media only screen and (min-width: 800px) and (max-width: 1150px){
 
-	#subtitle{
-		padding-right: 100px;
-		padding-left: 100px;
-	}
-}
 
 @media only screen and (max-width: 1000px){
 
@@ -971,10 +985,7 @@ body {
 
 @media only screen and (min-width: 500px) and (max-width: 800px){
 
-	#subtitle{
-		padding-right: 50px;
-		padding-left: 50px;
-	}
+	
 }
 
 @media only screen and (max-width: 650px){
@@ -1024,7 +1035,6 @@ body {
 		font-weight: bolder;
 		margin: 10px;
 		padding: 20px 43px;
-		font-family: "Open Sans", sans-serif;
 		cursor: pointer;
 	}
 }
@@ -1075,11 +1085,7 @@ body {
 		grid-template-rows: 200px 30px 160px 400px;		
 	}
 
-	#subtitle{
-		padding-right: 20px;
-		padding-left: 20px;
-	}
-}
+	
 
 @media only screen and (max-width: 400px){
 
