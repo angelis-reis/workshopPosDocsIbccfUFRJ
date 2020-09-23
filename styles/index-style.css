@@ -152,12 +152,15 @@ body {
 	 
 			.button-inscricao:hover {
 				background-color: #54927f;
+				scale: 1.05;
 			}
 
 		#button-titulo{
 			margin-bottom: 70px;
 
 		}
+
+			
 
 	
 		#informacoes-evento{
@@ -181,9 +184,6 @@ body {
 				justify-content: center;  
 				gap: 40px 40px;
 				padding-bottom: 100px;
-
-				
-				
 				grid-template-columns: 400px 400px 400px;
 				grid-template-rows: 500px;
 
@@ -192,41 +192,31 @@ body {
 				#card-evento-1{
 					justify-self: stretch;
 					align-self: stretch;
-					transition-duration: 0.45s;
+					overflow: hidden;
 
+					/* overflow: hidden esconde o que ultrapassar do container */
+					
+					
 				}
 
-					#card-evento-1:hover{
-						scale: 1.1;
-						
-						transition-duration: 0.45s;
-					}
+					
 
 				#card-evento-2{
 					justify-self: stretch;
 					align-self: stretch;
-					transition-duration: 0.45s;
+					overflow: hidden;
 
 				}
 
-					#card-evento-2:hover{
-						scale: 1.1;
-						
-						transition-duration: 0.45s;
-					}
 
 				#card-evento-3{
 					justify-self: stretch;
 					align-self: stretch;
-					transition-duration: 0.45s;
+					overflow: hidden;
 
 				}
 
-					#card-evento-3:hover{
-						scale: 1.1;
-						
-						transition-duration: 0.45s;
-					}
+					
 
 
 					.photo{
@@ -234,9 +224,16 @@ body {
 						height: 300px;
 						align-self: center;
 						justify-self: center;
-						transition-duration: 0.6s;
 						padding-bottom: 40px;
+						transition-duration: 0.45s;
+						
 					}
+
+						.photo:hover{
+							scale: 1.05;
+							transition-duration: 0.45s;
+							
+						}
 
 					
 
