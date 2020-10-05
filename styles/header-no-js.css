@@ -74,6 +74,9 @@
             text-decoration: none;
         }
 
+        
+
+
         #links a {
             padding: 0px 5px;
             display: inline-block;
@@ -91,6 +94,7 @@
             color: #39ff14;
         }
 
+        
     #links2 {
         display: none;
         align-items: center;
