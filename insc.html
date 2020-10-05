@@ -11,6 +11,10 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sora">
 
 
+
+	<script src="https://kit.fontawesome.com/eb8419b844.js" crossorigin="anonymous"></script>
+
+
 	
 
 
@@ -30,7 +34,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="stylesheet" type="text/css" href="styles/insc_style.css">
 
 	<link rel="stylesheet" type="text/css" href="styles/footer.css">
 
@@ -143,43 +147,97 @@
 
 		</div>
 
-		<section id="hero">
+		
 
-			<video id="videoBG" poster="poster.png" autoplay muted loop>
-				<source src="images/header.mp4" type="video/mp4">
-			</video>
+		
 
-			<h1 id="work"class="title-large1"><strong>IV WORKSHOP DOS PÓS DOUTORES  </strong></h1>
+	</header>
 
-			<h1 class="title-large1"> <strong>DO IBCCF - UFRJ </h1>
-
-			<p class="title-large2"><strong>Diversas APRESENTAÇÕES CIENTÍFICAS </strong></p>
-
-			<p class="title-large2"><strong>do mais alto nível</strong></p>
-
-			<p class="title-large3">DATA: X, Y E Z DE NOVEMBRO</p>
-
-			<div id="temporizador">
-
-
-			</div>
-
+	<section id="hero_prog">
 			
 
-			<a href="insc.html" id="button-titulo" class="button-inscricao"> INSCRIÇÃO </a>
+	</section>
 
-			</section>
 
-		<div>
+
+
+
+
+
+
+
+
+
+
+	<section id="form_insc">
+
+		<div class="formulario">
+			
+			<form class="kwes-form" action="https://kwes.io/api/foreign/forms/Q2vhCkiFoM0kQARUUIxH">
+
+				<fieldset>
+
+					<legend id ="form_title"> COMPLETE SUA INSCRIÇÃO NO <br> IV WORKSHOP DOS PÓS DOUTORES DO IBCCF - UFRJ </legend>
+
+
+					<input type="text" name="nome" placeholder="Nome completo*">
+					<input type="text" name="instituicao" placeholder="Instituição*">
+					<input type="text" name="curso" placeholder="Curso*">
+					<input type="text" name="cidade" placeholder="Cidade/Estado*">
+					<input type="email" name="email" placeholder="E-mail*">
+
+
+
+					
+					<label for="job">Como ficou sabendo do Workshop?</label>
+
+					<select id="job" name="divulgacao" >
+
+						<optgroup >
+							<option value="redes_sociais">Redes sociais</option>
+							<option value="site">Site institucional</option>
+							<option value="indicacao">Indicação de colegas</option>
+							<option value="email">Divulgação por e-mail</option>
+							<option value="outra">Outra maneira</option>
+						</optgroup>
+					</select>  
+					
+					<input id="checkbox" type="checkbox" id="inscricao_disciplina" name="inscricao_disciplina">
+
+					<label id="checkbox" for="inscricao_disciplina">Está inscrito na disciplina BFB-739 Workshop?</label>
+
+					<input type="submit" value="Enviar" />
+
+				</fieldset>
+					
+				
+			</form>
+
 			
 
 		</div>
 
-	</header>
+		
+
+
+	</section>
+
 
 	<section class="title" id="contato">
 
 		<span  >DÚVIDAS? ENVIE UMA MENSAGEM PARA:<br> <br>XXXXXXXXX@IBCCF.UFRJ</span>
+
+
+	</section>
+
+	<section id="realizacao">
+
+		<span class="title" >REALIZAÇÃO E <BR> ORGANIZAÇÃO</em></span>
+
+		<a  href="index.html"><img 
+				src="images/logo.png" alt="Logo Evento" width="140" height="140"></a>
+
+		<a  href="https://www.biof.ufrj.br/" target="_blank"><img  src="images/logo-ibccf.png" alt="Logo IBCCF" width="250" height="120"></a>
 
 
 	</section>
@@ -218,6 +276,11 @@
 	<!-- JS dropdown link -->
 
 	<!-- <script type="text/javascript" src="scripts/index.js"></script> -->
+
+	<script type="text/javascript" src="scripts/apres.js"></script>
+
+	<script src="https://kwes.io/v2/kwes-script.js" defer></script> 
+	
 
 </body>
 
