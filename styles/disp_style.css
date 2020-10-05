@@ -1,0 +1,940 @@
+html, body, h2, h1, h3, h4, p {  
+	font-family: "Raleway", sans-serif;
+    margin: 0;  
+	padding: 0; 
+	color: black;
+}
+
+html {
+	box-sizing: border-box;
+	overflow: auto;
+	height: auto;
+	scroll-behavior: smooth;
+	
+}
+
+h4 {
+	font-size: 23px;
+	line-height: 31px;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: 0px;
+	text-transform: none;
+}
+
+h2 {
+	font-size: 43px;
+	line-height: 47px;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: 0px;
+	text-transform: uppercase;
+}
+
+p {
+}
+
+img {
+	margin: 0;
+}
+
+body {
+	padding-right: -10px;;
+	
+	
+}
+
+	header {
+		margin-top: 80px;
+		height: auto;
+		padding-top: 10px;
+		margin-left: -10px;
+		margin-right: -10px;
+	}
+
+		.title{
+			font-family: 'versaversa';
+			font-size: 2.1rem;
+			line-height: 1.2em;
+			text-transform: uppercase;
+			color: black;
+		}
+
+		.subtitle{
+			font-family: 'versaversa';
+			font-size: 1.6em;
+			line-height: 1.2em;
+			text-transform: uppercase;
+			color: black;
+		}
+
+
+		
+
+		#hero{
+			text-align: center;
+			
+		}
+
+		#hero_prog{
+			text-align: center;
+			background-image: url("../images/hero/prog_hero.jpeg");
+			background-size: cover;
+			background-position: center 30%;
+			background-repeat: no-repeat;
+			height: 700px;
+			
+			
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+        
+/* <---------------------------------seção videos-------> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        #films{
+            display: grid;
+            
+            display: none;
+            
+            grid-template-columns: 1fr;
+            grid-template-rows: 700px ;
+            grid-template-areas: 
+            "film1";
+        }
+        
+            #films h1{
+                align-self: center ;
+                transition: font-size 0.3s;
+            }
+        
+            #films h1:hover{
+                color: gold;
+                cursor: pointer;
+                font-size: 52px;
+            }
+        
+            .film-title{
+                color: azure;
+                text-align: center;
+                text-justify: center;
+                line-height: 100px;
+                font-size: 30px;
+            }
+        
+            #film1{
+                display: grid;
+                grid-area: film1;
+                background-image: url(../images/apresentacoes/evento-2.png);
+                background-size: cover;
+                
+                
+                
+            }
+        
+                .film-h1-none{
+                    display:none;
+                }
+        
+                #apresentacao_1{
+                    display: inherit;
+                    color: azure;
+                    text-align: center;
+                    text-justify: center;
+                    line-height: 100px;
+                    font-size: 30px;
+                }
+        
+               
+        
+                #apresentacao_1-player{
+                    display:none;
+                    position: relative;
+                    top: - 30%;
+                    left: 20%;
+                }
+        
+                
+        
+                .film-player-inherit{
+                    display:inherit;
+                    position: relative;
+                    margin-left: auto;
+                    margin-right: auto;
+                } 
+        
+		
+		
+
+
+
+		.title-large1 {
+			font-family: 'versaversa';
+			color: #ffffff;
+			font-size: 2.5rem;
+			line-height: 1;
+			padding: 1rem .5rem .5rem .5rem;
+			margin-bottom: 5px;
+			
+			width: auto;
+		}
+
+			.title-large1 strong{
+				background-color: #2edb96;
+				padding-left: 10px;
+				padding-right: 10px;
+
+			}
+
+		.title-large2 {
+			font-family: "RalewayBold", sans-serif;
+			color: #ffffff;
+			font-size: 2.1rem;
+			line-height: 1em;
+			padding: 1rem .5rem .5rem .5rem;
+			margin-bottom: 5px;
+			
+		}
+
+		.title-large2 strong{
+			background-color: #379634;
+			padding-left: 10px;
+			padding-right: 10px;
+
+		}
+
+
+		.title-large3 {
+			font-family: 'sora';
+			color: #ffffff;
+			font-size: 2rem;
+			line-height: 1.2em;
+			padding: 1rem .5rem .5rem .5rem;
+			
+			
+			margin-bottom: 60px;
+			margin-top: 60px;
+		}
+
+		#temporizador{
+			background-color: #7CFFCB;
+			height: 150px;
+			width: 800px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 70px;
+			margin-top: 70px;
+		}
+
+	
+		.button-inscricao{
+			background-color: #379634 ;
+			color: #fff;
+			border-radius: 35px;        
+			font-size: 20px;
+			font-weight: bolder;
+			padding: 20px 43px;
+			cursor: pointer;
+		}
+	 
+			.button-inscricao:hover {
+				background-color: #2d772a ;
+				scale: 1.1;
+			}
+
+		#button-titulo{
+			margin-bottom: 70px;
+
+		}
+
+			
+
+	
+		#informacoes-evento{
+			height: auto;
+			background-color: #f4f4fb;
+			
+		}
+
+			#titulo-informacoes{
+				
+				
+
+				padding-top: 100px;
+				margin-left: 310px;
+				padding-bottom: 80px;
+			}
+
+
+			#cards-evento{
+				margin-left: auto;
+				margin-right: auto;
+				display: grid;
+				justify-content: center;  
+				gap: 40px 40px;
+				padding-bottom: 100px;
+				grid-template-columns: 400px 400px 400px;
+				grid-template-rows: 500px;
+
+			}
+
+				#card-evento-1{
+					justify-self: stretch;
+					align-self: stretch;
+					overflow: hidden;
+
+					/* overflow: hidden esconde o que ultrapassar do container */
+					
+					
+				}
+
+					
+
+				#card-evento-2{
+					justify-self: stretch;
+					align-self: stretch;
+					overflow: hidden;
+
+				}
+
+
+				#card-evento-3{
+					justify-self: stretch;
+					align-self: stretch;
+					overflow: hidden;
+
+				}
+
+					
+
+
+					.photo{
+						width: 400px;
+						height: 300px;
+						align-self: center;
+						justify-self: center;
+						padding-bottom: 40px;
+						transition-duration: 0.45s;
+						
+					}
+
+						.photo:hover{
+							scale: 1.05;
+							transition-duration: 0.45s;
+							
+						}
+
+					
+
+					.texto-evento{
+						display: grid;
+						width: 400px;
+					}
+
+					
+						.card-title{
+							display: grid;
+							background-color: rgb(255, 255, 255);
+							text-align: center;
+							align-self: stretch;
+							justify-self: stretch;
+							padding-top: 10px;
+							padding-bottom: 15px;
+							
+						}
+
+						
+						.card-text{
+							display: grid;
+							background-color: rgb(255, 255, 255);
+							padding:10px;
+							text-align: center;
+										
+							color: rgb(0, 0, 0);
+							
+						}		
+
+
+			
+    #disciplina{
+
+
+        background-color: #e4e6e3;
+        color: #000000;
+        margin-left: -8px;
+        margin-right: -8px;
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        text-align: center;
+           
+        
+    }
+
+        #disciplina p{
+            width: 80%;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+			
+
+
+
+
+					
+	
+
+		
+	#contato{
+        
+
+		background-color: #0A3200;
+		color: #ffffff;
+		margin-left: -8px;
+		margin-right: -8px;
+		text-align: center;
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+	#realizacao{
+		display: grid;
+		grid-template-columns: 1fr 2fr 2fr ;
+		background-color: #BFFFF1;
+		height: 500px;
+		margin-left: -8px;
+		margin-right: -8px;
+		align-items: center;
+		justify-items: center;
+    }
+    
+
+    #form_insc{
+		background-color: #ffffff;
+		margin-left: -8px;
+		margin-right: -8px;
+		align-items: center;
+        justify-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+	}
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+    .formulario{
+        max-width: 500px;
+        padding: 10px 20px;
+        background: #f4f7f8;
+        margin: 10px auto;
+        padding: 20px;
+        background: #f4f7f8;
+        border-radius: 8px;
+    }
+    .formulario fieldset{
+        border: none;
+    }
+    .formulario legend {
+        font-size: 1.4em;
+        margin-bottom: 10px;
+    }
+    .formulario label {
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    #checkbox{
+        display: inline;
+        margin-bottom: 20px;
+    }
+
+    #form_title{
+        text-align: center;
+    }
+
+    
+
+
+
+    .formulario input[type="text"],
+    
+    .formulario input[type="email"],
+    
+    
+    .formulario select {
+        
+        background: rgba(255,255,255,.1);
+        border: none;
+        border-radius: 4px;
+        font-size: 15px;
+        margin: 0;
+        outline: 0;
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box; 
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box; 
+        background-color: #e8eeef;
+        color:#8a97a0;
+        -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+        box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+        margin-bottom: 30px;
+    }
+    .formulario input[type="text"]:focus,
+    
+    .formulario input[type="email"]:focus,
+    
+    .formulario select:focus{
+        background: #d2d9dd;
+    }
+    .formulario select{
+        -webkit-appearance: menulist-button;
+    }
+    .formulario .number {
+        background: #1abc9c;
+        color: #fff;
+        height: 30px;
+        width: 30px;
+        display: inline-block;
+        font-size: 0.8em;
+        margin-right: 4px;
+        line-height: 30px;
+        text-align: center;
+        text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+        border-radius: 15px 15px 15px 0px;
+    }
+    
+    .formulario input[type="submit"],
+    .formulario input[type="button"]
+    {
+        position: relative;
+        display: block;
+        padding: 19px 39px 18px 39px;
+        color: #FFF;
+        margin: 0 auto;
+        background: #1abc9c;
+        font-size: 18px;
+        text-align: center;
+        font-style: normal;
+        width: 100%;
+        border: 1px solid #16a085;
+        border-width: 1px 1px 3px;
+        margin-bottom: 10px;
+        border-radius: 8px;
+    }
+    .formulario input[type="submit"]:hover,
+    .formulario input[type="button"]:hover
+    {
+        background: #109177;
+    }
+    
+
+
+
+    #link_disciplina{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1250px){
+
+	body {
+		width: 100vw;
+	}
+
+	#cards{
+		display: grid;
+		grid-template-columns: 1fr 600px 1fr;
+		grid-template-rows: 1px 130px 50px 600px 600px 600px 50px;
+		gap:25px;
+		background-color: #2c4059;
+		grid-template-areas: 
+		"torto-top torto-top torto-top"
+		"rede-empresas rede-empresas rede-empresas"
+		"separador-cards separador-cards separador-cards"
+		"..... image-card1 ....."
+		"..... image-card2 ....."
+		"..... image-card3 ....."
+		"torto-bottom torto-bottom torto-bottom";
+	}
+}
+
+
+
+@media only screen and (max-width: 1000px){
+
+	#graficos-empresas{
+		display:grid;	
+		gap: 20px;	
+		grid-template-columns: 1fr;
+		grid-template-rows: 500px 500px 700px 500px 500px;
+		grid-template-areas: 
+		"vinculo"
+		"origem"
+		"atuacao"
+		"sede"
+		"porte";
+	}
+
+	.image-cards-grid{
+		
+		grid-template-rows: 350px 110px 150px;
+	}
+
+	.card-icon{
+		grid-area:card-icon;
+		max-width: 80%;
+		max-height: 80%;
+		
+	}
+}
+
+@media only screen and (max-width: 800px){
+
+	#graficos-empresas{
+		display:grid;		
+		gap: 20px;
+		grid-template-columns: 1fr;
+		grid-template-rows: 600px 600px 900px 600px 600px;
+		grid-template-areas: 
+		"vinculo"
+		"origem"
+		"atuacao"
+		"sede"
+		"porte";
+	}	
+
+	#atuacao h4{
+		padding-bottom: 130px;
+	}
+
+	#atuacao{
+		display: none;
+		grid-area: atuacao;
+		align-self: center;
+		justify-self: center;
+
+
+	}
+
+	#atuacao-90{
+		display: inherit;
+		grid-area: atuacao;
+		align-self: center;
+		justify-self: center;
+
+
+	}
+
+
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 800px){
+
+	
+}
+
+@media only screen and (max-width: 650px){
+	
+	#cards{
+		display: grid;
+		grid-template-columns: 1fr 450px 1fr;
+		grid-template-rows: 1px 130px 50px 600px 600px 600px 50px;
+		gap:15px;
+		background-color: #2c4059;
+		grid-template-areas: 
+		"torto-top torto-top torto-top"
+		"rede-empresas rede-empresas rede-empresas"
+		"separador-cards separador-cards separador-cards"
+		"..... image-card1 ....."
+		"..... image-card2 ....."
+		"..... image-card3 ....."
+		"torto-bottom torto-bottom torto-bottom";
+	}
+}
+
+@media only screen and (max-width: 600px){
+
+	#graficos-empresas{
+		display:grid;		
+		grid-template-columns: 1fr;
+		grid-template-rows: 500px 500px 650px 500px 500px;
+		grid-template-areas: 
+		"vinculo"
+		"origem"
+		"atuacao"
+		"sede"
+		"porte";
+	}
+
+	#atuacao h4{
+		padding-bottom: 85px;
+	}
+
+	.button1 {
+		display: block;
+		border-radius: 15px;
+		border-style: solid;
+		border-color: #78f0d3;
+		background: none;
+		font-size: 20px;
+		font-weight: bolder;
+		margin: 10px;
+		padding: 20px 43px;
+		cursor: pointer;
+	}
+}
+
+@media only screen and (max-width: 500px){
+
+	#graficos-empresas{
+		display:grid;		
+		grid-template-columns: 1fr;
+		grid-template-rows: 320px 320px 650px 320px 360px;
+		grid-template-areas: 
+		"vinculo"
+		"origem"
+		"atuacao"
+		"sede"
+		"porte";
+	}
+
+	#atuacao h4{
+		padding-bottom: 85px;
+	}
+
+	#cards{
+		display: grid;
+		grid-template-columns: 1fr 350px 1fr;
+		grid-template-rows: 1px 130px 50px 600px 600px 650px 50px;
+		gap:15px;
+		background-color: #2c4059;
+		grid-template-areas: 
+		"torto-top torto-top torto-top"
+		"rede-empresas rede-empresas rede-empresas"
+		"separador-cards separador-cards separador-cards"
+		"..... image-card1 ....."
+		"..... image-card2 ....."
+		"..... image-card3 ....."
+		"torto-bottom torto-bottom torto-bottom";
+	}
+
+	#card-title-3{
+		font-size: 25px;
+	}
+
+	#faturamento-2018 {
+		width: 450px;
+	}
+
+	#dados{		
+		grid-template-rows: 200px 30px 160px 400px;		
+	}
+
+	
+
+@media only screen and (max-width: 400px){
+
+	#graficos-empresas{
+		display:grid;		
+		grid-template-columns: 1fr;
+		grid-template-rows: 320px 320px 600px 320px 360px;
+		grid-template-areas: 
+		"vinculo"
+		"origem"
+		"atuacao"
+		"sede"
+		"porte";
+	}
+
+	#atuacao h4{
+		padding-bottom: 85px;
+	}
+
+	#faturamento-2018 h2{
+		font-size: 35px;
+	}
+
+	.numero {
+		font-size: 60px;
+	}
+}
+
+@media only screen and (max-width: 350px){
+
+	#cards{
+		display: grid;
+		grid-template-columns: 1fr 300px 1fr;
+		grid-template-rows: 1px 130px 50px 600px 600px 600px 50px;
+		gap:15px;
+		background-color: #2c4059;
+		grid-template-areas: 
+		"torto-top torto-top torto-top"
+		"rede-empresas rede-empresas rede-empresas"
+		"separador-cards separador-cards separador-cards"
+		"..... image-card1 ....."
+		"..... image-card2 ....."
+		"..... image-card3 ....."
+		"torto-bottom torto-bottom torto-bottom";		
+	}
+
+	#card-title-3{
+		font-size: 18px;
+	}
+
+	#dados{		
+		grid-template-rows: 250px 30px 160px 250px;		
+	}
+}
+
+
+
+
+@media (min-aspect-ratio: 16/9) {
+	#videoBG {
+		width:130%;
+		height: auto;
+	}
+}
+@media (max-aspect-ratio: 16/9) {
+	#videoBG { 
+		width:auto;
+		height: 100%;
+	}
+}
+@media (max-width: 767px) {
+	
+	#videoBG {
+		
+	}
+	body {
+		background: url('../images/poster.png');
+		background-size: cover%;
+		background-position: center 10%;
+		background-repeat: no-repeat;
+	}
+}
