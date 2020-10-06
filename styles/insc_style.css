@@ -83,153 +83,111 @@ body {
 			background-position: center 30%;
 			background-repeat: no-repeat;
 			height: 700px;
-			filter: blur(3px);
 			
 			
-		}
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+        
+/* <---------------------------------seção videos-------> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        #films{
+            display: grid;
+            
+            display: none;
+            
+            grid-template-columns: 1fr;
+            grid-template-rows: 700px ;
+            grid-template-areas: 
+            "film1";
+        }
+        
+            #films h1{
+                align-self: center ;
+                transition: font-size 0.3s;
+            }
+        
+            #films h1:hover{
+                color: gold;
+                cursor: pointer;
+                font-size: 52px;
+            }
+        
+            .film-title{
+                color: azure;
+                text-align: center;
+                text-justify: center;
+                line-height: 100px;
+                font-size: 30px;
+            }
+        
+            #film1{
+                display: grid;
+                grid-area: film1;
+                background-image: url(../images/apresentacoes/evento-2.png);
+                background-size: cover;
+                
+                
+                
+            }
+        
+                .film-h1-none{
+                    display:none;
+                }
+        
+                #apresentacao_1{
+                    display: inherit;
+                    color: azure;
+                    text-align: center;
+                    text-justify: center;
+                    line-height: 100px;
+                    font-size: 30px;
+                }
+        
+               
+        
+                #apresentacao_1-player{
+                    display:none;
+                    position: relative;
+                    top: - 30%;
+                    left: 20%;
+                }
+        
+                
+        
+                .film-player-inherit{
+                    display:inherit;
+                    position: relative;
+                    margin-left: auto;
+                    margin-right: auto;
+                } 
+        
 		
-		#programacao{
-			height:auto;
-			background-color: #f4f4fb;
-			padding-bottom: 80px;
-		}
-
-			#prog_title{
-				height: 100px;
-				width: 70%;
-				text-align: left;
-				margin-left: auto;
-				margin-right: auto;
-				padding-top: 100px;
-
-
-			}
-
-			#prog_subtitle{
-				height: 100px;
-				width: 70%;
-				text-align: left;
-				margin-left: auto;
-				margin-right: auto;
-				
-
-			}
-
-		.programacao_completa{
-			
-			
-			height: auto;
-			display: grid;
-			gap: 50px;
-			margin: 100px;
-			grid-template-columns: 1fr 3fr;
-			grid-template-areas: 
-			"icone_dia dia";
-		}
-
-			.icone_dia{
-				grid-area: icone_dia;
-				background-color: #e89236;
-				height: 150px;
-				text-align: justify;
-				padding: 20px;
-				
-
-			}
-				.icone_dia p{
-					color: #fff;
-				}
-
-			.dia{
-				grid-area: dia;
-				background-color: #ffffff;
-
-			}
-
-				.dia_title{
-					text-align: center;
-					height: 130px;
-					border-bottom-style: solid;
-				}
-
-					.separador{
-						height: 20px;
-						background-color: #b7ce23;
-
-					}
-
-				.horario_prog{
-					display: grid;
-					grid-template-columns: 1fr 3fr;
-					grid-template-rows: 3fr 0.5fr 3fr;
-					align-items: center;
-					justify-items: left;
-					border-bottom-style: dashed;
-					grid-template-areas:
-					"horario titulo_palestra"
-					"... icon_palestrate"
-					"categoria icon_palestrante";
-				}
-
-					.horario_prog p, img{
-						margin-left: 40px;
-					}
-
-					.horario{
-						grid-area: horario;
-
-					}
-
-					.categoria{
-						grid-area: categoria;
-						
-						
-
-					}
-
-					.titulo_palestra{
-						margin: 40px;
-						grid-area: titulo_palestra;
-						justify-self: center;
-						font-size: 1.4rem;
-
-						font-family: 'versaversa';
-						line-height: 1.2em;
-						text-transform: uppercase;
-						color: black;
-						
-
-					}
-
-					.icon_palestrante{
-						padding-bottom: 40px;
-						
-						grid-area: icon_palestrante;
-						
-
-					}
-
-						.icon_palestrante img{
-							width: 80px;
-							height: 80px;
-							border-radius: 50%;
-							/* filter: grayscale(100%); */
-							transition: 0.2s;
-						}
-
-						.icon_palestrante img:hover{
-							width:90px;
-							height: 90px;
-							transition: 0.2s;
-						}
-
-
-
-
-
-
 		
-
 
 
 
@@ -428,65 +386,11 @@ body {
 
 
 					
-	#inscricao{
-		background-color: #ffffff;
-		margin-left: -8px;
-		margin-right: -8px;
-	}
-
-		
-
-		#ingresso{
-			display: grid;
-			grid-template-rows: 120px 120px 180px 20px;
-			font-size: 30px;
-			padding-top: 100px;
-			padding-bottom: 100px;			
-			margin-left: auto;
-			margin-right: auto;
-			grid-template-columns: 450px;
-			width: 450px;
-			
-			align-items: center;
-			justify-items: center;	
-			color: #ffffff
-		}
-
-			
-
-			#ingresso span{
-				padding-top: 40px;
-				text-align: center;
-				background-color: #534893;
-				justify-self: stretch;
-				align-self: stretch;
-			}
-
-			#vagas-limitadas{
-				border-bottom: dotted;
-			}
-
-			#ingresso a{
-
-				align-self: center;
-			}
-
-			#recorte{
-				display:flex;
-			}
-
-			.bolas{
-				background-color: #ffffff;
-				width: 70px;
-				border-top: solid;
-				border-color: #ffffff;
-				border-radius: 50%;
-				padding-top: 80px;
-
-			}
+	
 
 		
 	#contato{
+        
 
 		background-color: #0A3200;
 		color: #ffffff;
@@ -542,6 +446,157 @@ body {
 			grid-area:ibccf_logo;
 
 		}
+    
+
+    #form_insc{
+		background-color: #ffffff;
+		margin-left: -8px;
+		margin-right: -8px;
+		align-items: center;
+        justify-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+	}
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+    .formulario{
+        max-width: 500px;
+        padding: 10px 20px;
+        background: #f4f7f8;
+        margin: 10px auto;
+        padding: 20px;
+        background: #f4f7f8;
+        border-radius: 8px;
+    }
+    .formulario fieldset{
+        border: none;
+    }
+    .formulario legend {
+        font-size: 1.4em;
+        margin-bottom: 10px;
+    }
+    .formulario label {
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    #checkbox{
+        display: inline;
+        margin-bottom: 20px;
+    }
+
+    #form_title{
+        text-align: center;
+    }
+
+    
+
+
+
+    .formulario input[type="text"],
+    
+    .formulario input[type="email"],
+    
+    
+    .formulario select {
+        
+        background: rgba(255,255,255,.1);
+        border: none;
+        border-radius: 4px;
+        font-size: 15px;
+        margin: 0;
+        outline: 0;
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box; 
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box; 
+        background-color: #e8eeef;
+        color:#8a97a0;
+        -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+        box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+        margin-bottom: 30px;
+    }
+    .formulario input[type="text"]:focus,
+    
+    .formulario input[type="email"]:focus,
+    
+    .formulario select:focus{
+        background: #d2d9dd;
+    }
+    .formulario select{
+        -webkit-appearance: menulist-button;
+    }
+    .formulario .number {
+        background: #1abc9c;
+        color: #fff;
+        height: 30px;
+        width: 30px;
+        display: inline-block;
+        font-size: 0.8em;
+        margin-right: 4px;
+        line-height: 30px;
+        text-align: center;
+        text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+        border-radius: 15px 15px 15px 0px;
+    }
+    
+    .formulario input[type="submit"],
+    .formulario input[type="button"]
+    {
+        position: relative;
+        display: block;
+        padding: 19px 39px 18px 39px;
+        color: #FFF;
+        margin: 0 auto;
+        background: #1abc9c;
+        font-size: 18px;
+        text-align: center;
+        font-style: normal;
+        width: 100%;
+        border: 1px solid #16a085;
+        border-width: 1px 1px 3px;
+        margin-bottom: 10px;
+        border-radius: 8px;
+    }
+    .formulario input[type="submit"]:hover,
+    .formulario input[type="button"]:hover
+    {
+        background: #109177;
+    }
+    
+
+
+
+    #link_disciplina{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
 
 
 
@@ -557,7 +612,51 @@ body {
 
 
 
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
