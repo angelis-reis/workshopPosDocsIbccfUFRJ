@@ -492,16 +492,48 @@ body {
 
 	#realizacao{
 		display: grid;
-		grid-template-columns: 1fr 2fr 2fr ;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1fr 2fr;
 		background-color: #BFFFF1;
-		height: 500px;
-		margin-left: -8px;
-		margin-right: -8px;
+		gap: 30px;
+		padding-top: 60px;
+		padding-bottom: 60px;
+		
 		align-items: center;
 		justify-items: center;
+		grid-template-areas:
+		"org_title org_title org_title org_title"
+		" ufrj_logo  pos_biof_logo pos_fisio_logo ibccf_logo " ;
+		
 	}
 
-		#realizacao span{
+		#realizacao img:hover{
+			scale: 1.1;
+		}
+
+		#org_title{
+			grid-area:org_title;
+
+		}
+
+		#ufrj_logo{
+			grid-area: ufrj_logo;
+
+		}
+
+		#pos_biof_logo{
+			grid-area:pos_biof_logo;
+
+		}
+
+		#pos_fisio_logo{
+			grid-area:pos_fisio_logo;
+
+		}
+
+		#ibccf_logo{
+			grid-area:ibccf_logo;
+
 		}
 
 
