@@ -84,7 +84,8 @@ body {
 			background-size: cover;
 			background-position: center 30%;
 			background-repeat: no-repeat;
-			height: 700px;
+			height: 600px;
+			filter: blur(2px);
 			
 			
         }
@@ -266,13 +267,24 @@ body {
 			margin-top: 60px;
 		}
 
+
+
+		#breve{
+			height: 400px;
+			background-color: #BFFFF1;
+			margin-left: -8px;
+			margin-right: -8px;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+			padding-top: 40px;
+		}
+	
+
 		#temporizador{
-			height: 200px;
+			height: 400px;
 			margin-bottom: 120px;
 			margin-top: 70px;
-			
-			
-			
 		}
 
 			.timer{
@@ -286,7 +298,6 @@ body {
 			display: grid;
 			grid-template-columns: 120px 120px 120px 120px;
 			gap: 50px;
-			
 			justify-content: center;
 			grid-template-areas:
 			"dias_legenda horas_legenda minutos_legenda segundos_legenda";
@@ -295,28 +306,24 @@ body {
 
 			#dias_legenda{
 				grid-area: dias_legenda;
-
 			}
 
 		
 
 			#horas_legenda{
 				grid-area: horas_legenda;
-
 			}
 		
 		
 
 			#minutos_legenda{
 				grid-area: minutos_legenda;
-
 			}
 
 		
 
 			#segundos_legenda{
 				grid-area: segundos_legenda;
-
 			}
 
 
@@ -520,17 +527,7 @@ body {
 		}
     
 
-    #breve{
-		
-		background-color: #BFFFF1;
-		margin-left: -8px;
-		margin-right: -8px;
-		margin-left: auto;
-		margin-right: auto;
-		text-align: center;
-        padding-top: 40px;
-	}
-
+    
 		
 
 
