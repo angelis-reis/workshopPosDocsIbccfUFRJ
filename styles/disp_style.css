@@ -259,7 +259,7 @@ body {
 
 	
 		.button-inscricao{
-			background-color: #379634 ;
+			background-color: #48D1CC ;
 			color: #fff;
 			border-radius: 35px;        
 			font-size: 20px;
@@ -269,7 +269,7 @@ body {
 		}
 	 
 			.button-inscricao:hover {
-				background-color: #2d772a ;
+				background-color: #3cb1ad ;
 				scale: 1.1;
 			}
 
@@ -390,7 +390,7 @@ body {
     #evento{
 
 
-        background-color: #e4e6e3;
+        background-color: #e0faf1;
         color: #000000;
         margin-left: -8px;
         margin-right: -8px;
@@ -627,7 +627,7 @@ body {
 	#contato{
         
 
-		background-color: #0A3200;
+		background-color:#3ca7a3;
 		color: #ffffff;
 		margin-left: -8px;
 		margin-right: -8px;
@@ -641,7 +641,7 @@ body {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 		grid-template-rows: 1fr 2fr;
-		background-color: #BFFFF1;
+		background-color: #ffffff;
 		gap: 30px;
 		padding-top: 60px;
 		padding-bottom: 60px;

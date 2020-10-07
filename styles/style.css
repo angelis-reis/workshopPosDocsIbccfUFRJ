@@ -114,7 +114,8 @@ body {
 		}
 
 			.title-large1 strong{
-				background-color: #2edb96;
+				background-color: 
+				#3ea7d1;
 				padding-left: 10px;
 				padding-right: 10px;
 
@@ -131,7 +132,7 @@ body {
 		}
 
 		.title-large2 strong{
-			background-color: #379634;
+			background-color: #836FFF;
 			padding-left: 10px;
 			padding-right: 10px;
 
@@ -218,19 +219,22 @@ body {
 
 	
 		.button-inscricao{
-			background-color: #379634 ;
+			background-color: #48D1CC ;
 			color: #fff;
 			border-radius: 35px;        
 			font-size: 20px;
 			font-weight: bolder;
 			padding: 20px 43px;
 			cursor: pointer;
+			transition: 0.2s;
 		}
 	 
 			.button-inscricao:hover {
-				background-color: #2d772a ;
-				scale: 1.1;
-			}
+				background-color: #3cb1ad ;
+				scale: 1.03;
+				transition: 0.2s;
+    		}
+			
 
 		#button-titulo{
 			margin-bottom: 70px;
@@ -242,7 +246,7 @@ body {
 	
 		#informacoes-evento{
 			height: auto;
-			background-color: #f4f4fb;
+			background-color: #c7fceb;
 			
 			
 		}
@@ -362,7 +366,7 @@ body {
 		
 		#palestrantes{
 
-			background-color: #7CFFCB;
+			background-color: #3ea7d1;
 			margin-left: -8px;
 			margin-right: -8px;	
 			height: auto;	
@@ -755,7 +759,7 @@ body {
 				
 				.foto-palestrante{
 					display: grid;
-					background-color: #ff8d22;
+					background-color: #181a19;
 					  
 					
 
@@ -767,7 +771,7 @@ body {
 					.foto-palestrante img{
 						width: 100%;
 						height: auto;
-						filter: grayscale(100%);
+						/* filter: grayscale(100%); */
 						
 
 					}
@@ -783,7 +787,7 @@ body {
 
 
 	#programacao {
-		background-color: #f5f5f5;
+		background-color: #ffffff;
 		height: 400px;
 		margin-left: -8px;
 		margin-right: -8px;
@@ -805,7 +809,7 @@ body {
 
 					
 	#inscricao{
-		background-color: #ffffff;
+		background-color:#e0faf1;
 		margin-left: -8px;
 		margin-right: -8px;
 	}
@@ -833,7 +837,7 @@ body {
 			#ingresso span{
 				padding-top: 40px;
 				text-align: center;
-				background-color: #534893;
+				background-color: #6e5ed8;
 				justify-self: stretch;
 				align-self: stretch;
 			}
@@ -852,10 +856,10 @@ body {
 			}
 
 			.bolas{
-				background-color: #ffffff;
+				background-color:#e0faf1;
 				width: 70px;
 				border-top: solid;
-				border-color: #ffffff;
+				border-color: #e0faf1;
 				border-radius: 50%;
 				padding-top: 80px;
 
@@ -865,8 +869,8 @@ body {
 	#contato{
 
 
-		background-color: #0A3200;
-		color: #ffffff;
+		background-color: #3ca7a3;
+		color: #fafafa;
 		margin-left: -8px;
 		margin-right: -8px;
 		text-align: center;
@@ -880,7 +884,7 @@ body {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 		grid-template-rows: 1fr 2fr;
-		background-color: #BFFFF1;
+		background-color: #ffffff;
 		gap: 30px;
 		padding-top: 60px;
 		padding-bottom: 60px;

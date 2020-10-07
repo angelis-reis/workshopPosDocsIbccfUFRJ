@@ -252,7 +252,7 @@ body {
 
 	
 		.button-inscricao{
-			background-color: #379634 ;
+			background-color: #48D1CC ;
 			color: #fff;
 			border-radius: 35px;        
 			font-size: 20px;
@@ -262,7 +262,7 @@ body {
 		}
 	 
 			.button-inscricao:hover {
-				background-color: #2d772a ;
+				background-color: #3cb1ad ;
 				scale: 1.1;
 			}
 
@@ -393,7 +393,7 @@ body {
 	#contato{
 
 
-		background-color: #0A3200;
+		background-color: #3ca7a3;
 		color: #ffffff;
 		margin-left: -8px;
 		margin-right: -8px;
@@ -407,7 +407,7 @@ body {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 		grid-template-rows: 1fr 2fr;
-		background-color: #BFFFF1;
+		background-color: #ffffff;
 		gap: 30px;
 		padding-top: 60px;
 		padding-bottom: 60px;
@@ -489,10 +489,9 @@ body {
     .formulario{
         max-width: 500px;
         padding: 10px 20px;
-        background: #f4f7f8;
+        background: #c8daf1;
         margin: 10px auto;
         padding: 20px;
-        background: #f4f7f8;
         border-radius: 8px;
     }
     .formulario fieldset{
@@ -555,7 +554,7 @@ body {
         -webkit-appearance: menulist-button;
     }
     .formulario .number {
-        background: #1abc9c;
+        background: #78f0d3;
         color: #fff;
         height: 30px;
         width: 30px;
@@ -576,20 +575,23 @@ body {
         padding: 19px 39px 18px 39px;
         color: #FFF;
         margin: 0 auto;
-        background: #1abc9c;
+        background: #48D1CC;
         font-size: 18px;
         text-align: center;
         font-style: normal;
         width: 100%;
-        border: 1px solid #16a085;
+        border: 1px solid  #48D1CC;
         border-width: 1px 1px 3px;
         margin-bottom: 10px;
-        border-radius: 8px;
+		border-radius: 8px;
+		transition: 0.2s;
     }
     .formulario input[type="submit"]:hover,
     .formulario input[type="button"]:hover
     {
-        background: #109177;
+		background:  #3cb1ad;
+		scale: 1.03;
+		transition: 0.2s;
     }
     
 
