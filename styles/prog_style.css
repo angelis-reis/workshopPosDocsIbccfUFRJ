@@ -91,7 +91,7 @@ body {
 		#programacao{
 			
 			height:auto;
-			background-color: #f4f4fb;
+			background-color: #c7fceb;
 			padding-bottom: 80px;
 		}
 
@@ -142,7 +142,7 @@ body {
 
 			.icone_dia{
 				grid-area: icone_dia;
-				background-color: #e89236;
+				background-color: #836FFF;
 				height: 150px;
 				text-align: justify;
 				padding: 20px;
@@ -166,7 +166,7 @@ body {
 
 				.seta{
 					
-					background-color: #e89236;
+					background-color:#836FFF;
 				
 					margin-top: 75px;
 				
@@ -199,7 +199,7 @@ body {
 
 					.separador{
 						height: 20px;
-						background-color: #b7ce23;
+						background-color:#3ea7d1;
 
 					}
 
@@ -625,24 +625,21 @@ body {
 
 	
 		.button-inscricao{
-			background-color: #379634 ;
+			background-color: #48D1CC ;
 			color: #fff;
 			border-radius: 35px;        
 			font-size: 20px;
 			font-weight: bolder;
 			padding: 20px 43px;
 			cursor: pointer;
+			transition: 0.2s;
 		}
 	 
 			.button-inscricao:hover {
-				background-color: #2d772a ;
-				scale: 1.1;
-			}
-
-		#button-titulo{
-			margin-bottom: 70px;
-
-		}
+				background-color: #3cb1ad ;
+				scale: 1.03;
+				transition: 0.2s;
+    		}
 
 			
 
@@ -821,7 +818,7 @@ body {
 	#contato{
 
 
-		background-color: #0A3200;
+		background-color:#3ca7a3;
 		color: #ffffff;
 		margin-left: -8px;
 		margin-right: -8px;
@@ -835,7 +832,7 @@ body {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 		grid-template-rows: 1fr 2fr;
-		background-color: #BFFFF1;
+		background-color: #ffffff;
 		gap: 30px;
 		padding-top: 60px;
 		padding-bottom: 60px;

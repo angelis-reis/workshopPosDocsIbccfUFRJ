@@ -44,6 +44,10 @@ body {
 	
 }
 
+.recuo { 
+	text-indent:4em 
+}
+
 	header {
 		margin-top: 80px;
 		height: auto;
@@ -252,19 +256,21 @@ body {
 
 	
 		.button-inscricao{
-			background-color: #379634 ;
+			background-color: #48D1CC ;
 			color: #fff;
 			border-radius: 35px;        
 			font-size: 20px;
 			font-weight: bolder;
 			padding: 20px 43px;
 			cursor: pointer;
+			transition: 0.2s;
 		}
 	 
 			.button-inscricao:hover {
-				background-color: #2d772a ;
-				scale: 1.1;
-			}
+				background-color: #3cb1ad ;
+				scale: 1.03;
+				transition: 0.2s;
+    		}
 
 		#button-titulo{
 			margin-bottom: 70px;
@@ -276,7 +282,7 @@ body {
 	
 		#informacoes-evento{
 			height: auto;
-			background-color: #f4f4fb;
+			background-color: #ffffff;
 			
 		}
 
@@ -383,7 +389,7 @@ body {
     #evento{
 
 
-        background-color: #e4e6e3;
+        background-color: #ffffff;
         color: #000000;
         margin-left: -8px;
         margin-right: -8px;
@@ -415,12 +421,14 @@ body {
 
 	#edicoes_anteriores{
 		display: grid;
+		background-color: #e2f8fd;
 		
 	}
 
 		#edicoes_titulo{
 			text-align: center;
 			padding: 60px;
+			color: #000000;
 		}
 
 
@@ -620,7 +628,7 @@ body {
 	#contato{
         
 
-		background-color: #0A3200;
+		background-color:#3ca7a3;
 		color: #ffffff;
 		margin-left: -8px;
 		margin-right: -8px;
@@ -634,7 +642,7 @@ body {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 		grid-template-rows: 1fr 2fr;
-		background-color: #BFFFF1;
+		background-color: #ffffff;
 		gap: 30px;
 		padding-top: 60px;
 		padding-bottom: 60px;
