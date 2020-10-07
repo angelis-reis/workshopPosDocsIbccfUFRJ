@@ -1,4 +1,4 @@
-html, body, h2, h1, h3, h4, p{  
+html, body, h2, h1, h3, h4, p {  
 	font-family: "Raleway", sans-serif;
     margin: 0;  
 	padding: 0; 
@@ -44,13 +44,9 @@ body {
 	
 }
 
-
-
-
-
 	header {
 		margin-top: 80px;
-		height: 900px;
+		height: auto;
 		padding-top: 10px;
 		margin-left: -10px;
 		margin-right: -10px;
@@ -80,25 +76,118 @@ body {
 			
 		}
 
+		#hero_prog{
+			text-align: center;
+			background-image: url("../images/hero/prog_hero.jpeg");
+			background-size: cover;
+			background-position: center 30%;
+			background-repeat: no-repeat;
+			height: 700px;
+			
+			
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+        
+/* <---------------------------------seção videos-------> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        #films{
+            display: grid;
+            
+            display: none;
+            
+            grid-template-columns: 1fr;
+            grid-template-rows: 700px ;
+            grid-template-areas: 
+            "film1";
+        }
+        
+            #films h1{
+                align-self: center ;
+                transition: font-size 0.3s;
+            }
+        
+            #films h1:hover{
+                color: gold;
+                cursor: pointer;
+                font-size: 52px;
+            }
+        
+            .film-title{
+                color: azure;
+                text-align: center;
+                text-justify: center;
+                line-height: 100px;
+                font-size: 30px;
+            }
+        
+            #film1{
+                display: grid;
+                grid-area: film1;
+                background-image: url(../images/apresentacoes/evento-2.png);
+                background-size: cover;
+                
+                
+                
+            }
+        
+                .film-h1-none{
+                    display:none;
+                }
+        
+                #apresentacao_1{
+                    display: inherit;
+                    color: azure;
+                    text-align: center;
+                    text-justify: center;
+                    line-height: 100px;
+                    font-size: 30px;
+                }
+        
+               
+        
+                #apresentacao_1-player{
+                    display:none;
+                    position: relative;
+                    top: - 30%;
+                    left: 20%;
+                }
+        
+                
+        
+                .film-player-inherit{
+                    display:inherit;
+                    position: relative;
+                    margin-left: auto;
+                    margin-right: auto;
+                } 
+        
 		
 		
-		#work{
-			padding-top: 80px;
-		}
-
-		#videoBG {
-			position:fixed;
-			z-index: -1;
-
-			width:130%;
-			height: auto;
-			left: -300px;
-		}
-
-
-
-		
-
 
 
 
@@ -188,20 +277,14 @@ body {
 			height: auto;
 			background-color: #f4f4fb;
 			
-			
 		}
 
 			#titulo-informacoes{
-				width: 68%;
-				margin-left: auto;
-				margin-right: auto;
-
-				text-align: left;
-
 				
 				
 
 				padding-top: 100px;
+				margin-left: 310px;
 				padding-bottom: 80px;
 			}
 
@@ -296,517 +379,48 @@ body {
 
 
 			
+    #evento{
 
-			
 
-				
-		
+        background-color: #e4e6e3;
+        color: #000000;
+        margin-left: -8px;
+        margin-right: -8px;
+        
+        padding-top: 100px;
+        padding-bottom: 100px;
+        
+        
+    }
 
-		
-		#palestrantes{
+        #evento_title{
+            text-align: center;
+            padding: 30px;
 
-			background-color: #7CFFCB;
-			margin-left: -8px;
-			margin-right: -8px;	
-			height: auto;	
+        }
 
-		}	
+        #evento_texto{
+            text-align: justify;
+            text-transform: none;
+            line-height: 3.2rem;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
 
-			
 
-			#lista-palestrantes{
-				margin-left: auto;
-				margin-right: auto;
-				display: grid;
-				grid-template-rows: repeat(3, 280px);
-				grid-template-columns: repeat(7, 1fr);
-				
+        }
 
-			}	
+      
 
 
 
-
-
-
-
-
-
-			#palestrante-nome-1 {
-				grid-row: 1/2;
-				grid-column: 3/4;
-				 
-			}
-
-			#palestrante-foto-1{
-				grid-row: 1/2;					
-				grid-column: 3/4;					
-			}
-
-
-
-			#palestrante-nome-2 {
-				grid-row: 1/2;
-				grid-column: 4/5;
-				
-			}
-
-			#palestrante-foto-2{
-				grid-row: 1/2;					
-				grid-column: 4/5;					
-			}
-			
-				
-
-				
-
-			
-
-
-
-			#palestrante-foto-3{
-				grid-row: 1/2;					
-				grid-column: 5/6;					
-			}				
-
-			#palestrante-nome-3 {
-				grid-row: 1/2;
-				grid-column: 5/6;
-				  
-			}
-
-
-			#palestrante-foto-4{
-				grid-row: 1/2;
-				grid-column: 6/7;					
-			}				
-
-			#palestrante-nome-4 {
-				grid-row: 1/2;
-				grid-column: 6/7;
-				  
-			}
-
-
-
-			#palestrante-foto-5{
-				grid-row: 1/2;
-				grid-column: 7/8;					
-			}
-
-				
-
-			#palestrante-nome-5 {
-				grid-row: 1/2;
-				grid-column: 7/8;
-				  
-			}
-
-
-
-
-			#palestrante-foto-6{
-				grid-row: 2/3;					
-				grid-column: 1/2;					
-			}
-			
-				
-			#palestrante-nome-6 {
-				grid-row: 2/3;
-				grid-column: 1/2;
-				  
-			}
-
-
-
-			#palestrante-foto-7{
-				grid-row: 2/3;					
-				grid-column: 2/3;					
-			}
-
-			
-
-			#palestrante-nome-7 {
-				grid-row: 2/3;
-				grid-column: 2/3;
-				  
-			}
-
-
-
-
-			#palestrante-foto-8{
-				grid-row: 2/3;					
-				grid-column: 3/4;					
-			}
-			
-				
-
-			#palestrante-nome-8 {
-				grid-row: 2/3;
-				grid-column: 3/4;
-				  
-			}
-
-
-
-			#palestrante-foto-9{
-				grid-row: 2/3;
-				grid-column: 4/5;					
-			}
-
-				
-
-			#palestrante-nome-9 {
-				grid-row: 2/3;
-				grid-column: 4/5;
-				  
-			}
-
-
-			#palestrante-foto-10{
-				grid-row: 2/3;
-				grid-column: 5/6;					
-			}
-			
-				
-			#palestrante-nome-10 {
-				grid-row: 2/3;
-				grid-column: 5/6;
-				  
-			}
-
-			#palestrante-foto-11{
-				grid-row: 2/3;
-				grid-column: 6/7;					
-			}
-
-				
-
-			#palestrante-nome-11 {
-				grid-row: 2/3;
-				grid-column: 6/7;
-				  
-			}
-
-
-			#palestrante-foto-12{
-				grid-row: 2/3;
-				grid-column: 7/8;					
-			}
-			
-				
-
-			#palestrante-nome-12 {
-				grid-row: 2/3;
-				grid-column: 7/8;
-				  
-			}
-
-
-
-
-			#palestrante-foto-13{
-				grid-row: 3/4;					
-				grid-column: 1/2;					
-			}				
-
-			#palestrante-nome-13 {
-				grid-row: 3/4;					
-				grid-column: 1/2;	
-				  
-			}
-
-
-
-			#palestrante-foto-14{
-				grid-row: 3/4;
-				grid-column: 2/3;					
-			}
-			
-				
-
-			#palestrante-nome-14 {
-				grid-row: 3/4;
-				grid-column: 2/3;
-				  
-			}
-
-
-
-			#palestrante-foto-15{
-				grid-row: 3/4;
-				grid-column: 3/4;					
-			}
-
-				
-
-			#palestrante-nome-15 {
-				grid-row: 3/4;
-				grid-column: 3/4;
-				  
-			}
-
-
-
-
-			#palestrante-foto-16{
-				grid-row: 3/4;
-				grid-column: 4/5;					
-			}
-			
-				
-
-			#palestrante-nome-16 {
-				grid-row: 3/4;
-				grid-column: 4/5;
-				  
-			}
-
-
-
-			#palestrante-foto-17{
-				grid-row: 3/4;
-				grid-column: 5/6;					
-			}
-
-				
-
-			#palestrante-nome-17 {
-				grid-row: 3/4;
-				grid-column: 5/6;
-				  
-			}
-
-
-
-
-			#palestrante-foto-18{
-				grid-row: 3/4;
-				grid-column: 6/7;					
-			}
-			
-				
-
-			#palestrante-nome-18 {
-				grid-row: 3/4;
-				grid-column: 6/7;
-				  
-			}
-
-
-
-			#palestrante-foto-19{
-				grid-row: 3/4;
-				grid-column: 7/8;					
-			}
-			
-				
-
-			#palestrante-nome-19 {
-				grid-row: 3/4;
-				grid-column: 7/8;
-				  
-			}
-
-
-
-
-			#palestrante-foto-20{
-				grid-row: 4/5;
-				grid-column: 1/2;					
-			}
-
-				
-
-			#palestrante-nome-20 {
-				grid-row: 4/5;
-				grid-column: 1/2;
-				  
-			}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-				.nome-foto{
-					padding-top: 110px;
-					color: #ffffff;
-					text-align: left;
-					margin-left: 15px;
-
-					font-family: 'versaversa';
-					font-size: 1.8em;
-					line-height: 1.2em;
-					text-transform: uppercase;
-
-
-				}
-
-				.descricao-foto{
-					color: #ffffff;
-					font-size: 1.5em;
-					text-align: left;
-					margin-left: 15px;
-					font-family: 'versaversa';
-					font-size: 1.4em;
-					line-height: 1.2em;
-
-				}
 
 					
-
-				
-				#titulo-palestrantes {
-					text-align: left;
-					color: rgb(0, 0, 0);
-					margin-top: -4px;
-					margin-left: 10px;
-					margin-right: 10px;
-
-					align-self: center;
-					justify-self: center;
-					grid-row: 1/2;
-					grid-column: 1/3;
-				}
-
-				
-				.foto-palestrante{
-					display: grid;
-					background-color: #ff8d22;
-					  
-					
-
-					justify-items: stretch;
-					align-items: stretch;
-					overflow: hidden;
-				}
-
-					.foto-palestrante img{
-						width: 100%;
-						height: auto;
-						filter: grayscale(100%);
-						
-
-					}
-
-					
-					.foto-palestrante:hover{
-						opacity: 0.3; 
-						transition-duration: 0.6s;
-						
-					}
-
-			
-
-
-	#programacao {
-		background-color: #f5f5f5;
-		height: 400px;
-		margin-left: -8px;
-		margin-right: -8px;
-		text-align: center;
-		
-	}
-
-		#titulo-programacao{
-			padding-top: 100px;
-			padding-bottom: 100px;
-
-		}
-
-		#botao-programacao{
-			
-
-
-		}
-
-					
-	#inscricao{
-		background-color: #ffffff;
-		margin-left: -8px;
-		margin-right: -8px;
-	}
-
-		
-
-		#ingresso{
-			display: grid;
-			grid-template-rows: 120px 120px 180px 20px;
-			font-size: 30px;
-			padding-top: 100px;
-			padding-bottom: 100px;			
-			margin-left: auto;
-			margin-right: auto;
-			grid-template-columns: 450px;
-			width: 450px;
-			
-			align-items: center;
-			justify-items: center;	
-			color: #ffffff
-		}
-
-			
-
-			#ingresso span{
-				padding-top: 40px;
-				text-align: center;
-				background-color: #534893;
-				justify-self: stretch;
-				align-self: stretch;
-			}
-
-			#vagas-limitadas{
-				border-bottom: dotted;
-			}
-
-			#ingresso a{
-
-				align-self: center;
-			}
-
-			#recorte{
-				display:flex;
-			}
-
-			.bolas{
-				background-color: #ffffff;
-				width: 70px;
-				border-top: solid;
-				border-color: #ffffff;
-				border-radius: 50%;
-				padding-top: 80px;
-
-			}
+	
 
 		
 	#contato{
-
+        
 
 		background-color: #0A3200;
 		color: #ffffff;
@@ -814,10 +428,9 @@ body {
 		margin-right: -8px;
 		text-align: center;
 		padding-top: 100px;
-		padding-bottom: 100px;
-		text-transform: none;
+        padding-bottom: 100px;
+        text-transform: none;
 	}
-
 
 	#realizacao{
 		display: grid;
@@ -864,6 +477,17 @@ body {
 			grid-area:ibccf_logo;
 
 		}
+    
+
+    #form_insc{
+		background-color: #ffffff;
+		margin-left: -8px;
+		margin-right: -8px;
+		align-items: center;
+        justify-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+	}
 
 		
 
@@ -880,8 +504,190 @@ body {
 
 
 
+    
+    
 
-	
+
+
+
+
+
+
+
+
+    .formulario{
+        max-width: 500px;
+        padding: 10px 20px;
+        background: #f4f7f8;
+        margin: 10px auto;
+        padding: 20px;
+        background: #f4f7f8;
+        border-radius: 8px;
+    }
+    .formulario fieldset{
+        border: none;
+    }
+    .formulario legend {
+        font-size: 1.4em;
+        margin-bottom: 10px;
+    }
+    .formulario label {
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    #checkbox{
+        display: inline;
+        margin-bottom: 20px;
+    }
+
+    #form_title{
+        text-align: center;
+    }
+
+    
+
+
+
+    .formulario input[type="text"],
+    
+    .formulario input[type="email"],
+    
+    
+    .formulario select {
+        
+        background: rgba(255,255,255,.1);
+        border: none;
+        border-radius: 4px;
+        font-size: 15px;
+        margin: 0;
+        outline: 0;
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box; 
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box; 
+        background-color: #e8eeef;
+        color:#8a97a0;
+        -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+        box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+        margin-bottom: 30px;
+    }
+    .formulario input[type="text"]:focus,
+    
+    .formulario input[type="email"]:focus,
+    
+    .formulario select:focus{
+        background: #d2d9dd;
+    }
+    .formulario select{
+        -webkit-appearance: menulist-button;
+    }
+    .formulario .number {
+        background: #1abc9c;
+        color: #fff;
+        height: 30px;
+        width: 30px;
+        display: inline-block;
+        font-size: 0.8em;
+        margin-right: 4px;
+        line-height: 30px;
+        text-align: center;
+        text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+        border-radius: 15px 15px 15px 0px;
+    }
+    
+    .formulario input[type="submit"],
+    .formulario input[type="button"]
+    {
+        position: relative;
+        display: block;
+        padding: 19px 39px 18px 39px;
+        color: #FFF;
+        margin: 0 auto;
+        background: #1abc9c;
+        font-size: 18px;
+        text-align: center;
+        font-style: normal;
+        width: 100%;
+        border: 1px solid #16a085;
+        border-width: 1px 1px 3px;
+        margin-bottom: 10px;
+        border-radius: 8px;
+    }
+    .formulario input[type="submit"]:hover,
+    .formulario input[type="button"]:hover
+    {
+        background: #109177;
+    }
+    
+
+
+
+    #link_disciplina{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
