@@ -44,7 +44,7 @@
     }
 
     // store the date/time when initialised
-    this.initDate = new Date('November 03, 2020 09:00:00');
+    this.initDate = new Date();
 
     // make the date into a javascript date
     this.options.date = new Date(this.options.date);
@@ -59,7 +59,7 @@
     hours: false,
     days: false,
     date: new Date().toDateString(),
-    direction: 'up',
+    direction: "down",
     callback: null,
     digitTemplate: '' +
       '<div class="digit">' +
