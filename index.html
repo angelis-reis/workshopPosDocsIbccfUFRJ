@@ -70,6 +70,43 @@
 
 	<!--Favicon-->
 
+
+
+
+	 <!-- js counter -->
+
+
+
+	 <link rel="stylesheet" href="css/flipTimer.css" />
+	 <style>
+	   body {
+		 background-color: #b8d6df;
+	   }
+	   .flipTimer {
+		 margin: 100px auto 0;
+		 width: 900px;
+	   }
+	 </style>
+   
+	 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	 <script src="js/jquery.flipTimer.js"></script>
+   
+	 <script>
+	   $(document).ready(function() {
+		 //Callback works only with direction = "down"
+		 $('.flipTimer').flipTimer({ direction: "down" });
+	   });
+	 </script>
+   
+	 
+
+
+
+
+
+
+	 <!-- js counter -->
+
 </head>
 
 <body>
@@ -161,7 +198,38 @@
 
 			<p class="title-large3">DATA: 3, 4 E 5 DE NOVEMBRO</p>
 
+
+			<!-- <p class="title-data3"><strong>Faltam apenas: </strong></p> -->
+
+
+			
+
+
 			<div id="temporizador">
+
+				<div  class="flipTimer">
+
+					<div id="dias" class="days"></div>
+					
+					<div id="horas" class="hours"></div>
+
+					<div id="minutos" class="minutes"></div>
+
+					<div id="segundos" class="seconds"></div>
+
+					
+				</div>
+
+				<div id="temporizador_legendas">
+
+					<div id="dias_legenda" class="timer">dias</div>
+
+					<div id="horas_legenda" class="timer">horas</div>
+
+					<div id="minutos_legenda" class="timer">minutos</div>
+					
+					<div id="segundos_legenda" class="timer">segundos</div>
+				</div>
 
 
 			</div>
