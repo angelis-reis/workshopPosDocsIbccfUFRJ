@@ -44,6 +44,10 @@ body {
 	
 }
 
+.recuo { 
+	text-indent:4em 
+}
+
 	header {
 		margin-top: 80px;
 		height: auto;
