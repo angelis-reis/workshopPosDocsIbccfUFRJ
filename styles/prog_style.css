@@ -89,6 +89,7 @@ body {
         }
 		
 		#programacao{
+			
 			height:auto;
 			background-color: #f4f4fb;
 			padding-bottom: 80px;
@@ -116,14 +117,28 @@ body {
 			}
 
 		.programacao_completa{
+			margin-left: auto;
+			margin-right: auto;
+			width: 70%;
 			height: auto;
 			display: grid;
-			gap: 50px;
-			margin: 100px;
+			padding-bottom: 40px;
+			
 			grid-template-columns: 1fr 3fr;
 			grid-template-areas: 
 			"icone_dia dia";
 		}
+
+			#apontador_dia{
+				display:grid;
+				grid-template-columns: 220px 10px;
+				grid-template-areas:
+				"icone_dia recorte";
+
+
+
+
+			}
 
 			.icone_dia{
 				grid-area: icone_dia;
@@ -132,13 +147,45 @@ body {
 				text-align: justify;
 				padding: 20px;
 				
+				
 
 			}
 				.icone_dia p{
 					color: #fff;
 				}
 
+
+			#recorte{
+				position: relative;
+				right: 30px;
+				grid-area: recorte;
+				margin-right: 5px;
+				
+
+			}
+
+				.seta{
+					
+					background-color: #e89236;
+				
+					margin-top: 75px;
+				
+					
+					height: 50px;
+
+					padding-right: 70px;
+					
+
+					
+					border-radius: 150%;
+					
+		
+					
+
+				}
+
 			.dia{
+				/* width: 70%; */
 				grid-area: dia;
 				background-color: #ffffff;
 
@@ -191,7 +238,7 @@ body {
 					.titulo_palestra{
 						margin: 40px;
 						grid-area: titulo_palestra;
-						justify-self: center;
+						justify-self: left;
 						font-size: 1.4rem;
 
 						font-family: 'versaversa';
@@ -261,7 +308,7 @@ body {
 					.titulo_palestra4{
 						margin: 40px;
 						grid-area: titulo_palestra;
-						justify-self: center;
+						justify-self: left;
 						font-size: 1.4rem;
 
 						font-family: 'versaversa';
@@ -330,7 +377,7 @@ body {
 					.titulo_palestra4{
 						margin: 40px;
 						grid-area: titulo_palestra;
-						justify-self: center;
+						justify-self: left;
 						font-size: 1.4rem;
 
 						font-family: 'versaversa';
@@ -401,7 +448,7 @@ body {
 							.titulo_palestra4{
 								margin: 40px;
 								grid-area: titulo_palestra;
-								justify-self: center;
+								justify-self: left;
 								font-size: 1.4rem;
 		
 								font-family: 'versaversa';
@@ -470,7 +517,7 @@ body {
 							.titulo_palestra3{
 								margin: 40px;
 								grid-area: titulo_palestra3;
-								justify-self: center;
+								justify-self: left;
 								font-size: 1.4rem;
 		
 								font-family: 'versaversa';
