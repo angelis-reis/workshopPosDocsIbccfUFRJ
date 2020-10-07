@@ -341,10 +341,11 @@ body {
 
 						
 						.card-text{
-							display: grid;
+							
 							background-color: rgb(255, 255, 255);
 							padding:10px;
 							text-align: center;
+							line-height: 25px;
 										
 							color: rgb(0, 0, 0);
 							
