@@ -241,15 +241,84 @@ body {
 			margin-top: 60px;
 		}
 
-		#temporizador{
-			background-color: #7CFFCB;
-			height: 150px;
-			width: 800px;
-			margin-left: auto;
-			margin-right: auto;
-			margin-bottom: 70px;
-			margin-top: 70px;
+		.title-data3 strong{
+			font-family: "RalewayBold", sans-serif;
+			color: #ffffff;
+			font-size: 2.1rem;
+			line-height: 1em;
+			padding: 1rem .5rem .5rem .5rem;
+			
+			background-color: #89da86;
+			
+
 		}
+
+
+		.title-large3 {
+			font-family: 'sora';
+			color: #ffffff;
+			font-size: 2rem;
+			line-height: 1.2em;
+			padding: 1rem .5rem .5rem .5rem;
+			
+			
+			margin-bottom: 60px;
+			margin-top: 60px;
+		}
+
+		#temporizador{
+			height: 200px;
+			margin-bottom: 120px;
+			margin-top: 70px;
+			
+			
+			
+		}
+
+			.timer{
+				font-size: 2rem;
+				color: rgb(0, 0, 0);
+				padding: 8px;
+				font-weight: bolder;
+			}
+
+		#temporizador_legendas{
+			display: grid;
+			grid-template-columns: 120px 120px 120px 120px;
+			gap: 50px;
+			
+			justify-content: center;
+			grid-template-areas:
+			"dias_legenda horas_legenda minutos_legenda segundos_legenda";
+		}
+			
+
+			#dias_legenda{
+				grid-area: dias_legenda;
+
+			}
+
+		
+
+			#horas_legenda{
+				grid-area: horas_legenda;
+
+			}
+		
+		
+
+			#minutos_legenda{
+				grid-area: minutos_legenda;
+
+			}
+
+		
+
+			#segundos_legenda{
+				grid-area: segundos_legenda;
+
+			}
+
 
 	
 		.button-inscricao{
@@ -452,14 +521,13 @@ body {
     
 
     #breve{
-		display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 70px 200px;
+		
 		background-color: #BFFFF1;
 		margin-left: -8px;
 		margin-right: -8px;
-		align-items: center;
-        justify-items: center;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
         padding-top: 40px;
 	}
 
