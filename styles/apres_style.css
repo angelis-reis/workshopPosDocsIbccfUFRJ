@@ -121,7 +121,7 @@ body {
         #films{
             display: grid;
             
-            display: none;
+            /* display: none; */
             
             grid-template-columns: 1fr;
             grid-template-rows: 700px ;
@@ -152,7 +152,7 @@ body {
                 display: grid;
                 grid-area: film1;
                 background-image: url(../images/apresentacoes/evento-2.png);
-                background-size: cover;
+				background-size: cover;
                 
                 
                 
@@ -176,8 +176,11 @@ body {
                 #apresentacao_1-player{
                     display:none;
                     position: relative;
-                    top: - 30%;
-                    left: 20%;
+					
+					margin-left: auto;
+					margin-right: auto;
+					margin-top: auto;
+					margin-bottom: auto;
                 }
         
                 
@@ -558,283 +561,768 @@ body {
 
 
 
+@media only screen and (min-width: 1025px) and (max-width: 1268px){
 
-@media only screen and (max-width: 1250px){
+	.titulo_palestra{
+		margin-top: 1px;
+		margin-right: 10px;
+		margin-bottom: 1px;
+		
+		
+		
 
-	body {
-		width: 100vw;
 	}
 
-	#cards{
+	#apontador_dia{
+		display:grid;
+		grid-template-columns: 180px 10px;
+		grid-template-areas:
+		"icone_dia recorte";
+		font-size: 0.8rem;
+
+
+
+
+	}
+
+	
+
+	.dia{
+		width: 580px;
+		
+	}
+
+	.horario_prog{
 		display: grid;
-		grid-template-columns: 1fr 600px 1fr;
-		grid-template-rows: 1px 130px 50px 600px 600px 600px 50px;
-		gap:25px;
-		background-color: #2c4059;
+		grid-template-columns: 2fr 4fr;
+		grid-template-rows: 3fr 0.5fr 3fr;
+		align-items: center;
+		justify-items: left;
+		border-bottom-style: dashed;
+		
+		grid-template-areas:
+		"horario titulo_palestra"
+		"... icon_palestrate"
+		"categoria icon_palestrante";
+	}
+
+
+
+
+
+	#realizacao{
+		display: grid;
+		grid-template-columns: 1fr 1fr ;
+		grid-template-rows: 1fr 2fr 2fr;
+		background-color: #ffffff;
+		gap: 30px;
+		padding-top: 60px;
+		padding-bottom: 60px;
+		align-items: center;
+		justify-items: center;
+		grid-template-areas:
+		"org_title org_title "
+		" ufrj_logo  pos_biof_logo "
+		"pos_fisio_logo ibccf_logo ";
+	}
+
+	
+
+}
+	
+	
+@media only screen and (min-width: 730px) and (max-width: 1024px){
+
+
+	#apresentacao_1-player{
+		width: 700px;
+		height: 460px;
+
+	}
+
+
+	#temporizador{
+		position: relative;
+		right: 2vw;
+	}
+
+	.flipTimer{
+		scale:0.8;
+		
+
+	}
+
+	#temporizador_legendas{
+		grid-template-columns: 140px 110px 110px 110px;
+		gap: 25px;
+		position: relative;
+		justify-content: center;
+		right: 3vw;
+	}
+
+		.timer{
+			font-size: 1.7rem;
+		}
+
+	#prog_title {
+		
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		
+
+	}
+
+	#prog_subtitle {
+		
+		text-align: center;
+		padding-bottom: 50px;
+		
+
+	}
+
+
+	.programacao_completa{
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+		height: auto;
+		display: grid;
+		padding-bottom: 40px;
+		gap: 50px;
+		
+		grid-template-columns: 1fr 3fr;
 		grid-template-areas: 
-		"torto-top torto-top torto-top"
-		"rede-empresas rede-empresas rede-empresas"
-		"separador-cards separador-cards separador-cards"
-		"..... image-card1 ....."
-		"..... image-card2 ....."
-		"..... image-card3 ....."
-		"torto-bottom torto-bottom torto-bottom";
+		"icone_dia dia";
+	}
+
+	#apontador_dia{
+		display:grid;
+		grid-template-columns: 160px 6px;
+		grid-template-areas:
+		"icone_dia recorte";
+		font-size: 0.7rem;
+
+
+
+
+	}
+
+	
+
+	.dia{
+		width: 500px;
+		
+	}
+
+	.horario_prog{
+		display: grid;
+		grid-template-columns: 2fr 4fr;
+		grid-template-rows: 3fr 0.5fr 3fr;
+		align-items: center;
+		justify-items: left;
+		border-bottom-style: dashed;
+		
+		grid-template-areas:
+		"horario titulo_palestra"
+		"... icon_palestrate"
+		"categoria icon_palestrante";
+	}
+
+		.titulo_palestra{
+			font-size: 1.2rem;
+			margin-bottom: 2px;
+
+		}
+
+		.horario_prog p, img {
+			margin-left: 10px;
+		}
+
+		.icon_palestrante {
+			padding-bottom: 10px;
+		}
+
+	
+
+		.titulo_palestra3{
+			font-size: 1.2rem;
+			margin-bottom: 2px;
+
+		}
+
+		.horario_prog3 p, img {
+			margin-left: 10px;
+		}
+
+		.icon_palestrante3 {
+			padding-bottom: 10px;
+		}
+
+
+
+
+
+
+
+
+
+
+
+	
+	#realizacao{
+		display: grid;
+		grid-template-columns: 1fr 1fr ;
+		grid-template-rows: 1fr 2fr 2fr;
+		background-color: #ffffff;
+		gap: 30px;
+		padding-top: 60px;
+		padding-bottom: 60px;
+		align-items: center;
+		justify-items: center;
+		grid-template-areas:
+		"org_title org_title "
+		" ufrj_logo  pos_biof_logo "
+		"pos_fisio_logo ibccf_logo ";
 	}
 }
 
 
+@media only screen and (min-width: 550px) and (max-width: 729px){
 
-@media only screen and (max-width: 1000px){
 
-	#graficos-empresas{
-		display:grid;	
-		gap: 20px;	
-		grid-template-columns: 1fr;
-		grid-template-rows: 500px 500px 700px 500px 500px;
-		grid-template-areas: 
-		"vinculo"
-		"origem"
-		"atuacao"
-		"sede"
-		"porte";
-	}
-
-	.image-cards-grid{
-		
-		grid-template-rows: 350px 110px 150px;
-	}
-
-	.card-icon{
-		grid-area:card-icon;
-		max-width: 80%;
-		max-height: 80%;
-		
-	}
-}
-
-@media only screen and (max-width: 800px){
-
-	#graficos-empresas{
-		display:grid;		
-		gap: 20px;
-		grid-template-columns: 1fr;
-		grid-template-rows: 600px 600px 900px 600px 600px;
-		grid-template-areas: 
-		"vinculo"
-		"origem"
-		"atuacao"
-		"sede"
-		"porte";
-	}	
-
-	#atuacao h4{
-		padding-bottom: 130px;
-	}
-
-	#atuacao{
-		display: none;
-		grid-area: atuacao;
-		align-self: center;
-		justify-self: center;
-
+	#apresentacao_1-player{
+		width: 500px;
+		height: 320px;
 
 	}
 
-	#atuacao-90{
+	#apresentacao_1{
 		display: inherit;
-		grid-area: atuacao;
-		align-self: center;
-		justify-self: center;
-
-
-	}
-
-
-
-}
-
-@media only screen and (min-width: 500px) and (max-width: 800px){
-
-	
-}
-
-@media only screen and (max-width: 650px){
-	
-	#cards{
-		display: grid;
-		grid-template-columns: 1fr 450px 1fr;
-		grid-template-rows: 1px 130px 50px 600px 600px 600px 50px;
-		gap:15px;
-		background-color: #2c4059;
-		grid-template-areas: 
-		"torto-top torto-top torto-top"
-		"rede-empresas rede-empresas rede-empresas"
-		"separador-cards separador-cards separador-cards"
-		"..... image-card1 ....."
-		"..... image-card2 ....."
-		"..... image-card3 ....."
-		"torto-bottom torto-bottom torto-bottom";
-	}
-}
-
-@media only screen and (max-width: 600px){
-
-	#graficos-empresas{
-		display:grid;		
-		grid-template-columns: 1fr;
-		grid-template-rows: 500px 500px 650px 500px 500px;
-		grid-template-areas: 
-		"vinculo"
-		"origem"
-		"atuacao"
-		"sede"
-		"porte";
-	}
-
-	#atuacao h4{
-		padding-bottom: 85px;
-	}
-
-	.button1 {
-		display: block;
-		border-radius: 15px;
-		border-style: solid;
-		border-color: #78f0d3;
-		background: none;
-		font-size: 20px;
-		font-weight: bolder;
-		margin: 10px;
-		padding: 20px 43px;
-		cursor: pointer;
-	}
-}
-
-@media only screen and (max-width: 500px){
-
-	#graficos-empresas{
-		display:grid;		
-		grid-template-columns: 1fr;
-		grid-template-rows: 320px 320px 650px 320px 360px;
-		grid-template-areas: 
-		"vinculo"
-		"origem"
-		"atuacao"
-		"sede"
-		"porte";
-	}
-
-	#atuacao h4{
-		padding-bottom: 85px;
-	}
-
-	#cards{
-		display: grid;
-		grid-template-columns: 1fr 350px 1fr;
-		grid-template-rows: 1px 130px 50px 600px 600px 650px 50px;
-		gap:15px;
-		background-color: #2c4059;
-		grid-template-areas: 
-		"torto-top torto-top torto-top"
-		"rede-empresas rede-empresas rede-empresas"
-		"separador-cards separador-cards separador-cards"
-		"..... image-card1 ....."
-		"..... image-card2 ....."
-		"..... image-card3 ....."
-		"torto-bottom torto-bottom torto-bottom";
-	}
-
-	#card-title-3{
+		color: azure;
+		text-align: center;
+		text-justify: center;
+		line-height: 100px;
 		font-size: 25px;
 	}
 
-	#faturamento-2018 {
-		width: 450px;
-	}
-
-	#dados{		
-		grid-template-rows: 200px 30px 160px 400px;		
-	}
-
 	
 
-@media only screen and (max-width: 400px){
-
-	#graficos-empresas{
-		display:grid;		
-		grid-template-columns: 1fr;
-		grid-template-rows: 320px 320px 600px 320px 360px;
-		grid-template-areas: 
-		"vinculo"
-		"origem"
-		"atuacao"
-		"sede"
-		"porte";
+	#hero_prog{
+		height: 400px;
 	}
 
-	#atuacao h4{
-		padding-bottom: 85px;
+
+	#temporizador{
+		position: relative;
+		right: 10vw;
 	}
 
-	#faturamento-2018 h2{
-		font-size: 35px;
+	.flipTimer{
+		scale:0.7;
+		
+
 	}
 
-	.numero {
-		font-size: 60px;
-	}
-}
-
-@media only screen and (max-width: 350px){
-
-	#cards{
-		display: grid;
-		grid-template-columns: 1fr 300px 1fr;
-		grid-template-rows: 1px 130px 50px 600px 600px 600px 50px;
-		gap:15px;
-		background-color: #2c4059;
-		grid-template-areas: 
-		"torto-top torto-top torto-top"
-		"rede-empresas rede-empresas rede-empresas"
-		"separador-cards separador-cards separador-cards"
-		"..... image-card1 ....."
-		"..... image-card2 ....."
-		"..... image-card3 ....."
-		"torto-bottom torto-bottom torto-bottom";		
+	#temporizador_legendas{
+		grid-template-columns: 140px 110px 110px 110px;
+		gap: 10px;
+		position: relative;
+		justify-content: center;
+		left: 7vw
 	}
 
-	#card-title-3{
-		font-size: 18px;
+		.timer{
+			font-size: 1.3rem;
+		}
+
+	#prog_title {
+		
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		
+
 	}
 
-	#dados{		
-		grid-template-rows: 250px 30px 160px 250px;		
+	#prog_subtitle {
+		
+		text-align: center;
+		padding-bottom: 50px;
+		
+
 	}
-}
 
 
-
-
-@media (min-aspect-ratio: 16/9) {
-	#videoBG {
-		width:130%;
+	.programacao_completa{
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
 		height: auto;
+		display: grid;
+		padding-bottom: 40px;
+		gap: 50px;
+		
+		grid-template-columns: 1fr 3fr;
+		grid-template-areas: 
+		"icone_dia dia";
 	}
-}
-@media (max-aspect-ratio: 16/9) {
-	#videoBG { 
-		width:auto;
-		height: 100%;
+
+	#apontador_dia{
+		display:grid;
+		grid-template-columns: 160px 6px;
+		grid-template-areas:
+		"icone_dia recorte";
+		font-size: 0.7rem;
+
+
+
+
 	}
-}
-@media (max-width: 767px) {
+
 	
-	#videoBG {
+
+	.dia{
+		width: 500px;
 		
 	}
-	body {
-		background: url('../images/poster.png');
-		background-size: cover%;
-		background-position: center 10%;
-		background-repeat: no-repeat;
+
+	.horario_prog{
+		display: grid;
+		grid-template-columns: 2fr 4fr;
+		grid-template-rows: 3fr 0.5fr 3fr;
+		align-items: center;
+		justify-items: left;
+		border-bottom-style: dashed;
+		
+		grid-template-areas:
+		"horario titulo_palestra"
+		"... icon_palestrate"
+		"categoria icon_palestrante";
 	}
+
+		.titulo_palestra{
+			font-size: 1.2rem;
+			margin-bottom: 2px;
+
+		}
+
+		.horario_prog p, img {
+			margin-left: 10px;
+		}
+
+		.icon_palestrante {
+			padding-bottom: 10px;
+		}
+
+	
+
+		.titulo_palestra3{
+			font-size: 1.2rem;
+			margin-bottom: 2px;
+
+		}
+
+		.horario_prog3 p, img {
+			margin-left: 10px;
+		}
+
+		.icon_palestrante3 {
+			padding-bottom: 10px;
+		}
+
+
+
+
+
+
+
+
+
+
+
+	
+	#realizacao{
+		display: grid;
+		grid-template-columns: 1fr 1fr ;
+		grid-template-rows: 1fr 2fr 2fr;
+		background-color: #ffffff;
+		gap: 30px;
+		padding-top: 60px;
+		padding-bottom: 60px;
+		align-items: center;
+		justify-items: center;
+		grid-template-areas:
+		"org_title org_title "
+		" ufrj_logo  pos_biof_logo "
+		"pos_fisio_logo ibccf_logo ";
+	}
+}
+
+
+@media only screen and (min-width: 400px) and (max-width: 549px){
+
+
+	.films{
+		height: 400px;
+	}
+
+
+	#apresentacao_1-player{
+		width: 390px;
+		height: 245px;
+
+	}
+
+	#apresentacao_1{
+		display: inherit;
+		color: azure;
+		text-align: center;
+		text-justify: center;
+		line-height: 100px;
+		font-size: 25px;
+	}
+
+	#hero_prog{
+		height: 400px;
+	}
+
+
+	#temporizador{
+		position: relative;
+		right: 32vw;
+	}
+
+	.flipTimer{
+		scale:0.55;
+		
+
+	}
+
+	#temporizador_legendas{
+		grid-template-columns: 100px 90px 90px 90px;
+		gap: 1px;
+		position: relative;
+		justify-content: center;
+		right: -30vw;
+	}
+
+		.timer{
+			font-size: 1.1rem;
+		}
+
+	#prog_title {
+		
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		
+
+	}
+
+	#prog_subtitle {
+		
+		text-align: center;
+		padding-bottom: 50px;
+		
+
+	}
+
+
+	.programacao_completa{
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+		height: auto;
+		display: grid;
+		padding-bottom: 40px;
+		gap: 50px;
+		
+		grid-template-columns: 1fr 3fr;
+		grid-template-areas: 
+		"icone_dia dia";
+	}
+
+	#apontador_dia{
+		display:grid;
+		grid-template-columns: 160px 6px;
+		grid-template-areas:
+		"icone_dia recorte";
+		font-size: 0.7rem;
+
+
+
+
+	}
+
+	
+
+	.dia{
+		width: 500px;
+		
+	}
+
+	.horario_prog{
+		display: grid;
+		grid-template-columns: 2fr 4fr;
+		grid-template-rows: 3fr 0.5fr 3fr;
+		align-items: center;
+		justify-items: left;
+		border-bottom-style: dashed;
+		
+		grid-template-areas:
+		"horario titulo_palestra"
+		"... icon_palestrate"
+		"categoria icon_palestrante";
+	}
+
+		.titulo_palestra{
+			font-size: 1.2rem;
+			margin-bottom: 2px;
+
+		}
+
+		.horario_prog p, img {
+			margin-left: 10px;
+		}
+
+		.icon_palestrante {
+			padding-bottom: 10px;
+		}
+
+	
+
+		.titulo_palestra3{
+			font-size: 1.2rem;
+			margin-bottom: 2px;
+
+		}
+
+		.horario_prog3 p, img {
+			margin-left: 10px;
+		}
+
+		.icon_palestrante3 {
+			padding-bottom: 10px;
+		}
+
+
+
+
+
+	#contato{
+		font-size: 1.5rem;
+	}
+
+
+
+
+
+
+
+
+
+
+
+	
+	#realizacao{
+		display: grid;
+		grid-template-columns: 1fr 1fr ;
+		grid-template-rows: 1fr 2fr 2fr;
+		background-color: #ffffff;
+		gap: 20px;
+		padding-top: 60px;
+		padding-bottom: 60px;
+		align-items: center;
+		justify-items: center;
+		grid-template-areas:
+		"org_title org_title "
+		" ufrj_logo  pos_biof_logo "
+		"pos_fisio_logo ibccf_logo ";
+	}
+
+		#realizacao a img{
+			width: 170px;
+			height: 80px;
+		}
+}
+
+
+@media only screen and (max-width: 399px){
+
+
+	.films{
+		height: 400px;
+	}
+
+
+	#apresentacao_1-player{
+		width: 320px;
+		height: 215px;
+
+	}
+	
+	#hero_prog{
+		height: 400px;
+	}
+
+
+	#temporizador{
+		position: relative;
+		right: 40vw;
+	}
+
+	.flipTimer{
+		scale:0.45;
+		
+
+	}
+
+	#temporizador_legendas{
+		grid-template-columns: 90px 70px 70px 70px;
+		gap: 1px;
+		position: relative;
+		justify-content: center;
+		right: -40vw;
+	}
+
+		.timer{
+			font-size: 0.9rem;
+		}
+
+	#prog_title {
+		
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		
+
+	}
+
+	#prog_subtitle {
+		
+		text-align: center;
+		padding-bottom: 50px;
+		
+
+	}
+
+
+	.programacao_completa{
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+		height: auto;
+		display: grid;
+		padding-bottom: 40px;
+		gap: 50px;
+		
+		grid-template-columns: 1fr 3fr;
+		grid-template-areas: 
+		"icone_dia dia";
+	}
+
+	#apontador_dia{
+		display:grid;
+		grid-template-columns: 160px 6px;
+		grid-template-areas:
+		"icone_dia recorte";
+		font-size: 0.7rem;
+
+
+
+
+	}
+
+	
+
+	.dia{
+		width: 500px;
+		
+	}
+
+	.horario_prog{
+		display: grid;
+		grid-template-columns: 2fr 4fr;
+		grid-template-rows: 3fr 0.5fr 3fr;
+		align-items: center;
+		justify-items: left;
+		border-bottom-style: dashed;
+		
+		grid-template-areas:
+		"horario titulo_palestra"
+		"... icon_palestrate"
+		"categoria icon_palestrante";
+	}
+
+		.titulo_palestra{
+			font-size: 1.2rem;
+			margin-bottom: 2px;
+
+		}
+
+		.horario_prog p, img {
+			margin-left: 10px;
+		}
+
+		.icon_palestrante {
+			padding-bottom: 10px;
+		}
+
+	
+
+		.titulo_palestra3{
+			font-size: 1.2rem;
+			margin-bottom: 2px;
+
+		}
+
+		.horario_prog3 p, img {
+			margin-left: 10px;
+		}
+
+		.icon_palestrante3 {
+			padding-bottom: 10px;
+		}
+
+
+
+
+
+	#contato{
+		font-size: 1.3rem;
+	}
+
+
+
+
+
+
+
+
+
+
+
+	
+	#realizacao{
+		display: grid;
+		grid-template-columns: 1fr 1fr ;
+		grid-template-rows: 1fr 2fr 2fr;
+		background-color: #ffffff;
+		gap: 20px;
+		padding-top: 60px;
+		padding-bottom: 60px;
+		align-items: center;
+		justify-items: center;
+		grid-template-areas:
+		"org_title org_title "
+		" ufrj_logo  pos_biof_logo "
+		"pos_fisio_logo ibccf_logo ";
+	}
+
+		#realizacao a img{
+			width: 150px;
+			height: 70px;
+		}
+
 }

@@ -13,31 +13,23 @@ footer {
 
     .logos {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 
+        grid-template-rows: 1fr 
         background-color: black;
         margin-right: -20px;
         margin-left: -20px;
-        height: 150px;
+        height: 80px;
+        
         padding-top: 20px;
-        align-items: center;
+        align-items: end;
         justify-items: center;
+        background-color: black;
         grid-template-areas:
-            "logo-agencia-footer logo-ufrj social"
-            "cop cop cop";
+            "cop social";
+            
+            
     }
 
-        #logo-agencia-footer {
-            grid-area: logo-agencia-footer;
-            height: 50px;
-            width: 120px;
-        }
-
-        #logo-ufrj {
-            grid-area: logo-ufrj;
-            height: 70px;
-            width: 170px;
-        }
 
         #social {
             grid-area: social;
@@ -50,6 +42,7 @@ footer {
                 column-gap: 10px;
                 justify-self: center;
                 margin: 0px;
+                margin-bottom: 10px;
                 list-style-type: none;
                 background-color: black;
             }
@@ -75,8 +68,8 @@ footer {
             grid-column-start: 1;
             grid-column-end: 4;
             grid-area: cop;
-            justify-self: stretch;
-            align-self: stretch;
+            
+            align-self: end;
             background-color: black;
             padding-top: 20px;
         }
