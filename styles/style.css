@@ -1136,8 +1136,9 @@ body {
 			
 		}
 
-		#titulo-palestrantes span{
+		#titulo-palestrantes h4{
 			font-size: 1.5rem;
+			margin-left: 5px;
 		}
 			
 
@@ -1151,6 +1152,7 @@ body {
 		#palestrante-nome-1 {
 			grid-row: 1/2;
 			grid-column: 2/3;
+			
 			
 			 
 		}
