@@ -38,6 +38,10 @@ img {
 	margin: 0;
 }
 
+div {
+	margin: 0;
+}
+
 body {
 	padding-right: -10px;;
 	
@@ -89,10 +93,9 @@ body {
 		#videoBG {
 			position:fixed;
 			z-index: -1;
-
-			width:130%;
 			height: auto;
 			left: -300px;
+			width: 130%;
 		}
 
 
@@ -115,6 +118,23 @@ body {
 
 			.title-large1 strong{
 				background-color:#3ea7d1;;
+				padding-left: 10px;
+				padding-right: 10px;
+
+			}
+
+		.title-large1_1 {
+			font-family: 'versaversa';
+			color: #ffffff;
+			font-size: 2.5rem;
+			line-height: 1;
+			padding: 1rem .5rem .5rem .5rem;
+			margin-bottom: 5px;			
+			width: auto;
+		}
+
+			.title-large1_1 strong{
+				background-color:#3ea7d1;
 				padding-left: 10px;
 				padding-right: 10px;
 
@@ -164,7 +184,7 @@ body {
 
 		#temporizador{
 			height: 200px;
-			margin-bottom: 120px;
+			margin-bottom: 60px;
 			margin-top: 70px;
 			
 			
@@ -172,7 +192,7 @@ body {
 		}
 
 			.timer{
-				font-size: 2rem;
+				font-size: 1.8rem;
 				color: white;
 				padding: 8px;
 				font-weight: bolder;
@@ -180,8 +200,9 @@ body {
 
 		#temporizador_legendas{
 			display: grid;
-			grid-template-columns: 120px 120px 120px 120px;
-			gap: 50px;
+			grid-template-columns: 130px 130px 130px 130px;
+			gap: 40px;
+			
 			
 			justify-content: center;
 			grid-template-areas:
@@ -771,7 +792,7 @@ body {
 			width: 450px;
 			
 			align-items: center;
-			justify-items: center;	
+			justify-content: center;	
 			color: #ffffff
 		}
 
@@ -930,15 +951,15 @@ body {
 
 
 
-@media only screen and (min-width: 1000px) and (max-width: 1268px){
+@media only screen and (min-width: 1025px) and (max-width: 1268px){
 
 	#cards-evento{
-		grid-template-columns: 330px 330px 330px;
+		grid-template-columns: 310px 310px 310px;
 
 	}
 
 		.texto-evento{
-			width: 330px;
+			width: 310px;
 		}
 
 
@@ -990,7 +1011,7 @@ body {
 
 }
 
-@media only screen and (min-width: 760px) and (max-width: 998px){
+@media only screen and (min-width: 730px) and (max-width: 1024px){
 
 	#cards-evento{
 		grid-template-columns: 600px;
@@ -1008,9 +1029,26 @@ body {
 			
 		}
 
+	#videoBG {
+		width: 1400px
+		
+	}
+
+	#titulo-programacao{
+		width: 600px;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+
+	#titulo-informacoes{
+
+		text-align: center;
+	}
+
 
 		#lista-palestrantes{
-			grid-template-rows: repeat(4, 170px);
+			grid-template-rows: repeat(5, 170px);
 			grid-template-columns: 1fr 1fr 1fr 1fr;
 			
 			
@@ -1039,7 +1077,7 @@ body {
 		}
 
 		#palestrante-foto-1{
-			grid-row: 1/2;					
+			grid-row: 1/2;		
 			grid-column: 2/3;					
 		}
 
@@ -1055,17 +1093,9 @@ body {
 			grid-row: 1/2;					
 			grid-column: 3/4;					
 		}
-		
-			
-
-			
-
-		
-
-
 
 		#palestrante-foto-3{
-			grid-row: 1/2;					
+			grid-row: 1/2;	
 			grid-column: 4/5;					
 		}				
 
@@ -1108,7 +1138,7 @@ body {
 
 
 		#palestrante-foto-6{
-			grid-row: 2/3;					
+			grid-row: 2/3;	
 			grid-column: 3/4;					
 		}
 		
@@ -1122,7 +1152,7 @@ body {
 
 
 		#palestrante-foto-7{
-			grid-row: 2/3;					
+			grid-row: 2/3;	
 			grid-column: 4/5;					
 		}
 
@@ -1210,12 +1240,12 @@ body {
 
 		#palestrante-foto-13{
 			grid-row: 4/5;					
-			grid-column: 2/2;					
+			grid-column: 2/3;					
 		}				
 
 		#palestrante-nome-13 {
 			grid-row: 4/5;					
-			grid-column: 2/2;	
+			grid-column: 2/3;	
 			  
 		}
 
@@ -1223,27 +1253,12 @@ body {
 
 		#palestrante-foto-14{
 			grid-row: 4/5;
-			grid-column: 2/3;					
+			grid-column: 3/4;					
 		}
 		
 			
 
 		#palestrante-nome-14 {
-			grid-row: 4/5;
-			grid-column: 2/3;
-			  
-		}
-
-
-
-		#palestrante-foto-15{
-			grid-row: 4/5;
-			grid-column: 3/4;					
-		}
-
-			
-
-		#palestrante-nome-15 {
 			grid-row: 4/5;
 			grid-column: 3/4;
 			  
@@ -1251,17 +1266,32 @@ body {
 
 
 
-
-		#palestrante-foto-16{
+		#palestrante-foto-15{
 			grid-row: 4/5;
 			grid-column: 4/5;					
+		}
+
+			
+
+		#palestrante-nome-15 {
+			grid-row: 4/5;
+			grid-column: 4/5;
+			  
+		}
+
+
+
+
+		#palestrante-foto-16{
+			grid-row: 5/6;
+			grid-column:1/2;					
 		}
 		
 			
 
 		#palestrante-nome-16 {
-			grid-row: 4/5;
-			grid-column: 4/5;
+			grid-row: 5/6;
+			grid-column: 1/2;
 			  
 		}
 
@@ -1323,4 +1353,830 @@ body {
 		" ufrj_logo  pos_biof_logo "
 		"pos_fisio_logo ibccf_logo ";
 	}
+}
+
+
+
+
+@media only screen and (min-width: 550px) and (max-width: 729px){
+
+	#hero h1{
+		
+		font-size: 1.8rem;
+		margin-bottom: 10px;
+		line-height: 3rem;
+	}
+
+	#title-large1.1{
+		line-height: 1rem;
+
+	}
+
+	#hero p{
+		font-size: 1.6rem;
+	}
+
+	#videoBG {
+		width: 1500px
+		
+	}
+
+	
+
+	#cards-evento{
+		grid-template-columns: 500px;
+		grid-template-rows: 600px 600px 600px;
+
+	}
+
+		.texto-evento{
+			width: 500px;
+		}
+
+		.photo{
+			width: 600px;
+			height: 400px;
+			
+		}
+
+	#titulo-programacao{
+		width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+
+	#contato {
+		font-size: 2rem;
+	}
+
+	#titulo-informacoes{
+
+		text-align: center;
+	}
+
+	#temporizador{
+		position: relative;
+		right: 6vw;
+	}
+
+	.flipTimer{
+		scale:0.7;
+		
+
+	}
+
+	#temporizador_legendas{
+		grid-template-columns: 110px 110px 110px 110px;
+		gap: 8px;
+		position: relative;
+	}
+
+		.timer{
+			font-size: 1.7rem;
+		}
+
+
+		#lista-palestrantes{
+			grid-template-rows: repeat(5, 170px);
+			grid-template-columns: 1fr 1fr 1fr;
+			
+			
+
+		}	
+
+
+		#titulo_palestrantes{
+			grid-row: 1/2;
+			grid-column: 1/2;
+
+			color: white;
+		}
+
+			
+
+
+
+
+
+
+		#palestrante-nome-1 {
+			grid-row: 1/2;
+			grid-column: 2/3;
+			 
+		}
+
+		#palestrante-foto-1{
+			grid-row: 1/2;		
+			grid-column: 2/3;					
+		}
+
+
+
+		#palestrante-nome-2 {
+			grid-row: 1/2;
+			grid-column: 3/4;
+			
+		}
+
+		#palestrante-foto-2{
+			grid-row: 1/2;					
+			grid-column: 3/4;					
+		}
+
+		#palestrante-foto-3{
+			grid-row: 2/3;	
+			grid-column: 1/2;					
+		}				
+
+		#palestrante-nome-3 {
+			grid-row: 2/3;
+			grid-column: 1/2;
+			  
+		}
+
+
+
+
+		#palestrante-foto-4{
+			grid-row: 2/3;
+			grid-column: 2/3;					
+		}				
+
+		#palestrante-nome-4 {
+			grid-row: 2/3;
+			grid-column: 2/3;
+			  
+		}
+
+
+
+		#palestrante-foto-5{
+			grid-row: 2/3;
+			grid-column: 3/4;					
+		}
+
+			
+
+		#palestrante-nome-5 {
+			grid-row: 2/3;
+			grid-column: 3/4;
+			  
+		}
+
+
+
+
+		#palestrante-foto-6{
+			grid-row: 3/4;	
+			grid-column: 1/2;					
+		}
+		
+			
+		#palestrante-nome-6 {
+			grid-row: 3/4;
+			grid-column: 1/2;
+			  
+		}
+
+
+
+		#palestrante-foto-7{
+			grid-row: 3/4;	
+			grid-column: 2/3;					
+		}
+
+		
+
+		#palestrante-nome-7 {
+			grid-row: 3/4;
+			grid-column: 2/3;
+			  
+		}
+
+
+
+
+		#palestrante-foto-8{
+			grid-row: 3/4;					
+			grid-column: 3/4;					
+		}
+		
+			
+
+		#palestrante-nome-8 {
+			grid-row: 3/4;
+			grid-column: 3/4;
+			  
+		}
+
+
+
+		#palestrante-foto-9{
+			grid-row: 4/5;
+			grid-column: 1/2;					
+		}
+
+			
+
+		#palestrante-nome-9 {
+			grid-row: 4/5;
+			grid-column: 1/2;
+			  
+		}
+
+
+		#palestrante-foto-10{
+			grid-row: 4/5;;
+			grid-column: 2/3;					
+		}
+		
+			
+		#palestrante-nome-10 {
+			grid-row: 4/5;
+			grid-column: 2/3;
+			  
+		}
+
+		#palestrante-foto-11{
+			grid-row: 4/5;
+			grid-column: 3/4;					
+		}
+
+			
+
+		#palestrante-nome-11 {
+			grid-row: 4/5;
+			grid-column: 3/4;
+			  
+		}
+
+
+		#palestrante-foto-12{
+			grid-row: 5/6;
+			grid-column: 1/2;					
+		}
+		
+			
+
+		#palestrante-nome-12 {
+			grid-row: 5/6;
+			grid-column: 1/2;
+			  
+		}
+
+
+
+
+		#palestrante-foto-13{
+			grid-row: 5/6;					
+			grid-column: 2/3;					
+		}				
+
+		#palestrante-nome-13 {
+			grid-row: 5/6;					
+			grid-column: 2/3;	
+			  
+		}
+
+
+
+		#palestrante-foto-14{
+			grid-row: 5/6;
+			grid-column: 3/4;					
+		}
+		
+			
+
+		#palestrante-nome-14 {
+			grid-row: 5/6;
+			grid-column: 3/4;
+			font-size: 0.9rem;
+			  
+		}
+
+
+
+		#palestrante-foto-15{
+			grid-row: 6/7;
+			grid-column: 1/2;					
+		}
+
+			
+
+		#palestrante-nome-15 {
+			grid-row: 6/7;
+			grid-column: 1/2;
+			  
+		}
+
+
+
+
+		#palestrante-foto-16{
+			grid-row: 6/7;
+			grid-column:2/3;					
+		}
+		
+			
+
+		#palestrante-nome-16 {
+			grid-row: 6/7;
+			grid-column: 2/3;
+			  
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		.nome-foto{
+			font-size: 1.1rem;
+			padding-top: 5rem;
+			z-index: 1;
+		}
+
+		.descricao-foto{
+			font-size: 0.8em;
+			line-height: 1.2em;
+			z-index: 1;
+		}
+
+		.foto-palestrante img{
+			opacity: 0.3;
+			
+			
+
+		}
+
+
+
+	
+
+
+	
+
+	
+	#realizacao{
+		display: grid;
+		grid-template-columns: 1fr 1fr ;
+		grid-template-rows: 1fr 2fr 2fr;
+		background-color: #ffffff;
+		gap: 30px;
+		padding-top: 60px;
+		padding-bottom: 60px;
+		align-items: center;
+		justify-items: center;
+		grid-template-areas:
+		"org_title org_title "
+		" ufrj_logo  pos_biof_logo "
+		"pos_fisio_logo ibccf_logo ";
+	}
+}
+
+
+
+
+
+
+@media only screen and (min-width: 400px) and (max-width: 549px){
+
+	#hero h1{
+		
+		font-size: 1.8rem;
+		margin-bottom: 10px;
+		line-height: 3rem;
+	}
+
+	#title-large1.1{
+		line-height: 1rem;
+
+	}
+
+	#hero p{
+		font-size: 1.6rem;
+	}
+
+	#videoBG {
+		width: 1500px
+		
+	}
+
+	
+
+	#cards-evento{
+		grid-template-columns: 400px;
+		grid-template-rows: 600px 600px 600px;
+
+	}
+
+		.texto-evento{
+			width: 400px;
+		}
+
+		.photo{
+			width: 600px;
+			height: 400px;
+			
+		}
+
+	#titulo-programacao{
+		width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+
+	#contato {
+		font-size: 2rem;
+	}
+
+	#titulo-informacoes{
+
+		text-align: center;
+	}
+
+	#temporizador{
+		position: relative;
+		right: 125px;
+	}
+
+	.flipTimer{
+		scale:0.55;
+		
+
+	}
+
+	#temporizador_legendas{
+		grid-template-columns: 70px 70px 90px 90px;
+		gap: 10px;
+		position: relative;
+		right: -120px;
+	}
+
+		.timer{
+			font-size: 1.3rem;
+		}
+
+
+		
+		
+		
+		#lista-palestrantes{
+			margin-left: auto;
+			margin-right: auto;
+			display: grid;
+			grid-template-rows: repeat(18, 170px);
+			grid-template-columns: 350px 0px 0px 0px 0px 0px;
+			
+
+		}
+
+
+		#titulo_palestrantes{
+			grid-row: 1/2;
+			
+
+			color: white;
+		}
+
+			
+
+
+
+
+
+
+		#palestrante-nome-1 {
+			grid-row: 2/3;
+			
+			 
+		}
+
+		#palestrante-foto-1{
+			grid-row: 2/3;		
+							
+		}
+
+
+
+		#palestrante-nome-2 {
+			grid-row: 3/4;
+			
+			
+		}
+
+		#palestrante-foto-2{
+			grid-row: 3/4;					
+								
+		}
+
+		#palestrante-foto-3{
+			grid-row: 4/5;	
+								
+		}				
+
+		#palestrante-nome-3 {
+			grid-row: 4/5;
+			
+			  
+		}
+
+
+
+
+		#palestrante-foto-4{
+			grid-row: 5/6;
+								
+		}				
+
+		#palestrante-nome-4 {
+			grid-row: 5/6;
+			
+			  
+		}
+
+
+
+		#palestrante-foto-5{
+			grid-row: 6/7;
+								
+		}
+
+			
+
+		#palestrante-nome-5 {
+			grid-row: 6/7;
+			
+			  
+		}
+
+
+
+
+		#palestrante-foto-6{
+			grid-row: 7/8;	
+								
+		}
+		
+			
+		#palestrante-nome-6 {
+			grid-row: 7/8;
+			
+			  
+		}
+
+
+
+		#palestrante-foto-7{
+			grid-row: 8/9;	
+								
+		}
+
+		
+
+		#palestrante-nome-7 {
+			grid-row: 8/9;
+			
+			  
+		}
+
+
+
+
+		#palestrante-foto-8{
+			grid-row: 9/10;					
+								
+		}
+		
+			
+
+		#palestrante-nome-8 {
+			grid-row: 9/10;
+			
+			  
+		}
+
+
+
+		#palestrante-foto-9{
+			grid-row: 10/11;
+								
+		}
+
+			
+
+		#palestrante-nome-9 {
+			grid-row: 10/11;
+			
+			  
+		}
+
+
+		#palestrante-foto-10{
+			grid-row: 11/12;;
+								
+		}
+		
+			
+		#palestrante-nome-10 {
+			grid-row: 11/12;
+			
+			  
+		}
+
+		#palestrante-foto-11{
+			grid-row: 12/13;
+								
+		}
+
+			
+
+		#palestrante-nome-11 {
+			grid-row: 12/13;
+			
+			  
+		}
+
+
+		#palestrante-foto-12{
+			grid-row: 13/14;
+								
+		}
+		
+			
+
+		#palestrante-nome-12 {
+			grid-row: 13/14;
+			
+			  
+		}
+
+
+
+
+		#palestrante-foto-13{
+			grid-row: 14/15;					
+								
+		}				
+
+		#palestrante-nome-13 {
+			grid-row: 14/15;					
+				
+			  
+		}
+
+
+
+		#palestrante-foto-14{
+			grid-row: 15/16;
+							
+		}
+		
+			
+
+		#palestrante-nome-14 {
+			grid-row: 15/16;
+			
+			font-size: 0.9rem;
+			  
+		}
+
+
+
+		#palestrante-foto-15{
+			grid-row: 16/17;
+								
+		}
+
+			
+
+		#palestrante-nome-15 {
+			grid-row: 16/17;
+			
+			  
+		}
+
+
+
+
+		#palestrante-foto-16{
+			grid-row: 17/18;
+								
+		}
+		
+			
+
+		#palestrante-nome-16 {
+			grid-row: 17/18;
+			
+			  
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		.nome-foto{
+			font-size: 1.1rem;
+			padding-top: 5rem;
+			z-index: 1;
+		}
+
+		.descricao-foto{
+			font-size: 0.8em;
+			line-height: 1.2em;
+			z-index: 1;
+		}
+
+		.foto-palestrante img{
+			opacity: 0.3;
+			
+			
+
+		}
+
+
+	#titulo-programacao{
+		font-size: 1.5rem;
+		width: 350px;
+
+	}
+
+	#botao-programacao{
+		font-size: 1rem;
+		
+
+
+	}
+
+	#ingresso{
+		display: grid;
+		grid-template-rows: 120px 120px 180px 20px;
+		font-size: 30px;
+		padding-top: 100px;
+		padding-bottom: 100px;			
+		margin-left: auto;
+		margin-right: auto;
+		grid-template-columns: 300px;
+		
+		align-items: center;
+		justify-content: center;	
+		color: #ffffff
+	}
+
+
+
+	#contato{
+		font-size: 1.5rem;
+	}
+
+
+	
+
+	
+	#realizacao{
+		display: grid;
+		grid-template-columns: 1fr 1fr ;
+		grid-template-rows: 1fr 2fr 2fr;
+		background-color: #ffffff;
+		gap: 20px;
+		padding-top: 60px;
+		padding-bottom: 60px;
+		align-items: center;
+		justify-items: center;
+		grid-template-areas:
+		"org_title org_title "
+		" ufrj_logo  pos_biof_logo "
+		"pos_fisio_logo ibccf_logo ";
+	}
+
+		#realizacao a img{
+			width: 170px;
+			height: 80px;
+		}
 }
