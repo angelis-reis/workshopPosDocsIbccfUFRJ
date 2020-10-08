@@ -5,20 +5,21 @@ html, body, h2
 }
 
 footer {
-    clear: both;
     height: auto;
     width: 100%;
-    margin-bottom: -20px;
+    margin-bottom: -10px;
+    background-color: black;
 }
 
     .logos {
+        
         display: grid;
         grid-template-columns: 1fr 1fr 
         grid-template-rows: 1fr 
         background-color: black;
         margin-right: -20px;
         margin-left: -20px;
-        height: 80px;
+        height: 100px;
         
         padding-top: 20px;
         align-items: end;
@@ -40,9 +41,13 @@ footer {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
                 column-gap: 10px;
-                justify-self: center;
-                margin: 0px;
-                margin-bottom: 10px;
+                /* justify-self: center; */
+                /* margin-left: auto;
+                margin-right: auto;
+                margin-bottom: auto;
+                margin-top: auto; */
+                /* margin: 0px;
+                margin-bottom: 10px; */
                 list-style-type: none;
                 background-color: black;
             }
@@ -69,9 +74,13 @@ footer {
             grid-column-end: 4;
             grid-area: cop;
             
-            align-self: end;
+            /* align-self: end; */
             background-color: black;
-            padding-top: 20px;
+            /* padding-top: 20px; */
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            margin-top: auto;
         }
 
             #cop p {
@@ -89,186 +98,26 @@ footer {
 
 
 
-
-
-
-
-@media only screen and (min-width: 400px) and (max-width: 600px) {
-
-    #list {
-        display: grid;
-        row-gap: 30px;
-        column-gap: 30px;
-        grid-template-columns: repeat(2, 1fr);
-        align-items: center;
-        justify-items: center;
-        justify-content: center;
-        align-content: center;
-        padding-bottom: 40px;
-    }
-
-    #logo-agencia-footer {
-        grid-area: logo-agencia-footer;
-        height: 75px;
-        width: 75px;
-    }
-
-    #logo-ufrj {
-        grid-area: logo-ufrj;
-        height: 180px;
-        width: 180px;
-    }
-
-    #social a {
-        width: 40px;
-        height: 40px;
-        background-color: black;
-    }
+@media only screen and (max-width: 549px){
 
     #cop p {
-        color: white;
-        text-align: center;
-        font-family: "Montserrat", sans-serif;
-        font-size: 9px;
-        line-height: 62px;
-        font-weight: 700;
-        text-transform: uppercase;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 400px) {    
-
-    .logos {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        background-color: black;
-        margin-right: -20px;
-        margin-left: -20px;
-        grid-template-areas:
-            "logo-agencia-footer"
-            "logo-ufrj"
-            "social"
-            "cop"
-        ;
+        font-size: 12px;
     }
 
-    #logo-agencia-footer {
-        grid-area: logo-agencia-footer;
-        height: 75px;
-        width: 75px;
-        padding-top: 15px;
+    #social a img {
+        width: 30px;
+        height: 30px;
+        padding-bottom: 15px;
     }
 
-    #logo-ufrj {
-        grid-area: logo-ufrj;
-        height: 180px;
-        width: 180px;
-    }
-
-    #social a {
-        width: 40px;
-        height: 40px;
-        background-color: black;
-    }
-
-    #social {
-        grid-area: social;
-        background-color: black;
-        align-self: stretch;
-        justify-self: stretch;
-    }
-
-    #facebook {
-        text-align: right;
-        padding-right: 30px;
-    }
-
-    #cop p {
-        color: white;
-        text-align: center;
-        font-family: "Montserrat", sans-serif;
-        font-size: 11px;
-        line-height: 62px;
-        font-weight: 700;
-        text-transform: uppercase;
-    }
-
-    #title-large {
-        text-align: center;
-        color: #ffffff;
-        font-size: 38px;
-        line-height: 60px;
-        letter-spacing: 1px;
-        padding-bottom: 50px;
-        padding-top: 200px;
-    }
-}
 
 
-@media only screen and (min-width: 400px) and (max-width: 900px) {
 
-    .logos {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        background-color: black;
-        margin-right: -20px;
-        margin-left: -20px;
-        height: 300px;
-        align-items: center;
-        justify-items: center;
-        grid-template-areas:
-            "logo-agencia-footer logo-ufrj "
-            "social cop";
-    }
 
-    #social {
-        grid-area: social;
-        background-color: black;
-        align-self: stretch;
-        justify-self: stretch;
-    }
-}
+
+
+
+
+
+
+
