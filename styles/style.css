@@ -2296,6 +2296,8 @@ body {
 		grid-template-columns: 300px;
 		align-items: center;
 		justify-content: center;
+		position: relative;
+		right: 12px;
 	}
 
 
