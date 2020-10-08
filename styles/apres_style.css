@@ -121,7 +121,7 @@ body {
         #films{
             display: grid;
             
-            display: none;
+            /* display: none; */
             
             grid-template-columns: 1fr;
             grid-template-rows: 700px ;
@@ -152,7 +152,7 @@ body {
                 display: grid;
                 grid-area: film1;
                 background-image: url(../images/apresentacoes/evento-2.png);
-                background-size: cover;
+				background-size: cover;
                 
                 
                 
@@ -176,8 +176,11 @@ body {
                 #apresentacao_1-player{
                     display:none;
                     position: relative;
-                    top: - 30%;
-                    left: 20%;
+					
+					margin-left: auto;
+					margin-right: auto;
+					margin-top: auto;
+					margin-bottom: auto;
                 }
         
                 
@@ -631,6 +634,13 @@ body {
 @media only screen and (min-width: 730px) and (max-width: 1024px){
 
 
+	#apresentacao_1-player{
+		width: 700px;
+		height: 460px;
+
+	}
+
+
 	#temporizador{
 		position: relative;
 		right: 2vw;
@@ -779,6 +789,24 @@ body {
 
 
 @media only screen and (min-width: 550px) and (max-width: 729px){
+
+
+	#apresentacao_1-player{
+		width: 500px;
+		height: 320px;
+
+	}
+
+	#apresentacao_1{
+		display: inherit;
+		color: azure;
+		text-align: center;
+		text-justify: center;
+		line-height: 100px;
+		font-size: 25px;
+	}
+
+	
 
 	#hero_prog{
 		height: 400px;
@@ -933,6 +961,27 @@ body {
 
 
 @media only screen and (min-width: 400px) and (max-width: 549px){
+
+
+	.films{
+		height: 400px;
+	}
+
+
+	#apresentacao_1-player{
+		width: 390px;
+		height: 245px;
+
+	}
+
+	#apresentacao_1{
+		display: inherit;
+		color: azure;
+		text-align: center;
+		text-justify: center;
+		line-height: 100px;
+		font-size: 25px;
+	}
 
 	#hero_prog{
 		height: 400px;
@@ -1100,6 +1149,18 @@ body {
 
 
 @media only screen and (max-width: 399px){
+
+
+	.films{
+		height: 400px;
+	}
+
+
+	#apresentacao_1-player{
+		width: 320px;
+		height: 215px;
+
+	}
 	
 	#hero_prog{
 		height: 400px;
