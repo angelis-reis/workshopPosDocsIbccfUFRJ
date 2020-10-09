@@ -341,64 +341,32 @@ body {
 
 		#breve{
 
-			/* display: none; */
+			
+			color: #000000;
+			
+			font-weight: bolder;
+			
+			
+
+			
 
 			height: 400px;
 			background-color: #BFFFF1;
 			margin-left: -8px;
 			margin-right: -8px;
-			margin-left: auto;
-			margin-right: auto;
 			text-align: center;
-			padding-top: 40px;
+			
+			
+			padding-top: 10rem;
+			
 		}
 	
 
-		#temporizador{
-			height: 400px;
-			margin-bottom: 120px;
-			margin-top: 70px;
-		}
-
-			.timer{
-				font-size: 2rem;
-				color: rgb(0, 0, 0);
-				padding: 8px;
-				font-weight: bolder;
-			}
-
-		#temporizador_legendas{
-			display: grid;
-			grid-template-columns: 120px 120px 120px 120px;
-			gap: 50px;
-			justify-content: center;
-			grid-template-areas:
-			"dias_legenda horas_legenda minutos_legenda segundos_legenda";
-		}
-			
-
-			#dias_legenda{
-				grid-area: dias_legenda;
+			#flipdown{
+				padding-top: 2rem;
 			}
 
 		
-
-			#horas_legenda{
-				grid-area: horas_legenda;
-			}
-		
-		
-
-			#minutos_legenda{
-				grid-area: minutos_legenda;
-			}
-
-		
-
-			#segundos_legenda{
-				grid-area: segundos_legenda;
-			}
-
 
 	
 		.button-inscricao{
