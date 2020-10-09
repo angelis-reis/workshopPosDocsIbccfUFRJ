@@ -263,14 +263,15 @@ body {
 							height: 80px;
 							border-radius: 50%;
 							/* filter: grayscale(100%); */
-							transition: 0.2s;
-						}
+							/* transition: 0.2s;
+						} */
 
-						.icon_palestrante img:hover{
+						/* .icon_palestrante img:hover{
 							width:90px;
 							height: 90px;
 							transition: 0.2s;
-						}
+						} */
+					}
 
 
 
