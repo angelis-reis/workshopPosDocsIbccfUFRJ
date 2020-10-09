@@ -54,7 +54,8 @@ body {
 
 	header {
 		margin-top: 80px;
-		height: 900px;
+		height: 700px;
+		/* retirei 200 px pela falta do timer */
 		padding-top: 10px;
 		margin-left: -10px;
 		margin-right: -10px;
@@ -81,6 +82,7 @@ body {
 
 		#hero{
 			text-align: center;
+			margin-top: -40px;
 			
 		}
 
@@ -92,7 +94,7 @@ body {
 		}
 
 			#hero p{
-				padding-top: 80px;
+				padding-top: 40px;
 
 				/* adicionei 100px por causa do espaço do timer */
 
@@ -263,6 +265,8 @@ body {
 				transition: 0.2s;
 			}
 
+		
+
 		#button-titulo{
 			margin-bottom: 70px;
 
@@ -279,7 +283,7 @@ body {
 		}
 
 			#titulo-informacoes{
-				width: 90%;
+				width: 1280px;
 				margin-left: auto;
 				margin-right: auto;
 
@@ -989,6 +993,12 @@ body {
 
 @media only screen and (min-width: 1270px) and (max-width: 1439px){
 
+	#titulo-informacoes{
+		width: 1180px;
+
+		
+	}
+
 	#lista-palestrantes{
 
 		grid-template-rows: repeat(3, 180px);
@@ -1022,15 +1032,18 @@ body {
 
 @media only screen and (min-width: 1025px) and (max-width: 1268px){
 
+	#titulo-informacoes{
+		width: 1000px;
+
+		
+	}
+
 	#cards-evento{
 		grid-template-columns: 310px 310px 310px;
 
 	}
 
-		#titulo-informacoes{
-
-			text-align: center;
-		}
+		
 
 
 		.texto-evento{
@@ -1117,6 +1130,7 @@ body {
 	}
 
 	#titulo-informacoes{
+		width: auto;
 
 		text-align: center;
 	}
@@ -1501,6 +1515,7 @@ body {
 	}
 
 	#titulo-informacoes{
+		width: auto;
 
 		text-align: center;
 	}
@@ -1905,6 +1920,7 @@ body {
 	}
 
 	#titulo-informacoes{
+		width: auto;
 
 		text-align: center;
 	}
@@ -2394,6 +2410,7 @@ body {
 	}
 
 	#titulo-informacoes{
+		width: auto;
 
 		text-align: center;
 	}
