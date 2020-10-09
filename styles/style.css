@@ -54,7 +54,7 @@ body {
 
 	header {
 		margin-top: 80px;
-		height: 700px;
+		/* height: 900px; */
 		/* retirei 200 px pela falta do timer */
 		padding-top: 10px;
 		margin-left: -10px;
@@ -83,14 +83,15 @@ body {
 		#hero{
 			text-align: center;
 			margin-top: -40px;
+			height: 800px;
 			
 		}
 
 		
 		
 		#work{
-			padding-top: 180px;  
-			/* adicionei 100px por causa do espaço do timer */
+			padding-top: 100px;  
+			
 		}
 
 			#hero p{
@@ -122,7 +123,6 @@ body {
 			line-height: 1;
 			padding: 1rem .5rem .5rem .5rem;
 			margin-bottom: 5px;
-			
 			width: auto;
 		}
 
@@ -130,7 +130,6 @@ body {
 				background-color:#3ea7d1;;
 				padding-left: 10px;
 				padding-right: 10px;
-
 			}
 
 		.title-large1_1 {
@@ -147,7 +146,6 @@ body {
 				background-color:#3ea7d1;
 				padding-left: 10px;
 				padding-right: 10px;
-
 			}
 
 		.title-large2 {
@@ -157,14 +155,12 @@ body {
 			line-height: 1em;
 			padding: 1rem .5rem .5rem .5rem;
 			margin-bottom: 5px;
-			
 		}
 
 		.title-large2 strong{
 			background-color: #836FFF;
 			padding-left: 10px;
 			padding-right: 10px;
-
 		}
 
 		.title-data3 strong{
@@ -173,10 +169,7 @@ body {
 			font-size: 2.1rem;
 			line-height: 1em;
 			padding: 1rem .5rem .5rem .5rem;
-			
 			background-color: #89da86;
-			
-
 		}
 
 
@@ -185,68 +178,10 @@ body {
 			color: #ffffff;
 			font-size: 2rem;
 			line-height: 1.2em;
-			padding: 1rem .5rem .5rem .5rem;
-			
-			
-			margin-bottom: 60px;
-			margin-top: 60px;
+			margin-bottom: 50px;
 		}
 
-		#temporizador{
-			height: 200px;
-			margin-bottom: 60px;
-			margin-top: 70px;
-			
-			
-			
-		}
-
-			.timer{
-				font-size: 1.8rem;
-				color: white;
-				padding: 8px;
-				font-weight: bolder;
-			}
-
-		#temporizador_legendas{
-			display: grid;
-			grid-template-columns: 130px 130px 130px 130px;
-			gap: 40px;
-			
-			
-			justify-content: center;
-			grid-template-areas:
-			"dias_legenda horas_legenda minutos_legenda segundos_legenda";
-		}
-			
-
-			#dias_legenda{
-				grid-area: dias_legenda;
-
-			}
-
 		
-
-			#horas_legenda{
-				grid-area: horas_legenda;
-
-			}
-		
-		
-
-			#minutos_legenda{
-				grid-area: minutos_legenda;
-
-			}
-
-		
-
-			#segundos_legenda{
-				grid-area: segundos_legenda;
-
-			}
-
-
 	
 		.button-inscricao{
 			background-color: #48D1CC ;
@@ -268,7 +203,8 @@ body {
 		
 
 		#button-titulo{
-			margin-bottom: 70px;
+			padding-top: 50px;
+			
 
 		}
 
@@ -1873,7 +1809,7 @@ body {
 		
 		font-size: 1.8rem;
 		margin-bottom: 10px;
-		line-height: 3rem;
+		
 	}
 
 	#title-large1.1{

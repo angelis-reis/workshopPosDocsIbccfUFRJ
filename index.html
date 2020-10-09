@@ -27,6 +27,8 @@
 
 		<link rel="stylesheet" type="text/css" href="styles/header-no-js.css">
 
+		<link rel="stylesheet" type="text/css" href="styles/flipdown.css">
+
 		
 
 		
@@ -51,34 +53,7 @@
 		<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
 		<meta name="theme-color" content="#ffffff">
 
-		<!-- js counter -->
-
-		<link rel="stylesheet" href="css/flipTimer.css" />
-		<style>
-
-			body {
-				background-color: #b8d6df;
-			}
-
-			.flipTimer {
-				margin: 100px auto 0;
-				width: 680px;
-			}
-
-		</style>
-	
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-		<script src="js/jquery.flipTimer.js"></script>
-	
-		<script>
-			$(document).ready(function() {
-			//Callback works only with direction = "down"
-			$('.flipTimer').flipTimer({  direction: 'down', date: 'November 03, 2020 07:00:00', callback: function() { alert('times up!'); } });
-			});
-
-		</script>
-
-		<!-- js counter -->
+		
 
 	</head>
 
@@ -155,7 +130,7 @@
 
 				<video id="videoBG" poster="poster.png" autoplay muted loop> <source src="images/abstract_line1.mp4" type="video/mp4"></video>
 
-				<h1 id="work"class="title-large1"><strong>IV WORKSHOP DOS PÓS DOUTORES  </strong></h1>
+				<h1 id ="work"class="title-large1"><strong>IV WORKSHOP DOS PÓS DOUTORES  </strong></h1>
 
 				<h1 class="title-large1_1"> <strong> DO IBCCF - UFRJ </strong> </h1>
 
@@ -165,35 +140,17 @@
 
 				
 
-				<!-- <div id="temporizador">
-
-					<div  class="flipTimer">
-
-						<div id="dias" class="days"></div>
-						
-						<div id="horas" class="hours"></div>
-
-						<div id="minutos" class="minutes"></div>
-
-						<div id="segundos" class="seconds"></div>
-						
+				<div class="example">
+			
+					<div id="flipdown" class="flipdown">
+		
 					</div>
+					
+				</div>
 
-					<div id="temporizador_legendas">
-
-						<div id="dias_legenda" class="timer">dias</div>
-
-						<div id="horas_legenda" class="timer">horas</div>
-
-						<div id="minutos_legenda" class="timer">minutos</div>
-						
-						<div id="segundos_legenda" class="timer">segundos</div>
-					</div>
-
-
-				</div> -->
-
-				<a href="insc.html" id="button-titulo" class="button-inscricao"> INSCRIÇÃO </a>
+				<div id="button-titulo" >
+					<a href="insc.html" class="button-inscricao"> INSCRIÇÃO </a>
+				</div>
 
 				
 
@@ -538,6 +495,10 @@
 		<!-- links para as arquivos JS -->
 
 		<script type="text/javascript" src="js/nav.js"></script>
+
+		<script type="text/javascript" src="scripts/flipdown.js"></script>
+
+    	<script type="text/javascript" src="scripts/main_flipdown.js"></script>
 
 
 		

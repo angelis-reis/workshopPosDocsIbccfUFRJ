@@ -22,6 +22,10 @@
 	<script src="https://kit.fontawesome.com/eb8419b844.js" crossorigin="anonymous"></script>
 
 
+
+	
+
+
 	
 
 
@@ -42,9 +46,15 @@
 
 	<link rel="stylesheet" type="text/css" href="styles/footer.css">
 
-	<!-- <link rel="stylesheet" type="text/css" href="styles/header.css"> -->
+	<link rel="stylesheet" type="text/css" href="styles/flipdown.css">
+
+	
 
 	<link rel="stylesheet" type="text/css" href="styles/header-no-js.css">
+
+
+	
+    
 
 	
 
@@ -83,39 +93,7 @@
 
 
 
-	<!-- js counter -->
-
-
-
-	<link rel="stylesheet" href="css/flipTimer.css" />
-	<style>
-	  body {
-		background-color: #b8d6df;
-	  }
-	  .flipTimer {
-		margin: 100px auto 0;
-		width: 900px;
-	  }
-	</style>
-  
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-	<script src="js/jquery.flipTimer.js"></script>
-  
-	<script>
-		$(document).ready(function() {
-		  //Callback works only with direction = "down"
-		  $('.flipTimer').flipTimer({  direction: 'down', date: 'November 03, 2020 07:00:00', callback: function() { alert('times up!'); } });
-		});
-	  </script>
-  
 	
-
-
-
-
-
-
-	<!-- js counter -->
 
 
 
@@ -232,35 +210,14 @@
 
 	<section id="breve">
 
-		<span class="title" >AS APRESENTAÇÕES SERÃO LIBERADAS EM:</span>
+		<span id= "titulo_breve" class="title" >AS APRESENTAÇÕES SERÃO LIBERADAS EM:</span>
 
-		<div id="temporizador">
+		<div class="example">
+			
+			<div id="flipdown" class="flipdown">
 
-			<div  class="flipTimer">
-
-				<div id="dias" class="days"></div>
-				
-				<div id="horas" class="hours"></div>
-
-				<div id="minutos" class="minutes"></div>
-
-				<div id="segundos" class="seconds"></div>
-
-				
 			</div>
-
-			<div id="temporizador_legendas">
-
-				<div id="dias_legenda" class="timer">dias</div>
-
-				<div id="horas_legenda" class="timer">horas</div>
-
-				<div id="minutos_legenda" class="timer">minutos</div>
-				
-				<div id="segundos_legenda" class="timer">segundos</div>
-			</div>
-
-
+			
 		</div>
 
 		
@@ -328,6 +285,9 @@
 	<script type="text/javascript" src="js/nav.js"></script>
 
 	<script type="text/javascript" src="scripts/apres.js"></script>
+
+	<script type="text/javascript" src="scripts/flipdown.js"></script>
+    <script type="text/javascript" src="scripts/main_flipdown.js"></script>
 
 </body>
 
