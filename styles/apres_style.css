@@ -273,6 +273,12 @@ body {
 
 
 		#breve{
+
+			display: none;
+
+
+
+
 			height: 400px;
 			background-color: #BFFFF1;
 			margin-left: -8px;
