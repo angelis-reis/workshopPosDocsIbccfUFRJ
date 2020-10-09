@@ -1,5 +1,5 @@
 # HTML+CSS website
 
-MVP website for Empresas-Filhas da UFRJ
+Site para o IV Workshop de Pós-Doutores do IBCCF - UFRJ
 
-https://angelis-reis.github.io/empresas-filhas-ufrj/
+https://angelis-reis.github.io/pd-ws-ibccf/index.html
