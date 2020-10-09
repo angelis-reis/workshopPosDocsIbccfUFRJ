@@ -160,17 +160,40 @@ body {
         
                 .film-h1-none{
                     display:none;
-                }
+				}
+				
+				#titulo_apresentacao{
+					font-size: 2.2rem;
+					color: #000000;
+					width: 60%;
+					margin-left: auto;
+					margin-right: auto;
+					margin-top: 8rem;
+					font-weight: bolder;
+					
+
+				}
         
                 #apresentacao_1{
                     display: inherit;
-                    color: azure;
-                    text-align: center;
-                    text-justify: center;
+                    
+					margin-bottom: 10rem;
+					
+					margin-left: auto;
+					margin-right: auto;
                     line-height: 100px;
-                    font-size: 30px;
-                }
-        
+					font-size: 30px;
+					
+					
+				}
+				
+					#apresentacao_1 img:hover{
+						cursor: pointer;
+						scale: 1.1;
+						transition: 0.3s;
+					}
+				
+					
                
         
                 #apresentacao_1-player{
@@ -181,7 +204,11 @@ body {
 					margin-right: auto;
 					margin-top: auto;
 					margin-bottom: auto;
-                }
+					cursor: pointer;
+				}
+
+					
+					
         
                 
         
