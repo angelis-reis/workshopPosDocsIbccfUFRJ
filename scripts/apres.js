@@ -2,6 +2,8 @@ var play = document.getElementById("apresentacao_1");
 
 var playFilm = document.getElementById("apresentacao_1-player");
 
+var esconderTitulo = document.getElementById("titulo_apresentacao");
+
 var play2 = document.getElementById("requiem");
 
 var play2Film = document.getElementById("requiem-player");
@@ -36,7 +38,9 @@ play.addEventListener("click",
 
         play.style.display = "none";
 
-        playFilm.style.display= "inherit"
+        esconderTitulo.style.display = "none";
+
+        playFilm.style.display= "inherit";
 
         console.log("clickLink");
 
@@ -57,6 +61,8 @@ off.addEventListener("click",
                     if (count==2){
 
                         if (playFilm.style.display == "inherit"){
+
+                            esconderTitulo.style.display = "inherit";
 
                             playFilm.style.display = "none";
 
