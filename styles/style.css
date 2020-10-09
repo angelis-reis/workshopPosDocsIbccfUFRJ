@@ -87,8 +87,16 @@ body {
 		
 		
 		#work{
-			padding-top: 80px;
+			padding-top: 180px;  
+			/* adicionei 100px por causa do espaço do timer */
 		}
+
+			#hero p{
+				padding-top: 80px;
+
+				/* adicionei 100px por causa do espaço do timer */
+
+			}
 
 		#videoBG {
 			position:fixed;
@@ -270,11 +278,16 @@ body {
 			
 		}
 
-			#titulo-informacoes{				
+			#titulo-informacoes{
+				width: 90%;
 				margin-left: auto;
 				margin-right: auto;
+
 				text-align: left;
-				width: 1280px;
+
+				
+				
+
 				padding-top: 100px;
 				padding-bottom: 80px;
 			}
@@ -992,15 +1005,6 @@ body {
 		line-height: 1.2em;
 	}
 
-	#titulo-informacoes{				
-		margin-left: auto;
-		margin-right: auto;
-		text-align: left;
-		width: 1180px;
-		padding-top: 100px;
-		padding-bottom: 80px;
-	}
-
 	#cards-evento{
 		gap: 20px 20px;
 		grid-template-columns: 380px 380px 380px;
@@ -1023,14 +1027,11 @@ body {
 
 	}
 
-		#titulo-informacoes{				
-			margin-left: auto;
-			margin-right: auto;
-			text-align: left;
-			width: 1000px;
-			padding-top: 100px;
-			padding-bottom: 80px;
+		#titulo-informacoes{
+
+			text-align: center;
 		}
+
 
 		.texto-evento{
 			width: 310px;
@@ -1102,17 +1103,6 @@ body {
 			height: 400px;
 			
 		}
-
-	
-	#titulo-informacoes{				
-		margin-left: auto;
-		margin-right: auto;
-		text-align: center;
-		width: auto;
-		padding-top: 100px;
-		padding-bottom: 80px;
-	}
-
 
 	#videoBG {
 		width: 1400px
@@ -1488,17 +1478,6 @@ body {
 		grid-template-rows: 600px 600px 600px;
 
 	}
-
-
-	#titulo-informacoes{				
-		margin-left: auto;
-		margin-right: auto;
-		text-align: center;
-		width: auto;
-		padding-top: 100px;
-		padding-bottom: 80px;
-	}
-
 
 		.texto-evento{
 			width: 500px;
@@ -1903,17 +1882,6 @@ body {
 		grid-template-rows: 600px 600px 600px;
 
 	}
-
-
-	#titulo-informacoes{				
-		margin-left: auto;
-		margin-right: auto;
-		text-align: center;
-		width: auto;
-		padding-top: 100px;
-		padding-bottom: 80px;
-	}
-	
 
 		.texto-evento{
 			width: 400px;
