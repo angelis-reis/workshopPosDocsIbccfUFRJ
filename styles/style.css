@@ -1,8 +1,11 @@
 html, body, h2, h1, h3, h4, p{  
 	font-family: "Raleway", sans-serif;
-    margin: 0;  
+	margin: 0;
+	/* margin-right: 10px;  
+	margin-left: 10px; */
 	padding: 0; 
 	color: black;
+	
 }
 
 html {
@@ -10,6 +13,8 @@ html {
 	overflow: auto;
 	height: auto;
 	scroll-behavior: smooth;
+	width: 100vw;
+	
 	
 }
 
@@ -43,7 +48,7 @@ div {
 }
 
 body {
-	padding-right: -10px;
+	
 	
 	
 }
@@ -57,8 +62,10 @@ body {
 		/* height: 900px; */
 		/* retirei 200 px pela falta do timer */
 		padding-top: 10px;
-		margin-left: -10px;
-		margin-right: -10px;
+		/* margin-left: -10px;
+		margin-right: -10px; */
+		width: 100vw;
+		
 	}
 
 		.title{
@@ -107,6 +114,7 @@ body {
 			height: auto;
 			left: -300px;
 			width: 130%;
+			overflow: hidden;
 		}
 
 
@@ -213,7 +221,9 @@ body {
 	
 		#informacoes-evento{
 			height: auto;
-			background-color: #c7fceb;;
+			background-color: #c7fceb;
+			width: 100vw;
+			
 			
 			
 		}
@@ -222,12 +232,7 @@ body {
 				width: 1280px;
 				margin-left: auto;
 				margin-right: auto;
-
 				text-align: left;
-
-				
-				
-
 				padding-top: 100px;
 				padding-bottom: 80px;
 			}
@@ -242,17 +247,13 @@ body {
 				padding-bottom: 100px;
 				grid-template-columns: 400px 400px 400px;
 				grid-template-rows: 500px;
-
 			}
 
 				#card-evento-1{
 					justify-self: stretch;
 					align-self: stretch;
 					overflow: hidden;
-
 					/* overflow: hidden esconde o que ultrapassar do container */
-					
-					
 				}
 
 					
@@ -261,7 +262,6 @@ body {
 					justify-self: stretch;
 					align-self: stretch;
 					overflow: hidden;
-
 				}
 
 
@@ -269,11 +269,7 @@ body {
 					justify-self: stretch;
 					align-self: stretch;
 					overflow: hidden;
-
 				}
-
-					
-
 
 					.photo{
 						width: 400px;
@@ -282,7 +278,6 @@ body {
 						justify-self: center;
 						padding-bottom: 40px;
 						transition-duration: 0.45s;
-						
 					}
 
 						.photo:hover{
@@ -334,9 +329,10 @@ body {
 		#palestrantes{
 
 			background-color: #3ea7d1;
-			margin-left: -8px;
-			margin-right: -8px;	
+			/* margin-left: -8px;
+			margin-right: -8px;	 */
 			height: auto;	
+			width: 100vw;
 
 		}	
 
@@ -707,9 +703,10 @@ body {
 	#programacao {
 		background-color: #f5f5f5;
 		height: 400px;
-		margin-left: -8px;
-		margin-right: -8px;
+		/* margin-left: -8px;
+		margin-right: -8px; */
 		text-align: center;
+		width: 100vw;
 		
 	}
 
@@ -728,8 +725,9 @@ body {
 					
 	#inscricao{
 		background-color:#e0faf1;;
-		margin-left: -8px;
-		margin-right: -8px;
+		/* margin-left: -8px;
+		margin-right: -8px; */
+		width: 100vw;
 	}
 
 		
@@ -787,12 +785,13 @@ body {
 	#contato{
 		background-color: #3ca7a3;;
 		color: #fafafa;
-		margin-left: -8px;
-		margin-right: -8px;
+		/* margin-left: -8px;
+		margin-right: -8px; */
 		text-align: center;
 		padding-top: 100px;
 		padding-bottom: 100px;
 		text-transform: none;
+		width: 100vw;
 	}
 
 
@@ -802,6 +801,7 @@ body {
 		grid-template-rows: 1fr 2fr;
 		background-color: #ffffff;
 		gap: 30px;
+		width: 100vw;
 		padding-top: 60px;
 		padding-bottom: 60px;
 		align-items: center;
@@ -810,6 +810,10 @@ body {
 		"org_title org_title org_title org_title"
 		" ufrj_logo  pos_biof_logo pos_fisio_logo ibccf_logo ";
 	}
+
+		.logos_realizacao{
+			height: 6rem;
+		}
 
 		#realizacao img:hover{
 			scale: 1.1;

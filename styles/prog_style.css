@@ -39,7 +39,8 @@ img {
 }
 
 body {
-	padding-right: -10px;;
+	padding-right: -10px;
+	width: 100vw;
 	
 	
 }
@@ -48,8 +49,8 @@ body {
 		margin-top: 80px;
 		height: auto;
 		padding-top: 10px;
-		margin-left: -10px;
-		margin-right: -10px;
+		width: 100vw;
+		
 	}
 
 		.title{
@@ -73,6 +74,7 @@ body {
 
 		#hero{
 			text-align: center;
+			width: 100vw;
 			
 		}
 
@@ -89,6 +91,7 @@ body {
         }
 		
 		#programacao{
+			width: 100vw;
 			
 			height:auto;
 			background-color: #c7fceb;
@@ -167,29 +170,16 @@ body {
 
 				.seta{
 					
-					background-color:#836FFF;
-				
-					margin-top: 75px;
-				
-					
+					background-color:#836FFF;				
+					margin-top: 75px;	
 					height: 50px;
-
-					padding-right: 70px;
-					
-
-					
+					padding-right: 70px;					
 					border-radius: 150%;
-					
-		
-					
-
 				}
 
-			.dia{
-				
+			.dia{				
 				grid-area: dia;
 				background-color: #ffffff;
-
 			}
 
 				.dia_title{
@@ -198,10 +188,13 @@ body {
 					border-bottom-style: solid;
 				}
 
+					.dia_title p{
+						padding-top: 2.5rem;
+					}
+
 					.separador{
 						height: 20px;
 						background-color:#3ea7d1;
-
 					}
 
 				.horario_prog{
@@ -223,14 +216,10 @@ body {
 
 					.horario{
 						grid-area: horario;
-
 					}
 
 					.categoria{
 						grid-area: categoria;
-						
-						
-
 					}
 
 
@@ -241,21 +230,15 @@ body {
 						grid-area: titulo_palestra;
 						justify-self: left;
 						font-size: 1.4rem;
-
 						font-family: 'versaversa';
 						line-height: 1.2em;
-						text-transform: uppercase;
+						text-transform: initial;
 						color: black;
-						
-
 					}
 
 					.icon_palestrante{
-						padding-bottom: 40px;
-						
+						padding-bottom: 40px;						
 						grid-area: icon_palestrante;
-						
-
 					}
 
 						.icon_palestrante img{
@@ -307,41 +290,7 @@ body {
 
 					
 
-					.titulo_palestra4{
-						margin: 40px;
-						grid-area: titulo_palestra;
-						justify-self: left;
-						font-size: 1.4rem;
-
-						font-family: 'versaversa';
-						line-height: 1.2em;
-						text-transform: uppercase;
-						color: black;
-						
-
-					}
-
-					.icon_palestrante4{
-						padding-bottom: 40px;
-						
-						grid-area: icon_palestrante;
-						
-
-					}
-
-						.icon_palestrante4 img{
-							width: 80px;
-							height: 80px;
-							border-radius: 50%;
-							/* filter: grayscale(100%); */
-							transition: 0.2s;
-						}
-
-						.icon_palestrante4 img:hover{
-							width:90px;
-							height: 90px;
-							transition: 0.2s;
-						}
+					
 
 			
 				.horario_prog4{
@@ -376,41 +325,7 @@ body {
 
 					
 
-					.titulo_palestra4{
-						margin: 40px;
-						grid-area: titulo_palestra;
-						justify-self: left;
-						font-size: 1.4rem;
-
-						font-family: 'versaversa';
-						line-height: 1.2em;
-						text-transform: uppercase;
-						color: black;
-						
-
-					}
-
-					.icon_palestrante4{
-						padding-bottom: 40px;
-						
-						grid-area: icon_palestrante;
-						
-
-					}
-
-						.icon_palestrante4 img{
-							width: 80px;
-							height: 80px;
-							border-radius: 50%;
-							/* filter: grayscale(100%); */
-							transition: 0.2s;
-						}
-
-						.icon_palestrante4 img:hover{
-							width:90px;
-							height: 90px;
-							transition: 0.2s;
-						}
+					
 
 
 
@@ -451,22 +366,16 @@ body {
 								margin: 40px;
 								grid-area: titulo_palestra;
 								justify-self: left;
-								font-size: 1.4rem;
-		
+								font-size: 1.4rem;		
 								font-family: 'versaversa';
 								line-height: 1.2em;
-								text-transform: uppercase;
-								color: black;
-								
-		
+								text-transform: initial;
+								color: black;		
 							}
 		
 							.icon_palestrante4{
-								padding-bottom: 40px;
-								
-								grid-area: icon_palestrante;
-								
-		
+								padding-bottom: 40px;								
+								grid-area: icon_palestrante;		
 							}
 		
 								.icon_palestrante4 img{
@@ -502,15 +411,11 @@ body {
 							}
 		
 							.horario3{
-								grid-area: horario3;
-		
+								grid-area: horario3;		
 							}
 		
 							.categoria3{
 								grid-area: categoria3;
-								
-								
-		
 							}
 		
 		
@@ -521,18 +426,14 @@ body {
 								grid-area: titulo_palestra3;
 								justify-self: left;
 								font-size: 1.4rem;
-		
 								font-family: 'versaversa';
 								line-height: 1.2em;
-								text-transform: uppercase;
+								text-transform: initial;
 								color: black;
-								
-		
 							}
 		
 							.icon_palestrante3{
 								padding-bottom: 40px;
-								
 								grid-area: icon_palestrante3;
 								
 		
@@ -649,13 +550,9 @@ body {
 		#informacoes-evento{
 			height: auto;
 			background-color: #f4f4fb;
-			
 		}
 
 			#titulo-informacoes{
-				
-				
-
 				padding-top: 100px;
 				margin-left: 310px;
 				padding-bottom: 80px;
@@ -671,14 +568,12 @@ body {
 				padding-bottom: 100px;
 				grid-template-columns: 400px 400px 400px;
 				grid-template-rows: 500px;
-
 			}
 
 				#card-evento-1{
 					justify-self: stretch;
 					align-self: stretch;
 					overflow: hidden;
-
 					/* overflow: hidden esconde o que ultrapassar do container */
 					
 					
@@ -761,8 +656,8 @@ body {
 					
 	#inscricao{
 		background-color: #ffffff;
-		margin-left: -8px;
-		margin-right: -8px;
+		width: 100vw;
+		
 	}
 
 		
@@ -818,12 +713,9 @@ body {
 
 		
 	#contato{
-
-
+		width: 100vw;
 		background-color:#3ca7a3;
 		color: #ffffff;
-		margin-left: -8px;
-		margin-right: -8px;
 		text-align: center;
 		padding-top: 100px;
 		padding-bottom: 100px;
@@ -831,6 +723,7 @@ body {
 	}
 
 	#realizacao{
+		width: 100vw;
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 		grid-template-rows: 1fr 2fr;
@@ -838,7 +731,6 @@ body {
 		gap: 30px;
 		padding-top: 60px;
 		padding-bottom: 60px;
-		
 		align-items: center;
 		justify-items: center;
 		grid-template-areas:
@@ -846,6 +738,10 @@ body {
 		" ufrj_logo  pos_biof_logo pos_fisio_logo ibccf_logo " ;
 		
 	}
+
+		.logos_realizacao{
+			height: 6rem;
+		}
 
 		#realizacao img:hover{
 			scale: 1.1;
@@ -873,7 +769,6 @@ body {
 
 		#ibccf_logo{
 			grid-area:ibccf_logo;
-
 		}
 
 
