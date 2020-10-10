@@ -10,6 +10,7 @@ html {
 	overflow: auto;
 	height: auto;
 	scroll-behavior: smooth;
+	width: 100vw;
 	
 }
 
@@ -39,7 +40,6 @@ img {
 }
 
 body {
-	padding-right: -10px;
 
 
 
@@ -55,8 +55,7 @@ body {
 		margin-top: 80px;
 		height: auto;
 		padding-top: 10px;
-		margin-left: -10px;
-		margin-right: -10px;
+		width: 100vw;
 	}
 
 		.title{
@@ -255,6 +254,7 @@ body {
 			margin-right: auto;
 			margin-bottom: 70px;
 			margin-top: 70px;
+			width: 100vw;
 		}
 
 	
@@ -282,6 +282,7 @@ body {
 
 	
 		#informacoes-evento{
+			width: 100vw;
 			height: auto;
 			background-color: #f4f4fb;
 			
@@ -388,17 +389,11 @@ body {
 
 			
     #evento{
-
-
+		width: 100vw;
         background-color: #e0faf1;
         color: #000000;
-        margin-left: -8px;
-        margin-right: -8px;
-        
         padding-top: 100px;
         padding-bottom: 100px;
-        
-        
     }
 
         #evento_title{
@@ -625,12 +620,11 @@ body {
 
 		
 	#contato{
+		width: 100vw;
         
 
 		background-color:#3ca7a3;
 		color: #ffffff;
-		margin-left: -8px;
-		margin-right: -8px;
 		text-align: center;
 		padding-top: 100px;
         padding-bottom: 100px;
@@ -645,7 +639,7 @@ body {
 		gap: 30px;
 		padding-top: 60px;
 		padding-bottom: 60px;
-		
+		width: 100vw;
 		align-items: center;
 		justify-items: center;
 		grid-template-areas:
@@ -689,39 +683,13 @@ body {
     
 
     #form_insc{
+		width: 100vw;
 		background-color: #ffffff;
-		margin-left: -8px;
-		margin-right: -8px;
 		align-items: center;
         justify-items: center;
         padding-top: 40px;
         padding-bottom: 40px;
 	}
-
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-
-
-
-
-
-
-
 
 
     .formulario{

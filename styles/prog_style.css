@@ -10,6 +10,7 @@ html {
 	overflow: auto;
 	height: auto;
 	scroll-behavior: smooth;
+	width: 100vw;
 	
 }
 
@@ -150,9 +151,6 @@ body {
 				height: 150px;
 				text-align: justify;
 				padding: 20px;
-				
-				
-
 			}
 				.icone_dia p{
 					color: #fff;
@@ -164,12 +162,9 @@ body {
 				right: 30px;
 				grid-area: recorte;
 				margin-right: 5px;
-				
-
 			}
 
 				.seta{
-					
 					background-color:#836FFF;				
 					margin-top: 75px;	
 					height: 50px;
@@ -221,8 +216,6 @@ body {
 					.categoria{
 						grid-area: categoria;
 					}
-
-
 					
 
 					.titulo_palestra{
@@ -277,20 +270,11 @@ body {
 
 					.horario4{
 						grid-area: horario;
-
 					}
 
 					.categoria4{
 						grid-area: categoria;
-						
-						
-
 					}
-
-
-					
-
-					
 
 			
 				.horario_prog4{
@@ -312,23 +296,11 @@ body {
 
 					.horario4{
 						grid-area: horario;
-
 					}
 
 					.categoria4{
 						grid-area: categoria;
-						
-						
-
 					}
-
-
-					
-
-					
-
-
-
 
 						.horario_prog4{
 							display: grid;
@@ -349,14 +321,10 @@ body {
 		
 							.horario4{
 								grid-area: horario;
-		
 							}
 		
 							.categoria4{
 								grid-area: categoria;
-								
-								
-		
 							}
 		
 		
