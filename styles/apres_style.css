@@ -538,12 +538,18 @@ body {
 		
 	}
 
+		.logos_realizacao{
+			height: 6rem;
+		}
+
 		#realizacao img:hover{
 			scale: 1.1;
+			transition: 0.2s;
 		}
 
 		#org_title{
 			grid-area:org_title;
+			
 
 		}
 

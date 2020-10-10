@@ -811,6 +811,10 @@ body {
 		" ufrj_logo  pos_biof_logo pos_fisio_logo ibccf_logo ";
 	}
 
+		.logos_realizacao{
+			height: 6rem;
+		}
+
 		#realizacao img:hover{
 			scale: 1.1;
 		}
