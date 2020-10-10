@@ -248,7 +248,7 @@ body {
 
 						font-family: 'versaversa';
 						line-height: 1.2em;
-						text-transform: uppercase;
+						text-transform: initial;
 						color: black;
 						
 
@@ -311,41 +311,7 @@ body {
 
 					
 
-					.titulo_palestra4{
-						margin: 40px;
-						grid-area: titulo_palestra;
-						justify-self: left;
-						font-size: 1.4rem;
-
-						font-family: 'versaversa';
-						line-height: 1.2em;
-						text-transform: uppercase;
-						color: black;
-						
-
-					}
-
-					.icon_palestrante4{
-						padding-bottom: 40px;
-						
-						grid-area: icon_palestrante;
-						
-
-					}
-
-						.icon_palestrante4 img{
-							width: 80px;
-							height: 80px;
-							border-radius: 50%;
-							/* filter: grayscale(100%); */
-							transition: 0.2s;
-						}
-
-						.icon_palestrante4 img:hover{
-							width:90px;
-							height: 90px;
-							transition: 0.2s;
-						}
+					
 
 			
 				.horario_prog4{
@@ -380,41 +346,7 @@ body {
 
 					
 
-					.titulo_palestra4{
-						margin: 40px;
-						grid-area: titulo_palestra;
-						justify-self: left;
-						font-size: 1.4rem;
-
-						font-family: 'versaversa';
-						line-height: 1.2em;
-						text-transform: uppercase;
-						color: black;
-						
-
-					}
-
-					.icon_palestrante4{
-						padding-bottom: 40px;
-						
-						grid-area: icon_palestrante;
-						
-
-					}
-
-						.icon_palestrante4 img{
-							width: 80px;
-							height: 80px;
-							border-radius: 50%;
-							/* filter: grayscale(100%); */
-							transition: 0.2s;
-						}
-
-						.icon_palestrante4 img:hover{
-							width:90px;
-							height: 90px;
-							transition: 0.2s;
-						}
+					
 
 
 
@@ -459,7 +391,7 @@ body {
 		
 								font-family: 'versaversa';
 								line-height: 1.2em;
-								text-transform: uppercase;
+								text-transform: initial;
 								color: black;
 								
 		
@@ -525,10 +457,9 @@ body {
 								grid-area: titulo_palestra3;
 								justify-self: left;
 								font-size: 1.4rem;
-		
 								font-family: 'versaversa';
 								line-height: 1.2em;
-								text-transform: uppercase;
+								text-transform: initial;
 								color: black;
 								
 		
