@@ -10,6 +10,7 @@ html {
 	overflow: auto;
 	height: auto;
 	scroll-behavior: smooth;
+	width: 100vw;
 	
 }
 
@@ -119,7 +120,8 @@ body {
 
 
         #films{
-            display: grid;
+			display: grid;
+			width: 100vw;
             
             /* display: none; */
             
@@ -340,6 +342,7 @@ body {
 
 
 		#breve{
+			width: 100vw;
 
 			
 			color: #000000;
@@ -393,6 +396,7 @@ body {
 
 	
 		#informacoes-evento{
+			width: 100vw;
 			height: auto;
 			background-color: #f4f4fb;
 			
@@ -509,6 +513,7 @@ body {
 
 		
 	#contato{
+		width: 100vw;
 
 
 		background-color: #3ca7a3;
@@ -522,6 +527,7 @@ body {
 	}
 
 	#realizacao{
+		width: 100vw;
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 		grid-template-rows: 1fr 2fr;
