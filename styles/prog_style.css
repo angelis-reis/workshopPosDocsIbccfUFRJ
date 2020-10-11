@@ -11,7 +11,6 @@ html {
 	height: auto;
 	scroll-behavior: smooth;
 	width: 100vw;
-	
 }
 
 h4 {
@@ -40,10 +39,7 @@ img {
 }
 
 body {
-	padding-right: -10px;
 	width: 100vw;
-	
-	
 }
 
 	header {
@@ -51,7 +47,6 @@ body {
 		height: auto;
 		padding-top: 10px;
 		width: 100vw;
-		
 	}
 
 		.title{
@@ -70,13 +65,9 @@ body {
 			color: black;
 		}
 
-
-		
-
 		#hero{
 			text-align: center;
 			width: 100vw;
-			
 		}
 
 		#hero_prog{
@@ -87,13 +78,10 @@ body {
 			background-repeat: no-repeat;
 			height: 600px;
 			filter: blur(2px);
-			
-			
         }
 		
 		#programacao{
 			width: 100vw;
-			
 			height:auto;
 			background-color: #c7fceb;
 			padding-bottom: 80px;
@@ -106,8 +94,6 @@ body {
 				margin-left: auto;
 				margin-right: auto;
 				padding-top: 100px;
-
-
 			}
 
 			#prog_subtitle{
@@ -116,8 +102,6 @@ body {
 				text-align: left;
 				margin-left: auto;
 				margin-right: auto;
-				
-
 			}
 
 		.programacao_completa{
@@ -128,7 +112,6 @@ body {
 			display: grid;
 			padding-bottom: 40px;
 			gap: 50px;
-			
 			grid-template-columns: 1fr 3fr;
 			grid-template-areas: 
 			"icone_dia dia";
@@ -139,10 +122,6 @@ body {
 				grid-template-columns: 220px 10px;
 				grid-template-areas:
 				"icone_dia recorte";
-
-
-
-
 			}
 
 			.icone_dia{
@@ -152,10 +131,10 @@ body {
 				text-align: justify;
 				padding: 20px;
 			}
+
 				.icone_dia p{
 					color: #fff;
 				}
-
 
 			#recorte{
 				position: relative;
@@ -216,7 +195,6 @@ body {
 					.categoria{
 						grid-area: categoria;
 					}
-					
 
 					.titulo_palestra{
 						margin: 40px;
@@ -249,8 +227,6 @@ body {
 						} */
 					}
 
-
-
 				.horario_prog4{
 					display: grid;
 					grid-template-columns: 1fr 3fr;
@@ -275,7 +251,6 @@ body {
 					.categoria4{
 						grid-area: categoria;
 					}
-
 			
 				.horario_prog4{
 					display: grid;
@@ -327,9 +302,6 @@ body {
 								grid-area: categoria;
 							}
 		
-		
-							
-		
 							.titulo_palestra4{
 								margin: 40px;
 								grid-area: titulo_palestra;
@@ -359,7 +331,6 @@ body {
 									height: 90px;
 									transition: 0.2s;
 								}
-		
 					
 						.horario_prog3{
 							display: grid;
@@ -373,7 +344,7 @@ body {
 							"... icon_palestrante3"
 							"categoria3 icon_palestrante3";
 						}
-		
+
 							.horario_prog3 p, img{
 								margin-left: 40px;
 							}
@@ -385,9 +356,6 @@ body {
 							.categoria3{
 								grid-area: categoria3;
 							}
-		
-		
-							
 		
 							.titulo_palestra3{
 								margin: 40px;
@@ -403,8 +371,6 @@ body {
 							.icon_palestrante3{
 								padding-bottom: 40px;
 								grid-area: icon_palestrante3;
-								
-		
 							}
 		
 								.icon_palestrante3 img{
@@ -421,21 +387,6 @@ body {
 									transition: 0.2s;
 								}
 
-
-
-			
-
-
-
-
-
-
-
-		
-
-
-
-
 		.title-large1 {
 			font-family: 'versaversa';
 			color: #ffffff;
@@ -443,7 +394,6 @@ body {
 			line-height: 1;
 			padding: 1rem .5rem .5rem .5rem;
 			margin-bottom: 5px;
-			
 			width: auto;
 		}
 
@@ -451,7 +401,6 @@ body {
 				background-color: #2edb96;
 				padding-left: 10px;
 				padding-right: 10px;
-
 			}
 
 		.title-large2 {
@@ -461,16 +410,13 @@ body {
 			line-height: 1em;
 			padding: 1rem .5rem .5rem .5rem;
 			margin-bottom: 5px;
-			
 		}
 
 		.title-large2 strong{
 			background-color: #379634;
 			padding-left: 10px;
 			padding-right: 10px;
-
 		}
-
 
 		.title-large3 {
 			font-family: 'sora';
@@ -478,8 +424,6 @@ body {
 			font-size: 2rem;
 			line-height: 1.2em;
 			padding: 1rem .5rem .5rem .5rem;
-			
-			
 			margin-bottom: 60px;
 			margin-top: 60px;
 		}
@@ -493,7 +437,6 @@ body {
 			margin-bottom: 70px;
 			margin-top: 70px;
 		}
-
 	
 		.button-inscricao{
 			background-color: #48D1CC ;
@@ -511,9 +454,6 @@ body {
 				scale: 1.03;
 				transition: 0.2s;
     		}
-
-			
-
 	
 		#informacoes-evento{
 			height: auto;
@@ -525,7 +465,6 @@ body {
 				margin-left: 310px;
 				padding-bottom: 80px;
 			}
-
 
 			#cards-evento{
 				margin-left: auto;
@@ -543,29 +482,19 @@ body {
 					align-self: stretch;
 					overflow: hidden;
 					/* overflow: hidden esconde o que ultrapassar do container */
-					
-					
 				}
-
-					
 
 				#card-evento-2{
 					justify-self: stretch;
 					align-self: stretch;
 					overflow: hidden;
-
 				}
-
 
 				#card-evento-3{
 					justify-self: stretch;
 					align-self: stretch;
 					overflow: hidden;
-
 				}
-
-					
-
 
 					.photo{
 						width: 400px;
@@ -574,23 +503,18 @@ body {
 						justify-self: center;
 						padding-bottom: 40px;
 						transition-duration: 0.45s;
-						
 					}
 
 						.photo:hover{
 							scale: 1.05;
 							transition-duration: 0.45s;
-							
 						}
-
-					
 
 					.texto-evento{
 						display: grid;
 						width: 400px;
 					}
 
-					
 						.card-title{
 							display: grid;
 							background-color: rgb(255, 255, 255);
@@ -599,36 +523,20 @@ body {
 							justify-self: stretch;
 							padding-top: 10px;
 							padding-bottom: 15px;
-							
 						}
-
 						
 						.card-text{
 							display: grid;
 							background-color: rgb(255, 255, 255);
 							padding:10px;
 							text-align: center;
-										
 							color: rgb(0, 0, 0);
-							
-						}		
-
-
-			
-
-			
-
-
-
-
+						}	
 					
 	#inscricao{
 		background-color: #ffffff;
 		width: 100vw;
-		
 	}
-
-		
 
 		#ingresso{
 			display: grid;
@@ -640,13 +548,10 @@ body {
 			margin-right: auto;
 			grid-template-columns: 450px;
 			width: 450px;
-			
 			align-items: center;
 			justify-items: center;	
 			color: #ffffff
 		}
-
-			
 
 			#ingresso span{
 				padding-top: 40px;
@@ -678,7 +583,6 @@ body {
 				padding-top: 80px;
 
 			}
-
 		
 	#contato{
 		width: 100vw;
@@ -704,7 +608,6 @@ body {
 		grid-template-areas:
 		"org_title org_title org_title org_title"
 		" ufrj_logo  pos_biof_logo pos_fisio_logo ibccf_logo " ;
-		
 	}
 
 		.logos_realizacao{
@@ -739,32 +642,7 @@ body {
 			grid-area:ibccf_logo;
 		}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
+/* <----------------------------------@media--------------------------------------> */
 
 @media only screen and (min-width: 1025px) and (max-width: 1268px){
 
@@ -772,10 +650,6 @@ body {
 		margin-top: 1px;
 		margin-right: 10px;
 		margin-bottom: 1px;
-		
-		
-		
-
 	}
 
 	#apontador_dia{
@@ -784,17 +658,10 @@ body {
 		grid-template-areas:
 		"icone_dia recorte";
 		font-size: 0.8rem;
-
-
-
-
 	}
-
-	
 
 	.dia{
 		width: 580px;
-		
 	}
 
 	.horario_prog{
@@ -804,16 +671,11 @@ body {
 		align-items: center;
 		justify-items: left;
 		border-bottom-style: dashed;
-		
 		grid-template-areas:
 		"horario titulo_palestra"
 		"... icon_palestrate"
 		"categoria icon_palestrante";
 	}
-
-
-
-
 
 	#realizacao{
 		display: grid;
@@ -830,31 +692,20 @@ body {
 		" ufrj_logo  pos_biof_logo "
 		"pos_fisio_logo ibccf_logo ";
 	}
-
-	
-
 }
-	
 	
 @media only screen and (min-width: 730px) and (max-width: 1024px){
 
 	#prog_title {
-		
 		margin-left: auto;
 		margin-right: auto;
 		text-align: center;
-		
-
 	}
 
 	#prog_subtitle {
-		
 		text-align: center;
 		padding-bottom: 50px;
-		
-
 	}
-
 
 	.programacao_completa{
 		margin-left: auto;
@@ -864,7 +715,6 @@ body {
 		display: grid;
 		padding-bottom: 40px;
 		gap: 50px;
-		
 		grid-template-columns: 1fr 3fr;
 		grid-template-areas: 
 		"icone_dia dia";
@@ -876,17 +726,10 @@ body {
 		grid-template-areas:
 		"icone_dia recorte";
 		font-size: 0.7rem;
-
-
-
-
 	}
-
-	
 
 	.dia{
 		width: 500px;
-		
 	}
 
 	.horario_prog{
@@ -896,7 +739,6 @@ body {
 		align-items: center;
 		justify-items: left;
 		border-bottom-style: dashed;
-		
 		grid-template-areas:
 		"horario titulo_palestra"
 		"... icon_palestrate"
@@ -906,7 +748,6 @@ body {
 		.titulo_palestra{
 			font-size: 1.2rem;
 			margin-bottom: 2px;
-
 		}
 
 		.horario_prog p, img {
@@ -917,12 +758,9 @@ body {
 			padding-bottom: 10px;
 		}
 
-	
-
 		.titulo_palestra3{
 			font-size: 1.2rem;
 			margin-bottom: 2px;
-
 		}
 
 		.horario_prog3 p, img {
@@ -932,17 +770,6 @@ body {
 		.icon_palestrante3 {
 			padding-bottom: 10px;
 		}
-
-
-
-
-
-
-
-
-
-
-
 	
 	#realizacao{
 		display: grid;
@@ -965,20 +792,14 @@ body {
 @media only screen and (min-width: 550px) and (max-width: 729px){
 
 	#prog_title {
-		
 		margin-left: auto;
 		margin-right: auto;
 		text-align: center;
-		
-
 	}
 
 	#prog_subtitle {
-		
 		text-align: center;
 		padding-bottom: 50px;
-		
-
 	}
 
 
@@ -990,7 +811,6 @@ body {
 		display: grid;
 		padding-bottom: 40px;
 		gap: 50px;
-		
 		grid-template-columns: 1fr 3fr;
 		grid-template-areas: 
 		"icone_dia dia";
@@ -1003,37 +823,23 @@ body {
 		grid-template-areas:
 		"icone_dia recorte";
 		font-size: 0.6rem;
-		heigh;
-
-
-
-
 	}
 
 	.title{
 		font-size: 1.8rem;
 		text-transform: uppercase;
-
 	}
-
-	
 
 	.dia{
 		width: 360px;
-		
 	}
 
 	.icone_dia{
 		height: 90px;
-		
-		
-
 	}
 
 	.seta{
 		margin-top: 40px;
-		
-
 	}
 
 	.horario_prog{
@@ -1043,20 +849,14 @@ body {
 		align-items: center;
 		justify-items: left;
 		border-bottom-style: dashed;
-		
 		grid-template-areas:
 		"horario titulo_palestra"
 		"... icon_palestrante"
 		"categoria icon_palestrante";
 	}
-
-
-	
-
 		.titulo_palestra{
 			font-size: 1rem;
 			margin-bottom: 2px;
-
 		}
 
 		.horario_prog p, img {
@@ -1067,12 +867,9 @@ body {
 			padding-bottom: 10px;
 		}
 
-	
-
 		.titulo_palestra3{
 			font-size: 1.2rem;
 			margin-bottom: 2px;
-
 		}
 
 		.horario_prog3 p, img {
@@ -1083,17 +880,6 @@ body {
 			padding-bottom: 10px;
 		}
 
-
-
-
-
-
-
-
-
-
-
-	
 	#realizacao{
 		display: grid;
 		grid-template-columns: 1fr 1fr ;
@@ -1115,22 +901,15 @@ body {
 @media only screen and (min-width: 400px) and (max-width: 549px){
 
 	#prog_title {
-		
 		margin-left: auto;
 		margin-right: auto;
 		text-align: center;
-		
-
 	}
 
 	#prog_subtitle {
-		
 		text-align: center;
 		padding-bottom: 50px;
-		
-
 	}
-
 
 	.programacao_completa{
 		margin-left: auto;
@@ -1140,7 +919,6 @@ body {
 		display: grid;
 		padding-bottom: 40px;
 		gap: 50px;
-		
 		grid-template-columns: 0px 1fr;
 		grid-template-areas: 
 		"dia";
@@ -1148,37 +926,22 @@ body {
 
 	#apontador_dia{
 		display:none;
-		
-
-
-
-
 	}
 
 	.title{
 		font-size: 1.8rem;
 		text-transform: uppercase;
 
-	}
-
-	
-
 	.dia{
 		width: 360px;
-		
 	}
 
 	.icone_dia{
 		height: 90px;
-		
-		
-
 	}
 
 	.seta{
 		margin-top: 40px;
-		
-
 	}
 
 	.horario_prog{
@@ -1188,20 +951,15 @@ body {
 		align-items: center;
 		justify-items: left;
 		border-bottom-style: dashed;
-		
 		grid-template-areas:
 		"horario titulo_palestra"
 		"... icon_palestrante"
 		"categoria icon_palestrante";
 	}
 
-
-	
-
 		.titulo_palestra{
 			font-size: 1rem;
 			margin-bottom: 2px;
-
 		}
 
 		.horario_prog p, img {
@@ -1212,12 +970,9 @@ body {
 			padding-bottom: 10px;
 		}
 
-	
-
 		.titulo_palestra3{
 			font-size: 1.2rem;
 			margin-bottom: 2px;
-
 		}
 
 		.horario_prog3 p, img {
@@ -1231,7 +986,6 @@ body {
 	#contato span{
 		font-size: 1.7rem;
 	}
-
 	
 	#realizacao{
 		display: grid;
@@ -1259,20 +1013,14 @@ body {
 @media only screen and (max-width: 399px){
 	
 	#prog_title {
-		
 		margin-left: auto;
 		margin-right: auto;
 		text-align: center;
-		
-
 	}
 
 	#prog_subtitle {
-		
 		text-align: center;
 		padding-bottom: 50px;
-		
-
 	}
 
 
@@ -1284,7 +1032,6 @@ body {
 		display: grid;
 		padding-bottom: 40px;
 		gap: 50px;
-		
 		grid-template-columns: 0px 1fr;
 		grid-template-areas: 
 		"dia";
@@ -1292,37 +1039,25 @@ body {
 
 	#apontador_dia{
 		display:none;
-		
-
-
-
-
 	}
 
 	.title{
 		font-size: 1.8rem;
 		text-transform: uppercase;
-
 	}
 
 	
 
 	.dia{
 		width: 340px;
-		
 	}
 
 	.icone_dia{
 		height: 90px;
-		
-		
-
 	}
 
 	.seta{
 		margin-top: 40px;
-		
-
 	}
 
 	.horario_prog{
@@ -1332,20 +1067,15 @@ body {
 		align-items: center;
 		justify-items: left;
 		border-bottom-style: dashed;
-		
 		grid-template-areas:
 		"horario titulo_palestra"
 		"... icon_palestrante"
 		"categoria icon_palestrante";
 	}
 
-
-	
-
 		.titulo_palestra{
 			font-size: 1rem;
 			margin-bottom: 2px;
-
 		}
 
 		.horario_prog p, img {
@@ -1356,12 +1086,9 @@ body {
 			padding-bottom: 10px;
 		}
 
-	
-
 		.titulo_palestra3{
 			font-size: 1.2rem;
 			margin-bottom: 2px;
-
 		}
 
 		.horario_prog3 p, img {
@@ -1375,7 +1102,6 @@ body {
 	#contato span{
 		font-size: 1.3rem;
 	}
-
 	
 	#realizacao{
 		display: grid;

@@ -5,7 +5,6 @@ html, body, h2, h1, h3, h4, p{
 	margin-left: 10px; */
 	padding: 0; 
 	color: black;
-	
 }
 
 html {
@@ -14,8 +13,6 @@ html {
 	height: auto;
 	scroll-behavior: smooth;
 	width: 100vw;
-	
-	
 }
 
 h4 {
@@ -48,14 +45,7 @@ div {
 }
 
 body {
-	
-	
-	
 }
-
-
-
-
 
 	header {
 		margin-top: 80px;
@@ -65,7 +55,6 @@ body {
 		/* margin-left: -10px;
 		margin-right: -10px; */
 		width: 100vw;
-		
 	}
 
 		.title{
@@ -84,28 +73,19 @@ body {
 			color: black;
 		}
 
-
-		
-
 		#hero{
 			text-align: center;
 			margin-top: -40px;
 			height: 800px;
-			
 		}
-
-		
 		
 		#work{
 			padding-top: 100px;  
-			
 		}
 
 			#hero p{
 				padding-top: 40px;
-
 				/* adicionei 100px por causa do espaço do timer */
-
 			}
 
 		#videoBG {
@@ -116,13 +96,6 @@ body {
 			width: 130%;
 			overflow: hidden;
 		}
-
-
-
-		
-
-
-
 
 		.title-large1 {
 			font-family: 'versaversa';
@@ -180,7 +153,6 @@ body {
 			background-color: #89da86;
 		}
 
-
 		.title-large3 {
 			font-family: 'sora';
 			color: #ffffff;
@@ -188,8 +160,6 @@ body {
 			line-height: 1.2em;
 			margin-bottom: 50px;
 		}
-
-		
 	
 		.button-inscricao{
 			background-color: #48D1CC ;
@@ -208,24 +178,14 @@ body {
 				transition: 0.2s;
 			}
 
-		
-
 		#button-titulo{
 			padding-top: 50px;
-			
-
 		}
-
-			
-
 	
 		#informacoes-evento{
 			height: auto;
 			background-color: #c7fceb;
 			width: 100vw;
-			
-			
-			
 		}
 
 			#titulo-informacoes{
@@ -256,14 +216,11 @@ body {
 					/* overflow: hidden esconde o que ultrapassar do container */
 				}
 
-					
-
 				#card-evento-2{
 					justify-self: stretch;
 					align-self: stretch;
 					overflow: hidden;
 				}
-
 
 				#card-evento-3{
 					justify-self: stretch;
@@ -283,17 +240,13 @@ body {
 						.photo:hover{
 							scale: 1.05;
 							transition-duration: 0.45s;
-							
 						}
-
-					
 
 					.texto-evento{
 						display: grid;
 						width: 400px;
 					}
 
-					
 						.card-title{
 							display: grid;
 							background-color: rgb(255, 255, 255);
@@ -302,39 +255,21 @@ body {
 							justify-self: stretch;
 							padding-top: 10px;
 							padding-bottom: 15px;
-							
 						}
-
 						
 						.card-text{
-							
 							background-color: rgb(255, 255, 255);
 							padding:10px;
 							text-align: center;
 							line-height: 25px;
-										
 							color: rgb(0, 0, 0);
-							
 						}		
-
-
-			
-
-			
-
-				
-		
-
 		
 		#palestrantes{
-
 			background-color: #3ea7d1;
 			height: auto;	
 			width: 100vw;
-
 		}	
-
-			
 
 			#lista-palestrantes{
 				margin-left: auto;
@@ -342,13 +277,7 @@ body {
 				display: grid;
 				grid-template-rows: repeat(3, 230px);
 				grid-template-columns: repeat(7, 1fr);
-				
-
 			}	
-
-
-
-			
 
 			#titulo-palestrantes {
 				text-align: left;
@@ -356,26 +285,15 @@ body {
 				margin-top: -4px;
 				margin-left: 10px;
 				margin-right: 10px;
-
 				align-self: center;
 				justify-self: center;
 				grid-row: 1/2;
 				grid-column: 1/3;
-				
 			}
-
-
-
-
-
-
-
-
  
 			#palestrante-nome-1 {
 				grid-row: 1/2;
 				grid-column: 3/4;
-				 
 			}
 
 			#palestrante-foto-1{
@@ -383,26 +301,15 @@ body {
 				grid-column: 3/4;					
 			}
 
-
-
 			#palestrante-nome-2 {
 				grid-row: 1/2;
 				grid-column: 4/5;
-				
 			}
 
 			#palestrante-foto-2{
 				grid-row: 1/2;					
 				grid-column: 4/5;					
 			}
-			
-				
-
-				
-
-			
-
-
 
 			#palestrante-foto-3{
 				grid-row: 1/2;					
@@ -412,9 +319,7 @@ body {
 			#palestrante-nome-3 {
 				grid-row: 1/2;
 				grid-column: 5/6;
-				  
 			}
-
 
 			#palestrante-foto-4{
 				grid-row: 1/2;
@@ -424,96 +329,66 @@ body {
 			#palestrante-nome-4 {
 				grid-row: 1/2;
 				grid-column: 6/7;
-				  
 			}
-
-
 
 			#palestrante-foto-5{
 				grid-row: 1/2;
 				grid-column: 7/8;					
 			}
 
-				
-
 			#palestrante-nome-5 {
 				grid-row: 1/2;
 				grid-column: 7/8;
-				  
 			}
-
-
-
 
 			#palestrante-foto-6{
 				grid-row: 2/3;					
 				grid-column: 1/2;					
 			}
-			
 				
 			#palestrante-nome-6 {
 				grid-row: 2/3;
 				grid-column: 1/2;
-				  
 			}
-
-
 
 			#palestrante-foto-7{
 				grid-row: 2/3;					
 				grid-column: 2/3;					
 			}
 
-			
-
 			#palestrante-nome-7 {
 				grid-row: 2/3;
 				grid-column: 2/3;
-				  
 			}
-
-
-
 
 			#palestrante-foto-8{
 				grid-row: 2/3;					
 				grid-column: 3/4;					
 			}
-			
-				
 
 			#palestrante-nome-8 {
 				grid-row: 2/3;
 				grid-column: 3/4;
-				  
 			}
-
-
 
 			#palestrante-foto-9{
 				grid-row: 2/3;
 				grid-column: 4/5;					
 			}
 
-				
-
 			#palestrante-nome-9 {
 				grid-row: 2/3;
 				grid-column: 4/5;
-				  
 			}
-
 
 			#palestrante-foto-10{
 				grid-row: 2/3;
 				grid-column: 5/6;					
 			}
-			
 				
 			#palestrante-nome-10 {
 				grid-row: 2/3;
 				grid-column: 5/6;
-				  
 			}
 
 			#palestrante-foto-11{
@@ -521,30 +396,20 @@ body {
 				grid-column: 6/7;					
 			}
 
-				
-
 			#palestrante-nome-11 {
 				grid-row: 2/3;
 				grid-column: 6/7;
-				  
 			}
-
 
 			#palestrante-foto-12{
 				grid-row: 2/3;
 				grid-column: 7/8;					
 			}
-			
-				
 
 			#palestrante-nome-12 {
 				grid-row: 2/3;
 				grid-column: 7/8;
-				  
 			}
-
-
-
 
 			#palestrante-foto-13{
 				grid-row: 3/4;					
@@ -554,101 +419,47 @@ body {
 			#palestrante-nome-13 {
 				grid-row: 3/4;					
 				grid-column: 1/2;	
-				  
 			}
-
-
 
 			#palestrante-foto-14{
 				grid-row: 3/4;
 				grid-column: 2/3;					
 			}
-			
-				
 
 			#palestrante-nome-14 {
 				grid-row: 3/4;
 				grid-column: 2/3;
-				  
 			}
-
-
 
 			#palestrante-foto-15{
 				grid-row: 3/4;
 				grid-column: 3/4;					
 			}
 
-				
-
 			#palestrante-nome-15 {
 				grid-row: 3/4;
 				grid-column: 3/4;
-				  
 			}
-
-
-
 
 			#palestrante-foto-16{
 				grid-row: 3/4;
 				grid-column: 4/5;					
 			}
-			
-				
 
 			#palestrante-nome-16 {
 				grid-row: 3/4;
 				grid-column: 4/5;
-				  
 			}
-
-
-
-			
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 				.nome-foto{
 					padding-top: 6rem;
 					color: #ffffff;
 					text-align: left;
 					margin-left: 15px;
-
 					font-family: 'versaversa';
 					font-size: 1.5rem;
 					line-height: 1.2em;
 					text-transform: uppercase;
-					/* z-index: 1; */
-
-
 				}
 
 				.descricao-foto{
@@ -659,22 +470,11 @@ body {
 					font-family: 'versaversa';
 					font-size: 1.1em;
 					line-height: 1.2em;
-					/* z-index: 1; */
-
 				}
-
-					
-
-				
-				
-
 				
 				.foto-palestrante{
 					display: grid;
 					background-color:#181a19;
-					  
-					
-
 					justify-items: stretch;
 					align-items: stretch;
 					overflow: hidden;
@@ -683,48 +483,32 @@ body {
 					.foto-palestrante img{
 						width: 100%;
 						height: auto;
-						
-						
-
 					}
-
 					
 					.foto-palestrante:hover{
 						opacity: 0.3; 
 						transition-duration: 0.6s;
-						
 					}
-
-			
-
 
 	#programacao {
 		background-color: #f5f5f5;
 		height: 400px;
 		text-align: center;
 		width: 100vw;
-		
 	}
 
 		#titulo-programacao{
 			padding-top: 100px;
 			padding-bottom: 100px;
-
 		}
 
 		#botao-programacao{
-			
-
-
 		}
 
-					
 	#inscricao{
 		background-color:#e0faf1;
 		width: 100vw;
 	}
-
-		
 
 		#ingresso{
 			display: grid;
@@ -741,8 +525,6 @@ body {
 			color: #ffffff;
 		}
 
-			
-
 			#ingresso span{
 				padding-top: 40px;
 				text-align: center;
@@ -756,7 +538,6 @@ body {
 			}
 
 			#ingresso a{
-
 				align-self: center;
 			}
 
@@ -771,9 +552,7 @@ body {
 				border-color: #e0faf1;;
 				border-radius: 50%;
 				padding-top: 80px;
-
 			}
-
 		
 	#contato{
 		background-color: #3ca7a3;;
@@ -784,7 +563,6 @@ body {
 		text-transform: none;
 		width: 100vw;
 	}
-
 
 	#realizacao{
 		display: grid;
@@ -812,128 +590,36 @@ body {
 
 		#org_title{
 			grid-area:org_title;
-
 		}
 
 		#ufrj_logo{
 			grid-area: ufrj_logo;
-
 		}
 
 		#pos_biof_logo{
 			grid-area:pos_biof_logo;
-
 		}
 
 		#pos_fisio_logo{
 			grid-area:pos_fisio_logo;
-
 		}
 
 		#ibccf_logo{
 			grid-area:ibccf_logo;
-
 		}
 
-		
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
-
-
-
-
-
-
+/* <----------------------------------@media--------------------------------------> */
 
 
 @media only screen and (min-width: 1270px) and (max-width: 1439px){
 
 	#titulo-informacoes{
 		width: 1180px;
-
-		
 	}
 
 	#lista-palestrantes{
-
 		grid-template-rows: repeat(3, 180px);
-
 	}
 
 	.nome-foto{
@@ -949,46 +635,31 @@ body {
 	#cards-evento{
 		gap: 20px 20px;
 		grid-template-columns: 380px 380px 380px;
-
 	}
 
 	.texto-evento{
 		display: grid;
 		width: 380px;
 	}
-
 }
-
-
 
 @media only screen and (min-width: 1025px) and (max-width: 1268px){
 
 	#titulo-informacoes{
 		width: 1000px;
-
-		
 	}
 
 	#cards-evento{
 		grid-template-columns: 310px 310px 310px;
-
 	}
-
-		
-
 
 		.texto-evento{
 			width: 310px;
 		}
 
-
 		#lista-palestrantes{
 			grid-template-rows: repeat(3, 170px);
-			
-			
-
 		}	
-
 
 		.nome-foto{
 			font-size: 1.0rem;
@@ -1003,12 +674,6 @@ body {
 		#titulo-palestrantes {
 			margin-left: 20px;
 		}
-
-	
-
-
-	
-
 	
 	#realizacao{
 		display: grid;
@@ -1025,9 +690,6 @@ body {
 		" ufrj_logo  pos_biof_logo "
 		"pos_fisio_logo ibccf_logo ";
 	}
-
-	
-
 }
 
 @media only screen and (min-width: 730px) and (max-width: 1024px){
@@ -1035,7 +697,6 @@ body {
 	#cards-evento{
 		grid-template-columns: 600px;
 		grid-template-rows: 600px 600px 600px;
-
 	}
 
 		.texto-evento{
@@ -1045,83 +706,57 @@ body {
 		.photo{
 			width: 600px;
 			height: 400px;
-			
 		}
 
 	#videoBG {
 		width: 1400px
-		
 	}
 
 	#titulo-programacao{
 		width: 600px;
 		margin-left: auto;
 		margin-right: auto;
-
 	}
 
 	#titulo-informacoes{
 		width: auto;
-
 		text-align: center;
 	}
-
 
 		#lista-palestrantes{
 			grid-template-rows: repeat(5, 170px);
 			grid-template-columns: 1fr 1fr 1fr 1fr;
-			
-			
-
 		}	
-
 
 		#titulo-palestrantes {
 			text-align: left;
 			color: rgb(0, 0, 0);
 			margin-top: -4px;
 			font-size: 1rem;
-
 			align-self: center;
 			justify-self: center;
 			grid-row: 1/2;
 			grid-column: 1/2;
-			
 		}
 
 		#titulo-palestrantes h4{
 			font-size: 1.5rem;
 			margin-left: 5px;
 		}
-			
-
-			
-
-
-
-
-
 
 		#palestrante-nome-1 {
 			grid-row: 1/2;
 			grid-column: 2/3;
-			
-			
-			 
 		}
 
 		#palestrante-foto-1{
 			grid-row: 1/2;		
 			grid-column: 2/3;
-								
 		}
-
-
 
 		#palestrante-nome-2 {
 			grid-row: 1/2;
 			grid-column: 3/4;
-			
 		}
 
 		#palestrante-foto-2{
@@ -1137,11 +772,7 @@ body {
 		#palestrante-nome-3 {
 			grid-row: 1/2;
 			grid-column: 4/5;
-			  
 		}
-
-
-
 
 		#palestrante-foto-4{
 			grid-row: 2/3;
@@ -1151,96 +782,66 @@ body {
 		#palestrante-nome-4 {
 			grid-row: 2/3;
 			grid-column: 1/2;
-			  
 		}
-
-
 
 		#palestrante-foto-5{
 			grid-row: 2/3;
 			grid-column: 2/3;					
 		}
 
-			
-
 		#palestrante-nome-5 {
 			grid-row: 2/3;
 			grid-column: 2/3;
-			  
 		}
-
-
-
 
 		#palestrante-foto-6{
 			grid-row: 2/3;	
 			grid-column: 3/4;					
 		}
-		
 			
 		#palestrante-nome-6 {
 			grid-row: 2/3;
 			grid-column: 3/4;
-			  
 		}
-
-
 
 		#palestrante-foto-7{
 			grid-row: 2/3;	
 			grid-column: 4/5;					
 		}
 
-		
-
 		#palestrante-nome-7 {
 			grid-row: 2/3;
 			grid-column: 4/5;
-			  
 		}
-
-
-
 
 		#palestrante-foto-8{
 			grid-row: 3/4;					
 			grid-column: 1/2;					
 		}
-		
-			
 
 		#palestrante-nome-8 {
 			grid-row: 3/4;
 			grid-column: 1/2;
-			  
 		}
-
-
 
 		#palestrante-foto-9{
 			grid-row: 3/4;
 			grid-column: 2/3;					
 		}
 
-			
-
 		#palestrante-nome-9 {
 			grid-row: 3/4;
 			grid-column: 2/3;
-			  
 		}
-
 
 		#palestrante-foto-10{
 			grid-row: 3/4;
 			grid-column: 3/4;					
 		}
-		
 			
 		#palestrante-nome-10 {
 			grid-row: 3/4;
 			grid-column: 3/4;
-			  
 		}
 
 		#palestrante-foto-11{
@@ -1248,30 +849,20 @@ body {
 			grid-column: 4/5;					
 		}
 
-			
-
 		#palestrante-nome-11 {
 			grid-row: 3/4;
 			grid-column: 4/5;
-			  
 		}
-
 
 		#palestrante-foto-12{
 			grid-row: 4/5;
 			grid-column: 1/2;					
 		}
-		
-			
 
 		#palestrante-nome-12 {
 			grid-row: 4/5;
 			grid-column: 1/2;
-			  
 		}
-
-
-
 
 		#palestrante-foto-13{
 			grid-row: 4/5;					
@@ -1281,70 +872,37 @@ body {
 		#palestrante-nome-13 {
 			grid-row: 4/5;					
 			grid-column: 2/3;	
-			  
 		}
-
-
 
 		#palestrante-foto-14{
 			grid-row: 4/5;
 			grid-column: 3/4;					
 		}
-		
-			
 
 		#palestrante-nome-14 {
 			grid-row: 4/5;
 			grid-column: 3/4;
-			  
 		}
-
-
 
 		#palestrante-foto-15{
 			grid-row: 4/5;
 			grid-column: 4/5;					
 		}
 
-			
-
 		#palestrante-nome-15 {
 			grid-row: 4/5;
 			grid-column: 4/5;
-			  
 		}
-
-
-
 
 		#palestrante-foto-16{
 			grid-row: 5/6;
 			grid-column:1/2;					
 		}
-		
-			
 
 		#palestrante-nome-16 {
 			grid-row: 5/6;
 			grid-column: 1/2;
-			  
 		}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 		.nome-foto{
 			font-size: 1.1rem;
@@ -1360,18 +918,7 @@ body {
 
 		.foto-palestrante img{
 			opacity: 0.3;
-			
-			
-
 		}
-
-
-
-	
-
-
-	
-
 	
 	#realizacao{
 		display: grid;
@@ -1396,7 +943,6 @@ body {
 @media only screen and (min-width: 550px) and (max-width: 729px){
 
 	#hero h1{
-		
 		font-size: 1.8rem;
 		margin-bottom: 10px;
 		line-height: 3rem;
@@ -1404,7 +950,6 @@ body {
 
 	#title-large1.1{
 		line-height: 1rem;
-
 	}
 
 	#hero p{
@@ -1413,15 +958,11 @@ body {
 
 	#videoBG {
 		width: 1500px
-		
 	}
-
-	
 
 	#cards-evento{
 		grid-template-columns: 500px;
 		grid-template-rows: 600px 600px 600px;
-
 	}
 
 		.texto-evento{
@@ -1431,14 +972,12 @@ body {
 		.photo{
 			width: 600px;
 			height: 400px;
-			
 		}
 
 	#titulo-programacao{
 		width: 500px;
 		margin-left: auto;
 		margin-right: auto;
-
 	}
 
 	#contato {
@@ -1447,7 +986,6 @@ body {
 
 	#titulo-informacoes{
 		width: auto;
-
 		text-align: center;
 	}
 
@@ -1458,8 +996,6 @@ body {
 
 	.flipTimer{
 		scale:0.7;
-		
-
 	}
 
 	#temporizador_legendas{
@@ -1472,45 +1008,29 @@ body {
 			font-size: 1.7rem;
 		}
 
-
 		#lista-palestrantes{
 			grid-template-rows: repeat(5, 170px);
 			grid-template-columns: 1fr 1fr 1fr;
-			
-			
-
 		}	
-
 
 		#titulo-palestrantes {
 			text-align: left;
 			color: rgb(0, 0, 0);
 			margin-top: -4px;
 			font-size: 1rem;
-
 			align-self: center;
 			justify-self: center;
 			grid-row: 1/2;
 			grid-column: 1/2;
-			
 		}
 
 		#titulo-palestrantes span{
 			font-size: 1.5rem;
 		}
-		
-
-			
-
-
-
-
-
 
 		#palestrante-nome-1 {
 			grid-row: 1/2;
 			grid-column: 2/3;
-			 
 		}
 
 		#palestrante-foto-1{
@@ -1518,12 +1038,9 @@ body {
 			grid-column: 2/3;					
 		}
 
-
-
 		#palestrante-nome-2 {
 			grid-row: 1/2;
 			grid-column: 3/4;
-			
 		}
 
 		#palestrante-foto-2{
@@ -1539,11 +1056,7 @@ body {
 		#palestrante-nome-3 {
 			grid-row: 2/3;
 			grid-column: 1/2;
-			  
 		}
-
-
-
 
 		#palestrante-foto-4{
 			grid-row: 2/3;
@@ -1553,96 +1066,66 @@ body {
 		#palestrante-nome-4 {
 			grid-row: 2/3;
 			grid-column: 2/3;
-			  
 		}
-
-
 
 		#palestrante-foto-5{
 			grid-row: 2/3;
 			grid-column: 3/4;					
 		}
 
-			
-
 		#palestrante-nome-5 {
 			grid-row: 2/3;
 			grid-column: 3/4;
-			  
 		}
-
-
-
 
 		#palestrante-foto-6{
 			grid-row: 3/4;	
 			grid-column: 1/2;					
 		}
-		
-			
+
 		#palestrante-nome-6 {
 			grid-row: 3/4;
 			grid-column: 1/2;
-			  
 		}
-
-
 
 		#palestrante-foto-7{
 			grid-row: 3/4;	
 			grid-column: 2/3;					
 		}
 
-		
-
 		#palestrante-nome-7 {
 			grid-row: 3/4;
 			grid-column: 2/3;
-			  
 		}
-
-
-
 
 		#palestrante-foto-8{
 			grid-row: 3/4;					
 			grid-column: 3/4;					
 		}
-		
-			
 
 		#palestrante-nome-8 {
 			grid-row: 3/4;
 			grid-column: 3/4;
-			  
 		}
-
-
 
 		#palestrante-foto-9{
 			grid-row: 4/5;
 			grid-column: 1/2;					
 		}
 
-			
-
 		#palestrante-nome-9 {
 			grid-row: 4/5;
 			grid-column: 1/2;
-			  
 		}
-
 
 		#palestrante-foto-10{
 			grid-row: 4/5;;
 			grid-column: 2/3;					
 		}
-		
 			
 		#palestrante-nome-10 {
 			grid-row: 4/5;
 			grid-column: 2/3;
-			  
 		}
 
 		#palestrante-foto-11{
@@ -1650,30 +1133,20 @@ body {
 			grid-column: 3/4;					
 		}
 
-			
-
 		#palestrante-nome-11 {
 			grid-row: 4/5;
 			grid-column: 3/4;
-			  
 		}
-
 
 		#palestrante-foto-12{
 			grid-row: 5/6;
 			grid-column: 1/2;					
 		}
-		
-			
 
 		#palestrante-nome-12 {
 			grid-row: 5/6;
 			grid-column: 1/2;
-			  
 		}
-
-
-
 
 		#palestrante-foto-13{
 			grid-row: 5/6;					
@@ -1683,71 +1156,38 @@ body {
 		#palestrante-nome-13 {
 			grid-row: 5/6;					
 			grid-column: 2/3;	
-			  
 		}
-
-
 
 		#palestrante-foto-14{
 			grid-row: 5/6;
 			grid-column: 3/4;					
 		}
-		
-			
 
 		#palestrante-nome-14 {
 			grid-row: 5/6;
 			grid-column: 3/4;
 			font-size: 0.9rem;
-			  
 		}
-
-
 
 		#palestrante-foto-15{
 			grid-row: 6/7;
 			grid-column: 1/2;					
 		}
 
-			
-
 		#palestrante-nome-15 {
 			grid-row: 6/7;
 			grid-column: 1/2;
-			  
 		}
-
-
-
 
 		#palestrante-foto-16{
 			grid-row: 6/7;
 			grid-column:2/3;					
 		}
-		
-			
 
 		#palestrante-nome-16 {
 			grid-row: 6/7;
 			grid-column: 2/3;
-			  
 		}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 		.nome-foto{
 			font-size: 1.1rem;
@@ -1763,18 +1203,7 @@ body {
 
 		.foto-palestrante img{
 			opacity: 0.3;
-			
-			
-
 		}
-
-
-
-	
-
-
-	
-
 	
 	#realizacao{
 		display: grid;
@@ -1793,23 +1222,15 @@ body {
 	}
 }
 
-
-
-
-
-
 @media only screen and (min-width: 400px) and (max-width: 549px){
 
 	#hero h1{
-		
 		font-size: 1.8rem;
 		margin-bottom: 10px;
-		
 	}
 
 	#title-large1.1{
 		line-height: 1rem;
-
 	}
 
 	#hero p{
@@ -1818,15 +1239,11 @@ body {
 
 	#videoBG {
 		width: 1500px
-		
 	}
-
-	
 
 	#cards-evento{
 		grid-template-columns: 400px;
 		grid-template-rows: 600px 600px 600px;
-
 	}
 
 		.texto-evento{
@@ -1836,14 +1253,12 @@ body {
 		.photo{
 			width: 600px;
 			height: 400px;
-			
 		}
 
 	#titulo-programacao{
 		width: 500px;
 		margin-left: auto;
 		margin-right: auto;
-
 	}
 
 	#contato {
@@ -1852,7 +1267,6 @@ body {
 
 	#titulo-informacoes{
 		width: auto;
-
 		text-align: center;
 	}
 
@@ -1863,8 +1277,6 @@ body {
 
 	.flipTimer{
 		scale:0.55;
-		
-
 	}
 
 	#temporizador_legendas{
@@ -1878,29 +1290,16 @@ body {
 			font-size: 1.3rem;
 		}
 
-
-		
-		
-		
-		
-
-
 		#lista-palestrantes{
 			grid-template-rows: 150px repeat(16, 400px);
 			grid-template-columns: 1fr 0px 0px 0px 0px 0px 0px;
-			
-			
-
 		}	
 
 			#lista-palestrantes span{
 				font-size: 1.5rem;
-				
 				margin-top: 90px;
 				margin-right: 20px;
 				margin-left: 28px;
-
-
 			}
 
 
@@ -1909,303 +1308,175 @@ body {
 				text-align: left;
 				color: rgb(0, 0, 0);
 				margin-top: -4px;
-				
-
 				align-self: center;
 				justify-self: center;
 				grid-row: 1/2;
-				
 			}
 
 			#titulo-palestrantes span{
 				font-size: 1.5rem;
 			}
 
-			
-
-
-
-
-
-
 		#palestrante-nome-1 {
 			grid-row: 2/3;
 			grid-column: 1/2;
-			
-			
-			 
 		}
 
 		#palestrante-foto-1{
 			grid-row: 2/3;	
 			grid-column: 1/2;
-			
-							
 		}
-
-
 
 		#palestrante-nome-2 {
 			grid-row: 3/4;
 			grid-column: 1/2;
-			
-			
-			
 		}
 
 		#palestrante-foto-2{
 			grid-row: 3/4;	
 			grid-column: 1/2;
-						
-								
 		}
 
 		#palestrante-foto-3{
 			grid-row: 4/5;	
 			grid-column: 1/2;
-								
 		}				
 
 		#palestrante-nome-3 {
 			grid-row: 4/5;
 			grid-column: 1/2;
-			
-			  
 		}
-
-
-
 
 		#palestrante-foto-4{
 			grid-row: 5/6;
 			grid-column: 1/2;
-								
 		}				
 
 		#palestrante-nome-4 {
 			grid-row: 5/6;
 			grid-column: 1/2;
-			
-			  
 		}
-
-
 
 		#palestrante-foto-5{
 			grid-row: 6/7;
 			grid-column: 1/2;
-								
 		}
-
-			
 
 		#palestrante-nome-5 {
 			grid-row: 6/7;
 			grid-column: 1/2;
-			
-			  
 		}
-
-
-
 
 		#palestrante-foto-6{
 			grid-row: 7/8;	
 			grid-column: 1/2;
-								
 		}
 		
-			
 		#palestrante-nome-6 {
 			grid-row: 7/8;
 			grid-column: 1/2;
-			
-			  
 		}
-
-
 
 		#palestrante-foto-7{
 			grid-row: 8/9;	
 			grid-column: 1/2;
-								
 		}
-
-		
 
 		#palestrante-nome-7 {
 			grid-row: 8/9;
 			grid-column: 1/2;
-			
-			  
 		}
-
-
-
 
 		#palestrante-foto-8{
 			grid-row: 9/10;		
-			grid-column: 1/2;			
-								
+			grid-column: 1/2;
 		}
-		
-			
 
 		#palestrante-nome-8 {
 			grid-row: 9/10;
 			grid-column: 1/2;
-			
-			  
 		}
-
-
 
 		#palestrante-foto-9{
 			grid-row: 10/11;
 			grid-column: 1/2;
-								
 		}
-
-			
 
 		#palestrante-nome-9 {
 			grid-row: 10/11;
 			grid-column: 1/2;
-			
-			  
 		}
-
 
 		#palestrante-foto-10{
 			grid-row: 11/12;
 			grid-column: 1/2;
-								
 		}
-		
 			
 		#palestrante-nome-10 {
 			grid-row: 11/12;
 			grid-column: 1/2;
-			
-			  
 		}
 
 		#palestrante-foto-11{
 			grid-row: 12/13;
 			grid-column: 1/2;
-								
 		}
-
-			
 
 		#palestrante-nome-11 {
 			grid-row: 12/13;
 			grid-column: 1/2;
-			
-			  
 		}
-
 
 		#palestrante-foto-12{
 			grid-row: 13/14;
 			grid-column: 1/2;	
 		}
-		
-			
 
 		#palestrante-nome-12 {
 			grid-row: 13/14;
 			grid-column: 1/2;
-			
-
-			
-			  
 		}
-
-
-
 
 		#palestrante-foto-13{
 			grid-row: 14/15;
-			grid-column: 1/2;					
-								
+			grid-column: 1/2;	
 		}				
 
 		#palestrante-nome-13 {
 			grid-row: 14/15;	
-			grid-column: 1/2;				
-				
-			  
+			grid-column: 1/2;	
 		}
-
-
 
 		#palestrante-foto-14{
 			grid-row: 15/16;
 			grid-column: 1/2;
-							
 		}
-		
-			
 
 		#palestrante-nome-14 {
 			grid-row: 15/16;
 			grid-column: 1/2;
-			
 			font-size: 0.9rem;
-			  
 		}
-
-
 
 		#palestrante-foto-15{
 			grid-row: 16/17;
 			grid-column: 1/2;
-								
 		}
-
-			
 
 		#palestrante-nome-15 {
 			grid-row: 16/17;
 			grid-column: 1/2;
-			
-			  
 		}
-
-
-
 
 		#palestrante-foto-16{
 			grid-row: 17/18;
 			grid-column: 1/2;
-								
 		}
-		
-			
 
 		#palestrante-nome-16 {
 			grid-row: 17/18;
 			grid-column: 1/2;
-			
-			  
 		}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 		.nome-foto{
 			font-size: 1.1rem;
@@ -2221,23 +1492,15 @@ body {
 
 		.foto-palestrante img{
 			opacity: 0.3;
-			
-			
-
 		}
-
 
 	#titulo-programacao{
 		font-size: 1.5rem;
 		width: 350px;
-
 	}
 
 	#botao-programacao{
 		font-size: 1rem;
-		
-
-
 	}
 
 	#ingresso{
@@ -2255,15 +1518,9 @@ body {
 		right: 12px;
 	}
 
-
-
 	#contato{
 		font-size: 1.5rem;
 	}
-
-
-	
-
 	
 	#realizacao{
 		display: grid;
@@ -2291,7 +1548,6 @@ body {
 @media only screen and (max-width: 399px){
 
 	#hero h1{
-		
 		font-size: 1.8rem;
 		margin-bottom: 10px;
 		line-height: 3rem;
@@ -2299,7 +1555,6 @@ body {
 
 	#title-large1.1{
 		line-height: 1rem;
-
 	}
 
 	#hero p{
@@ -2308,15 +1563,11 @@ body {
 
 	#videoBG {
 		width: 1500px
-		
 	}
-
-	
 
 	#cards-evento{
 		grid-template-columns: 350px;
 		grid-template-rows: 600px 600px 600px;
-
 	}
 
 		.texto-evento{
@@ -2326,14 +1577,12 @@ body {
 		.photo{
 			width: 600px;
 			height: 400px;
-			
 		}
 
 	#titulo-programacao{
 		width: 500px;
 		margin-left: auto;
 		margin-right: auto;
-
 	}
 
 	#contato {
@@ -2342,7 +1591,6 @@ body {
 
 	#titulo-informacoes{
 		width: auto;
-
 		text-align: center;
 	}
 
@@ -2353,8 +1601,6 @@ body {
 
 	.flipTimer{
 		scale:0.50;
-		
-
 	}
 
 	#temporizador_legendas{
@@ -2368,334 +1614,191 @@ body {
 			font-size: 1.2rem;
 		}
 
-
-		
-		
-		
-		
-
-
 		#lista-palestrantes{
 			grid-template-rows: 150px repeat(16, 300px);
 			grid-template-columns: 1fr 0px 0px 0px 0px 0px 0px;
-			
-			
-
 		}	
 
 			#lista-palestrantes span{
 				font-size: 1.5rem;
-				
 				margin-top: 52px;
 				margin-right: 20px;
 				margin-left: 28px;
-
-
 			}
-
-
 
 			#titulo-palestrantes {
 				text-align: left;
 				color: rgb(0, 0, 0);
 				margin-top: -4px;
-				
-
 				align-self: center;
 				justify-self: center;
 				grid-row: 1/2;
-				
 			}
 
 			#titulo-palestrantes span{
 				font-size: 1.5rem;
 			}
 
-			
-
-
-
-
-
-
 		#palestrante-nome-1 {
 			grid-row: 2/3;
 			grid-column: 1/2;
-			
-			
-			 
 		}
 
 		#palestrante-foto-1{
 			grid-row: 2/3;	
 			grid-column: 1/2;
-			
-							
 		}
-
-
 
 		#palestrante-nome-2 {
 			grid-row: 3/4;
 			grid-column: 1/2;
-			
-			
-			
 		}
 
 		#palestrante-foto-2{
 			grid-row: 3/4;	
 			grid-column: 1/2;
-						
-								
 		}
 
 		#palestrante-foto-3{
 			grid-row: 4/5;	
 			grid-column: 1/2;
-								
 		}				
 
 		#palestrante-nome-3 {
 			grid-row: 4/5;
 			grid-column: 1/2;
-			
-			  
 		}
-
-
-
 
 		#palestrante-foto-4{
 			grid-row: 5/6;
 			grid-column: 1/2;
-								
 		}				
 
 		#palestrante-nome-4 {
 			grid-row: 5/6;
 			grid-column: 1/2;
-			
-			  
 		}
-
-
 
 		#palestrante-foto-5{
 			grid-row: 6/7;
 			grid-column: 1/2;
-								
 		}
-
-			
 
 		#palestrante-nome-5 {
 			grid-row: 6/7;
 			grid-column: 1/2;
-			
-			  
 		}
-
-
-
 
 		#palestrante-foto-6{
 			grid-row: 7/8;	
 			grid-column: 1/2;
-								
 		}
-		
 			
 		#palestrante-nome-6 {
 			grid-row: 7/8;
 			grid-column: 1/2;
-			
-			  
 		}
-
-
 
 		#palestrante-foto-7{
 			grid-row: 8/9;	
 			grid-column: 1/2;
-								
 		}
-
-		
 
 		#palestrante-nome-7 {
 			grid-row: 8/9;
 			grid-column: 1/2;
-			
-			  
 		}
-
-
-
 
 		#palestrante-foto-8{
 			grid-row: 9/10;		
-			grid-column: 1/2;			
-								
+			grid-column: 1/2;
 		}
-		
-			
 
 		#palestrante-nome-8 {
 			grid-row: 9/10;
 			grid-column: 1/2;
-			
-			  
 		}
-
-
 
 		#palestrante-foto-9{
 			grid-row: 10/11;
 			grid-column: 1/2;
-								
 		}
-
-			
 
 		#palestrante-nome-9 {
 			grid-row: 10/11;
 			grid-column: 1/2;
-			
-			  
 		}
-
 
 		#palestrante-foto-10{
 			grid-row: 11/12;
 			grid-column: 1/2;
-								
 		}
-		
 			
 		#palestrante-nome-10 {
 			grid-row: 11/12;
 			grid-column: 1/2;
-			
-			  
 		}
 
 		#palestrante-foto-11{
 			grid-row: 12/13;
 			grid-column: 1/2;
-								
 		}
-
-			
 
 		#palestrante-nome-11 {
 			grid-row: 12/13;
 			grid-column: 1/2;
-			
-			  
 		}
-
 
 		#palestrante-foto-12{
 			grid-row: 13/14;
 			grid-column: 1/2;	
 		}
-		
-			
 
 		#palestrante-nome-12 {
 			grid-row: 13/14;
 			grid-column: 1/2;
-			
-
-			
-			  
 		}
-
-
-
 
 		#palestrante-foto-13{
 			grid-row: 14/15;
-			grid-column: 1/2;					
-								
+			grid-column: 1/2;	
 		}				
 
 		#palestrante-nome-13 {
 			grid-row: 14/15;	
-			grid-column: 1/2;				
-				
-			  
+			grid-column: 1/2;	
 		}
-
-
 
 		#palestrante-foto-14{
 			grid-row: 15/16;
 			grid-column: 1/2;
-							
 		}
-		
-			
 
 		#palestrante-nome-14 {
 			grid-row: 15/16;
 			grid-column: 1/2;
-			
 			font-size: 0.9rem;
-			  
 		}
-
-
 
 		#palestrante-foto-15{
 			grid-row: 16/17;
 			grid-column: 1/2;
-								
 		}
-
-			
 
 		#palestrante-nome-15 {
 			grid-row: 16/17;
 			grid-column: 1/2;
-			
-			  
 		}
-
-
-
 
 		#palestrante-foto-16{
 			grid-row: 17/18;
 			grid-column: 1/2;
-								
 		}
-		
-			
 
 		#palestrante-nome-16 {
 			grid-row: 17/18;
 			grid-column: 1/2;
-			
-			  
 		}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 		.nome-foto{
 			font-size: 1.1rem;
@@ -2711,23 +1814,15 @@ body {
 
 		.foto-palestrante img{
 			opacity: 0.3;
-			
-			
-
 		}
-
 
 	#titulo-programacao{
 		font-size: 1.5rem;
 		width: 350px;
-
 	}
 
 	#botao-programacao{
 		font-size: 1rem;
-		
-
-
 	}
 
 	#ingresso{
@@ -2745,15 +1840,9 @@ body {
 		right: 30px;
 	}
 
-
-
 	#contato{
 		font-size: 1.4rem;
 	}
-
-
-	
-
 	
 	#realizacao{
 		display: grid;
