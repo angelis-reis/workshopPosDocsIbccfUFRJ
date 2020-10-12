@@ -7,7 +7,8 @@
     gap: 30px;
     width: 100vw;
     align-items: center;
-    justify-items: center;
+	justify-items: center;
+	text-align: center;
     grid-template-areas:
     "org_title org_title org_title org_title"
     " ufrj_logo  pos_biof_logo pos_fisio_logo ibccf_logo ";
@@ -59,11 +60,8 @@
     #realizacao{
 		display: grid;
 		grid-template-columns: 1fr 1fr ;
-		grid-template-rows: 1fr 2fr 2fr;
 		background-color: #ffffff;
 		gap: 30px;
-		padding-top: 60px;
-		padding-bottom: 60px;
 		align-items: center;
 		justify-items: center;
 		grid-template-areas:
@@ -71,6 +69,16 @@
 		" ufrj_logo  pos_biof_logo "
 		"pos_fisio_logo ibccf_logo ";
 	}
+
+	#ufrj_logo{
+        grid-area: ufrj_logo;
+        padding-bottom: 60px;
+    }
+
+    #pos_biof_logo{
+        grid-area:pos_biof_logo;
+        padding-bottom: 60px;
+    }
 }
 
 @media only screen and (min-width: 730px) and (max-width: 1024px){
@@ -78,11 +86,8 @@
     #realizacao{
 		display: grid;
 		grid-template-columns: 1fr 1fr ;
-		grid-template-rows: 1fr 2fr 2fr;
 		background-color: #ffffff;
 		gap: 30px;
-		padding-top: 60px;
-		padding-bottom: 60px;
 		align-items: center;
 		justify-items: center;
 		grid-template-areas:
@@ -90,6 +95,16 @@
 		" ufrj_logo  pos_biof_logo "
 		"pos_fisio_logo ibccf_logo ";
 	}
+
+	#ufrj_logo{
+        grid-area: ufrj_logo;
+        padding-bottom: 60px;
+    }
+
+    #pos_biof_logo{
+        grid-area:pos_biof_logo;
+        padding-bottom: 60px;
+    }
 
 }
 
@@ -98,17 +113,24 @@
     #realizacao{
 		display: grid;
 		grid-template-columns: 1fr 1fr ;
-		grid-template-rows: 1fr 2fr 2fr;
 		background-color: #ffffff;
 		gap: 30px;
-		padding-top: 60px;
-		padding-bottom: 60px;
 		align-items: center;
 		justify-items: center;
 		grid-template-areas:
 		"org_title org_title "
 		" ufrj_logo  pos_biof_logo "
 		"pos_fisio_logo ibccf_logo ";
+	}
+
+	#ufrj_logo{
+        grid-area: ufrj_logo;
+        padding-bottom: 60px;
+    }
+
+    #pos_biof_logo{
+        grid-area:pos_biof_logo;
+        padding-bottom: 60px;
     }
     
 }
@@ -118,11 +140,8 @@
     #realizacao{
 		display: grid;
 		grid-template-columns: 1fr 1fr ;
-		grid-template-rows: 1fr 2fr 2fr;
 		background-color: #ffffff;
 		gap: 20px;
-		padding-top: 60px;
-		padding-bottom: 60px;
 		align-items: center;
 		justify-items: center;
 		grid-template-areas:
@@ -130,6 +149,16 @@
 		" ufrj_logo  pos_biof_logo "
 		"pos_fisio_logo ibccf_logo ";
 	}
+
+	#ufrj_logo{
+        grid-area: ufrj_logo;
+        padding-bottom: 60px;
+    }
+
+    #pos_biof_logo{
+        grid-area:pos_biof_logo;
+        padding-bottom: 60px;
+    }
 
 		#realizacao a img{
 			width: 170px;
@@ -143,18 +172,28 @@
     #realizacao{
 		display: grid;
 		grid-template-columns: 1fr 1fr ;
-		grid-template-rows: 1fr 2fr 2fr;
 		background-color: #ffffff;
 		gap: 20px;
-		padding-top: 60px;
-		padding-bottom: 60px;
-		font-size: 1rem;
 		align-items: center;
 		justify-items: center;
 		grid-template-areas:
 		"org_title org_title "
 		" ufrj_logo  pos_biof_logo "
 		"pos_fisio_logo ibccf_logo ";
+	}
+
+	#ufrj_logo{
+        grid-area: ufrj_logo;
+        padding-bottom: 60px;
+    }
+
+    #pos_biof_logo{
+        grid-area:pos_biof_logo;
+        padding-bottom: 60px;
+	}
+	
+	#org_title{
+		font-size: 1.7rem;
 	}
 
 		#realizacao a img{
