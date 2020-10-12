@@ -1342,6 +1342,11 @@
 		margin-right: auto;
 	}
 
+	#botao-programacao a{
+		font-size: 15px;
+	}
+
+
 	#titulo-informacoes{
 		width: auto;
 		text-align: center;
