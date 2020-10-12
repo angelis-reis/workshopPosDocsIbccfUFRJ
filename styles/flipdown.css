@@ -1,5 +1,6 @@
 
 .example {
+  display: grid;
   font-family: 'Roboto', sans-serif;
   width: 550px;
   height: 178px;
@@ -11,21 +12,6 @@
 .example .flipdown {
   margin: auto;
 }
-
-
-
-
-
-@media(max-width: 550px) {
-  .example {
-    width: 100%;
-    height: 150px;
-  }
-
- 
-}
-
-
 
 /* THEMES */
 
@@ -241,8 +227,13 @@
 
 @media (max-width: 550px) {
 
+  .example {
+    width: 100%;
+    height: 150px;
+  }
+
   .flipdown {
-    width: 312px;
+    width: auto;
     height: 70px;
   }
 

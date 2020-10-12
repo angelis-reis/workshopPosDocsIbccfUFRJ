@@ -94,6 +94,10 @@
 		#button-titulo{
 			padding-top: 50px;
 		}
+
+		#flipdown div{
+
+		}
 	
 		#informacoes-evento{
 			height: auto;
@@ -817,14 +821,6 @@
 		text-align: center;
 	}
 
-	.flipTimer{
-		scale:0.7;
-	}
-
-		.timer{
-			font-size: 1.7rem;
-		}
-
 		#lista-palestrantes{
 			grid-template-rows: repeat(5, 170px);
 			grid-template-columns: 1fr 1fr 1fr;
@@ -1067,13 +1063,7 @@
 		text-align: center;
 	}
 
-	.flipTimer{
-		scale:0.55;
-	}
-
-		.timer{
-			font-size: 1.3rem;
-		}
+	
 
 		#lista-palestrantes{
 			grid-template-rows: 150px repeat(5, 400px);
@@ -1373,15 +1363,7 @@
 		width: auto;
 		text-align: center;
 	}
-
-	.flipTimer{
-		scale:0.50;
-	}
-
-		.timer{
-			font-size: 1.2rem;
-		}
-
+	
 		#lista-palestrantes{
 			grid-template-rows: 150px repeat(16, 300px);
 			grid-template-columns: 1fr 0px 0px 0px 0px 0px 0px;
