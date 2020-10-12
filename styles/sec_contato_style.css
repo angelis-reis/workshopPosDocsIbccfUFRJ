@@ -1,0 +1,42 @@
+#contato{
+    background-color: #3ca7a3;;
+    color: #fafafa;
+    text-align: center;
+    display: grid;
+    width: 100vw;
+}
+
+    #contato-titulo{
+        color: #fafafa;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    #contato-subtitulo{
+        color: #fafafa;
+        padding-bottom: 100px;
+        text-transform: none;
+    }
+
+@media only screen and (min-width: 550px) and (max-width: 729px){
+
+    #contato-titulo {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 549px){
+
+    #contato-titulo {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 399px){
+
+    #contato-titulo{
+		font-size: 1.4rem;
+	}
+
+}
+
