@@ -502,118 +502,6 @@
 			from {opacity: .4}
 			to {opacity: 1}
 		  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-					
-	
-
-		
-	#contato{
-		width: 100vw;
-		background-color:#3ca7a3;
-		color: #ffffff;
-		text-align: center;
-		padding-top: 100px;
-        padding-bottom: 100px;
-        text-transform: none;
-	}
-
-	#realizacao{
-		width: 100vw;
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr;
-		grid-template-rows: 1fr 2fr;
-		background-color: #ffffff;
-		gap: 30px;
-		padding-top: 60px;
-		padding-bottom: 60px;		
-		align-items: center;
-		justify-items: center;
-		grid-template-areas:
-		"org_title org_title org_title org_title"
-		" ufrj_logo  pos_biof_logo pos_fisio_logo ibccf_logo " ;
-		
-	}
-
-		.logos_realizacao{
-			height: 6rem;
-		}
-
-		
-		#realizacao img{
-			transition: 0.3s;
-
-		}
-
-		#realizacao img:hover{
-			scale: 1.05;
-			transition: 0.3s;
-		}
-
-		#org_title{
-			grid-area:org_title;
-
-		}
-
-		#ufrj_logo{
-			grid-area: ufrj_logo;
-
-		}
-
-		#pos_biof_logo{
-			grid-area:pos_biof_logo;
-
-		}
-
-		#pos_fisio_logo{
-			grid-area:pos_fisio_logo;
-
-		}
-
-		#ibccf_logo{
-			grid-area:ibccf_logo;
-
-		}
     
 
     #form_insc{
@@ -623,31 +511,6 @@
         padding-top: 40px;
         padding-bottom: 40px;
 	}
-
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-
-
-
-
-
-
-
 
 
     .formulario{
@@ -755,8 +618,6 @@
     {
         background: #109177;
     }
-    
-
 
 
     #link_disciplina{
@@ -770,94 +631,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (min-width: 1025px) and (max-width: 1268px){
-
-
-
-
-
-	#realizacao{
-		display: grid;
-		grid-template-columns: 1fr 1fr ;
-		grid-template-rows: 1fr 2fr 2fr;
-		background-color: #ffffff;
-		gap: 30px;
-		padding-top: 60px;
-		padding-bottom: 60px;
-		align-items: center;
-		justify-items: center;
-		grid-template-areas:
-		"org_title org_title "
-		" ufrj_logo  pos_biof_logo "
-		"pos_fisio_logo ibccf_logo ";
-	}
-
-	
 
 }
 	
@@ -888,35 +662,6 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
-
-	
-
-
-
-
-
-
-
-
-
-
-
-	
-	#realizacao{
-		display: grid;
-		grid-template-columns: 1fr 1fr ;
-		grid-template-rows: 1fr 2fr 2fr;
-		background-color: #ffffff;
-		gap: 30px;
-		padding-top: 60px;
-		padding-bottom: 60px;
-		align-items: center;
-		justify-items: center;
-		grid-template-areas:
-		"org_title org_title "
-		" ufrj_logo  pos_biof_logo "
-		"pos_fisio_logo ibccf_logo ";
-	}
 }
 
 
@@ -942,25 +687,6 @@
 		position: relative;
 		right: 70px;
 	}
-
-	
-
-	
-	#realizacao{
-		display: grid;
-		grid-template-columns: 1fr 1fr ;
-		grid-template-rows: 1fr 2fr 2fr;
-		background-color: #ffffff;
-		gap: 30px;
-		padding-top: 60px;
-		padding-bottom: 60px;
-		align-items: center;
-		justify-items: center;
-		grid-template-areas:
-		"org_title org_title "
-		" ufrj_logo  pos_biof_logo "
-		"pos_fisio_logo ibccf_logo ";
-	}
 }
 
 
@@ -969,45 +695,11 @@
 	#hero_prog{
 		height: 400px;
 		filter: blur(2px);
-		
-		
 	}
 
 	#evento_texto{
 		font-size: 1.2rem;
 	}
-
-	
-
-
-	#contato{
-		font-size: 1.5rem;
-	}
-
-
-	
-
-	
-	#realizacao{
-		display: grid;
-		grid-template-columns: 1fr 1fr ;
-		grid-template-rows: 1fr 2fr 2fr;
-		background-color: #ffffff;
-		gap: 20px;
-		padding-top: 60px;
-		padding-bottom: 60px;
-		align-items: center;
-		justify-items: center;
-		grid-template-areas:
-		"org_title org_title "
-		" ufrj_logo  pos_biof_logo "
-		"pos_fisio_logo ibccf_logo ";
-	}
-
-		#realizacao a img{
-			width: 170px;
-			height: 80px;
-		}
 }
 
 
@@ -1015,43 +707,9 @@
 	#hero_prog{
 		height: 350px;
 		filter: blur(2px);
-		
-		
 	}
 
 	#evento_texto{
 		font-size: 1.4rem;
 	}
-
-	
-
-
-	#contato{
-		font-size: 1.3rem;
-	}
-
-
-	
-
-	
-	#realizacao{
-		display: grid;
-		grid-template-columns: 1fr 1fr ;
-		grid-template-rows: 1fr 2fr 2fr;
-		background-color: #ffffff;
-		gap: 20px;
-		padding-top: 60px;
-		padding-bottom: 60px;
-		align-items: center;
-		justify-items: center;
-		grid-template-areas:
-		"org_title org_title "
-		" ufrj_logo  pos_biof_logo "
-		"pos_fisio_logo ibccf_logo ";
-	}
-
-		#realizacao a img{
-			width: 170px;
-			height: 80px;
-		}
 }
