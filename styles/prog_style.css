@@ -216,15 +216,6 @@ body {
 							width: 80px;
 							height: 80px;
 							border-radius: 50%;
-							/* filter: grayscale(100%); */
-							/* transition: 0.2s;
-						} */
-
-						/* .icon_palestrante img:hover{
-							width:90px;
-							height: 90px;
-							transition: 0.2s;
-						} */
 					}
 
 				.horario_prog4{
@@ -322,7 +313,6 @@ body {
 									width: 80px;
 									height: 80px;
 									border-radius: 50%;
-									/* filter: grayscale(100%); */
 									transition: 0.2s;
 								}
 		
@@ -377,7 +367,6 @@ body {
 									width: 80px;
 									height: 80px;
 									border-radius: 50%;
-									/* filter: grayscale(100%); */
 									transition: 0.2s;
 								}
 		
@@ -614,8 +603,15 @@ body {
 			height: 6rem;
 		}
 
+		
+		#realizacao img{
+			transition: 0.3s;
+
+		}
+
 		#realizacao img:hover{
-			scale: 1.1;
+			scale: 1.05;
+			transition: 0.3s;
 		}
 
 		#org_title{

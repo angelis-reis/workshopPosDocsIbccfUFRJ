@@ -135,13 +135,15 @@ body {
         
             #films h1{
                 align-self: center ;
-                transition: font-size 0.3s;
+				/* transition: font-size 0.3s; */
+				transition: 0.5s;
             }
         
             #films h1:hover{
                 color: gold;
                 cursor: pointer;
-                font-size: 52px;
+				font-size: 52px;
+				transition: 0.5s;
             }
         
             .film-title{
@@ -660,8 +662,15 @@ body {
 			height: 6rem;
 		}
 
+		
+		#realizacao img{
+			transition: 0.3s;
+
+		}
+
 		#realizacao img:hover{
-			scale: 1.1;
+			scale: 1.05;
+			transition: 0.3s;
 		}
 
 		#org_title{

@@ -478,6 +478,7 @@ body {
 					justify-items: stretch;
 					align-items: stretch;
 					overflow: hidden;
+					transition-duration: 0.6s;
 				}
 
 					.foto-palestrante img{
@@ -584,8 +585,14 @@ body {
 			height: 6rem;
 		}
 
+		#realizacao img{
+			transition: 0.3s;
+
+		}
+
 		#realizacao img:hover{
-			scale: 1.1;
+			scale: 1.05;
+			transition: 0.3s;
 		}
 
 		#org_title{

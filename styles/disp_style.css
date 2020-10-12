@@ -206,11 +206,13 @@ body {
 			font-weight: bolder;
 			padding: 20px 43px;
 			cursor: pointer;
+			transition: 0.5s;
 		}
 	 
 			.button-inscricao:hover {
 				background-color: #3cb1ad ;
 				scale: 1.1;
+				transition: 0.5s;
 			}
 
 		#button-titulo{
@@ -503,8 +505,15 @@ body {
 			height: 6rem;
 		}
 
+		
+		#realizacao img{
+			transition: 0.3s;
+
+		}
+
 		#realizacao img:hover{
-			scale: 1.1;
+			scale: 1.05;
+			transition: 0.3s;
 		}
 
 		#org_title{

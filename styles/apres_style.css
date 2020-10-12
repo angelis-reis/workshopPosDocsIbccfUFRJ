@@ -40,7 +40,6 @@ img {
 }
 
 body {
-	padding-right: -10px;;
 	
 	
 }
@@ -49,8 +48,6 @@ body {
 		margin-top: 80px;
 		height: auto;
 		padding-top: 10px;
-		margin-left: -10px;
-		margin-right: -10px;
 	}
 
 
@@ -71,12 +68,8 @@ body {
 			color: black;
 		}
 
-
-		
-
 		#hero{
 			text-align: center;
-			
 		}
 
 		#hero_prog{
@@ -87,44 +80,15 @@ body {
 			background-repeat: no-repeat;
 			height: 600px;
 			filter: blur(2px);
-			
-			
         }
-
-
-
-
-
-
-
-
-
-
-
 
         
 /* <---------------------------------seção videos-------> */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         #films{
 			display: grid;
 			width: 100vw;
-            
             /* display: none; */
-            
             grid-template-columns: 1fr;
             grid-template-rows: 700px ;
             grid-template-areas: 
@@ -155,45 +119,11 @@ body {
                 grid-area: film1;
                 background-image: url(../images/apresentacoes/evento-2.png);
 				background-size: cover;
-                
-                
-                
             }
         
                 .film-h1-none{
                     display:none;
 				}
-				
-				/* #titulo_apresentacao{
-					font-size: 2.2rem;
-					color: #000000;
-					width: 60%;
-					margin-left: auto;
-					margin-right: auto;
-					font-weight: bolder;
-					display: none;
-					
-					
-
-				}
-        
-                #apresentacao_1{
-                    
-					margin-bottom: 10rem;
-					
-					margin-left: auto;
-					margin-right: auto;
-                    line-height: 100px;
-					font-size: 30px;
-					margin-top: auto;
-					margin-bottom: auto;
-					position: relative
-					
-					
-					
-				} */
-
-
 
 				#titulo_apresentacao{
 					font-size: 2.2rem;
@@ -204,29 +134,18 @@ body {
 					font-weight: bolder;
 					padding-top: 8rem;
 					position: relative;
-					
-					
-					
-
 				}
         
                 #apresentacao_1{
-                    
 					padding-bottom: 10rem;
-					
 					margin-left: auto;
 					margin-right: auto;
                     line-height: 100px;
 					font-size: 30px;
-					
-					
-					
 				}
-
-
 					#apresentacao_1 img{
 						height: 10rem;
-						
+						transition: 0.3s;
 					}
 				
 					#apresentacao_1 img:hover{
@@ -234,25 +153,15 @@ body {
 						scale: 1.1;
 						transition: 0.3s;
 					}
-				
-					
-               
         
                 #apresentacao_1-player{
                     display:none;
                     position: relative;
-					
 					margin-left: auto;
 					margin-right: auto;
 					margin-top: auto;
 					margin-bottom: auto;
-					
 				}
-
-					
-					
-        
-                
         
                 .film-player-inherit{
                     display:inherit;
@@ -260,11 +169,6 @@ body {
                     margin-left: auto;
                     margin-right: auto;
                 } 
-        
-		
-		
-
-
 
 		.title-large1 {
 			font-family: 'versaversa';
@@ -273,7 +177,6 @@ body {
 			line-height: 1;
 			padding: 1rem .5rem .5rem .5rem;
 			margin-bottom: 5px;
-			
 			width: auto;
 		}
 
@@ -281,7 +184,6 @@ body {
 				background-color: #2edb96;
 				padding-left: 10px;
 				padding-right: 10px;
-
 			}
 
 		.title-large2 {
@@ -291,16 +193,13 @@ body {
 			line-height: 1em;
 			padding: 1rem .5rem .5rem .5rem;
 			margin-bottom: 5px;
-			
 		}
 
 		.title-large2 strong{
 			background-color: #379634;
 			padding-left: 10px;
 			padding-right: 10px;
-
 		}
-
 
 		.title-large3 {
 			font-family: 'sora';
@@ -308,8 +207,6 @@ body {
 			font-size: 2rem;
 			line-height: 1.2em;
 			padding: 1rem .5rem .5rem .5rem;
-			
-			
 			margin-bottom: 60px;
 			margin-top: 60px;
 		}
@@ -320,12 +217,8 @@ body {
 			font-size: 2.1rem;
 			line-height: 1em;
 			padding: 1rem .5rem .5rem .5rem;
-			
 			background-color: #89da86;
-			
-
 		}
-
 
 		.title-large3 {
 			font-family: 'sora';
@@ -333,8 +226,6 @@ body {
 			font-size: 2rem;
 			line-height: 1.2em;
 			padding: 1rem .5rem .5rem .5rem;
-			
-			
 			margin-bottom: 60px;
 			margin-top: 60px;
 		}
@@ -380,11 +271,13 @@ body {
 			font-weight: bolder;
 			padding: 20px 43px;
 			cursor: pointer;
+			transition: 0.3s;
 		}
 		
 			.button-inscricao:hover {
 				background-color: #3cb1ad ;
 				scale: 1.1;
+				transition: 0.3s;
 			}
 
 		#button-titulo{
@@ -548,66 +441,39 @@ body {
 			height: 6rem;
 		}
 
+		
+		#realizacao img{
+			transition: 0.3s;
+
+		}
+
 		#realizacao img:hover{
-			scale: 1.1;
-			transition: 0.2s;
+			scale: 1.05;
+			transition: 0.3s;
 		}
 
 		#org_title{
 			grid-area:org_title;
-			
-
 		}
 
 		#ufrj_logo{
 			grid-area: ufrj_logo;
-
 		}
 
 		#pos_biof_logo{
 			grid-area:pos_biof_logo;
-
 		}
 
 		#pos_fisio_logo{
 			grid-area:pos_fisio_logo;
-
 		}
 
 		#ibccf_logo{
 			grid-area:ibccf_logo;
-
 		}
-    
-
-    
-		
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
+		/* <----------------------------------@media--------------------------------------> */
 
 
 
@@ -617,10 +483,6 @@ body {
 		margin-top: 1px;
 		margin-right: 10px;
 		margin-bottom: 1px;
-		
-		
-		
-
 	}
 
 	#apontador_dia{
@@ -629,17 +491,10 @@ body {
 		grid-template-areas:
 		"icone_dia recorte";
 		font-size: 0.8rem;
-
-
-
-
 	}
-
-	
 
 	.dia{
 		width: 580px;
-		
 	}
 
 	.horario_prog{
@@ -649,16 +504,11 @@ body {
 		align-items: center;
 		justify-items: left;
 		border-bottom-style: dashed;
-		
 		grid-template-areas:
 		"horario titulo_palestra"
 		"... icon_palestrate"
 		"categoria icon_palestrante";
 	}
-
-
-
-
 
 	#realizacao{
 		display: grid;
@@ -676,20 +526,15 @@ body {
 		"pos_fisio_logo ibccf_logo ";
 	}
 
-	
-
 }
 	
 	
 @media only screen and (min-width: 730px) and (max-width: 1024px){
 
-
 	#apresentacao_1-player{
 		width: 700px;
 		height: 460px;
-
 	}
-
 
 	#temporizador{
 		position: relative;
@@ -698,8 +543,6 @@ body {
 
 	.flipTimer{
 		scale:0.8;
-		
-
 	}
 
 	#temporizador_legendas{
@@ -715,22 +558,15 @@ body {
 		}
 
 	#prog_title {
-		
 		margin-left: auto;
 		margin-right: auto;
 		text-align: center;
-		
-
 	}
 
 	#prog_subtitle {
-		
 		text-align: center;
 		padding-bottom: 50px;
-		
-
 	}
-
 
 	.programacao_completa{
 		margin-left: auto;
@@ -740,7 +576,6 @@ body {
 		display: grid;
 		padding-bottom: 40px;
 		gap: 50px;
-		
 		grid-template-columns: 1fr 3fr;
 		grid-template-areas: 
 		"icone_dia dia";
@@ -752,17 +587,10 @@ body {
 		grid-template-areas:
 		"icone_dia recorte";
 		font-size: 0.7rem;
-
-
-
-
 	}
-
-	
 
 	.dia{
 		width: 500px;
-		
 	}
 
 	.horario_prog{
@@ -772,7 +600,6 @@ body {
 		align-items: center;
 		justify-items: left;
 		border-bottom-style: dashed;
-		
 		grid-template-areas:
 		"horario titulo_palestra"
 		"... icon_palestrate"
@@ -782,7 +609,6 @@ body {
 		.titulo_palestra{
 			font-size: 1.2rem;
 			margin-bottom: 2px;
-
 		}
 
 		.horario_prog p, img {
@@ -793,12 +619,9 @@ body {
 			padding-bottom: 10px;
 		}
 
-	
-
 		.titulo_palestra3{
 			font-size: 1.2rem;
 			margin-bottom: 2px;
-
 		}
 
 		.horario_prog3 p, img {
@@ -808,17 +631,6 @@ body {
 		.icon_palestrante3 {
 			padding-bottom: 10px;
 		}
-
-
-
-
-
-
-
-
-
-
-
 	
 	#realizacao{
 		display: grid;
@@ -840,11 +652,9 @@ body {
 
 @media only screen and (min-width: 550px) and (max-width: 729px){
 
-
 	#apresentacao_1-player{
 		width: 500px;
 		height: 320px;
-
 	}
 
 	#apresentacao_1{
@@ -856,12 +666,9 @@ body {
 		font-size: 25px;
 	}
 
-	
-
 	#hero_prog{
 		height: 400px;
 	}
-
 
 	#temporizador{
 		position: relative;
@@ -870,8 +677,6 @@ body {
 
 	.flipTimer{
 		scale:0.7;
-		
-
 	}
 
 	#temporizador_legendas{
@@ -887,22 +692,15 @@ body {
 		}
 
 	#prog_title {
-		
 		margin-left: auto;
 		margin-right: auto;
 		text-align: center;
-		
-
 	}
 
 	#prog_subtitle {
-		
 		text-align: center;
 		padding-bottom: 50px;
-		
-
 	}
-
 
 	.programacao_completa{
 		margin-left: auto;
@@ -912,7 +710,6 @@ body {
 		display: grid;
 		padding-bottom: 40px;
 		gap: 50px;
-		
 		grid-template-columns: 1fr 3fr;
 		grid-template-areas: 
 		"icone_dia dia";
@@ -924,17 +721,10 @@ body {
 		grid-template-areas:
 		"icone_dia recorte";
 		font-size: 0.7rem;
-
-
-
-
 	}
-
-	
 
 	.dia{
 		width: 500px;
-		
 	}
 
 	.horario_prog{
@@ -944,7 +734,6 @@ body {
 		align-items: center;
 		justify-items: left;
 		border-bottom-style: dashed;
-		
 		grid-template-areas:
 		"horario titulo_palestra"
 		"... icon_palestrate"
@@ -954,7 +743,6 @@ body {
 		.titulo_palestra{
 			font-size: 1.2rem;
 			margin-bottom: 2px;
-
 		}
 
 		.horario_prog p, img {
@@ -965,12 +753,9 @@ body {
 			padding-bottom: 10px;
 		}
 
-	
-
 		.titulo_palestra3{
 			font-size: 1.2rem;
 			margin-bottom: 2px;
-
 		}
 
 		.horario_prog3 p, img {
@@ -980,17 +765,6 @@ body {
 		.icon_palestrante3 {
 			padding-bottom: 10px;
 		}
-
-
-
-
-
-
-
-
-
-
-
 	
 	#realizacao{
 		display: grid;
@@ -1012,16 +786,13 @@ body {
 
 @media only screen and (min-width: 400px) and (max-width: 549px){
 
-
 	.films{
 		height: 400px;
 	}
 
-
 	#apresentacao_1-player{
 		width: 390px;
 		height: 245px;
-
 	}
 
 	#apresentacao_1{
@@ -1037,7 +808,6 @@ body {
 		height: 400px;
 	}
 
-
 	#temporizador{
 		position: relative;
 		right: 32vw;
@@ -1045,8 +815,6 @@ body {
 
 	.flipTimer{
 		scale:0.55;
-		
-
 	}
 
 	#temporizador_legendas{
@@ -1062,22 +830,15 @@ body {
 		}
 
 	#prog_title {
-		
 		margin-left: auto;
 		margin-right: auto;
 		text-align: center;
-		
-
 	}
 
 	#prog_subtitle {
-		
 		text-align: center;
 		padding-bottom: 50px;
-		
-
 	}
-
 
 	.programacao_completa{
 		margin-left: auto;
@@ -1087,7 +848,6 @@ body {
 		display: grid;
 		padding-bottom: 40px;
 		gap: 50px;
-		
 		grid-template-columns: 1fr 3fr;
 		grid-template-areas: 
 		"icone_dia dia";
@@ -1099,17 +859,10 @@ body {
 		grid-template-areas:
 		"icone_dia recorte";
 		font-size: 0.7rem;
-
-
-
-
 	}
-
-	
 
 	.dia{
 		width: 500px;
-		
 	}
 
 	.horario_prog{
@@ -1119,7 +872,6 @@ body {
 		align-items: center;
 		justify-items: left;
 		border-bottom-style: dashed;
-		
 		grid-template-areas:
 		"horario titulo_palestra"
 		"... icon_palestrate"
@@ -1129,7 +881,6 @@ body {
 		.titulo_palestra{
 			font-size: 1.2rem;
 			margin-bottom: 2px;
-
 		}
 
 		.horario_prog p, img {
@@ -1140,12 +891,9 @@ body {
 			padding-bottom: 10px;
 		}
 
-	
-
 		.titulo_palestra3{
 			font-size: 1.2rem;
 			margin-bottom: 2px;
-
 		}
 
 		.horario_prog3 p, img {
@@ -1156,24 +904,9 @@ body {
 			padding-bottom: 10px;
 		}
 
-
-
-
-
 	#contato{
 		font-size: 1.5rem;
 	}
-
-
-
-
-
-
-
-
-
-
-
 	
 	#realizacao{
 		display: grid;
@@ -1200,22 +933,18 @@ body {
 
 @media only screen and (max-width: 399px){
 
-
 	.films{
 		height: 400px;
 	}
 
-
 	#apresentacao_1-player{
 		width: 320px;
 		height: 215px;
-
 	}
 	
 	#hero_prog{
 		height: 400px;
 	}
-
 
 	#temporizador{
 		position: relative;
@@ -1224,8 +953,6 @@ body {
 
 	.flipTimer{
 		scale:0.45;
-		
-
 	}
 
 	#temporizador_legendas{
@@ -1241,22 +968,15 @@ body {
 		}
 
 	#prog_title {
-		
 		margin-left: auto;
 		margin-right: auto;
 		text-align: center;
-		
-
 	}
 
 	#prog_subtitle {
-		
 		text-align: center;
 		padding-bottom: 50px;
-		
-
 	}
-
 
 	.programacao_completa{
 		margin-left: auto;
@@ -1265,8 +985,7 @@ body {
 		height: auto;
 		display: grid;
 		padding-bottom: 40px;
-		gap: 50px;
-		
+		gap: 50px;		
 		grid-template-columns: 1fr 3fr;
 		grid-template-areas: 
 		"icone_dia dia";
@@ -1278,17 +997,10 @@ body {
 		grid-template-areas:
 		"icone_dia recorte";
 		font-size: 0.7rem;
-
-
-
-
-	}
-
-	
+	}	
 
 	.dia{
-		width: 500px;
-		
+		width: 500px;		
 	}
 
 	.horario_prog{
@@ -1297,8 +1009,7 @@ body {
 		grid-template-rows: 3fr 0.5fr 3fr;
 		align-items: center;
 		justify-items: left;
-		border-bottom-style: dashed;
-		
+		border-bottom-style: dashed;		
 		grid-template-areas:
 		"horario titulo_palestra"
 		"... icon_palestrate"
@@ -1308,7 +1019,6 @@ body {
 		.titulo_palestra{
 			font-size: 1.2rem;
 			margin-bottom: 2px;
-
 		}
 
 		.horario_prog p, img {
@@ -1317,14 +1027,11 @@ body {
 
 		.icon_palestrante {
 			padding-bottom: 10px;
-		}
-
-	
+		}	
 
 		.titulo_palestra3{
 			font-size: 1.2rem;
 			margin-bottom: 2px;
-
 		}
 
 		.horario_prog3 p, img {
@@ -1335,24 +1042,9 @@ body {
 			padding-bottom: 10px;
 		}
 
-
-
-
-
 	#contato{
 		font-size: 1.3rem;
 	}
-
-
-
-
-
-
-
-
-
-
-
 	
 	#realizacao{
 		display: grid;
@@ -1374,5 +1066,4 @@ body {
 			width: 150px;
 			height: 70px;
 		}
-
 }
