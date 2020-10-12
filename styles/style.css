@@ -1,3 +1,11 @@
+/* regras de formatação:
+
+espaço de 100px acima e abaixo das seções.
+todos títulos como h4 com class:title 
+font-family: 'versaversa', sans-serif;
+ */
+
+
 html, body, h2, h1, h3, h4, h5, p{  
 	font-family: 'versaversa', sans-serif;
 	margin: 0;
@@ -47,11 +55,7 @@ body {
 
 	header {
 		margin-top: 80px;
-		/* height: 900px; */
-		/* retirei 200 px pela falta do timer */
 		padding-top: 10px;
-		/* margin-left: -10px;
-		margin-right: -10px; */
 		width: 100vw;
 	}
 

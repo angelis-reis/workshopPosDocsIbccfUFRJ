@@ -45,8 +45,6 @@ body {
 		margin-top: 80px;
 		height: auto;
 		padding-top: 10px;
-		margin-left: -10px;
-		margin-right: -10px;
 	}
 
 		.title{
@@ -164,8 +162,6 @@ body {
 	#contato{
 		background-color: #3ca7a3;
 		color: #ffffff;
-		margin-left: -8px;
-		margin-right: -8px;
 		text-align: center;
 		padding-top: 100px;
 		padding-bottom: 100px;
@@ -225,8 +221,6 @@ body {
 
     #form_insc{
 		background-color: #ffffff;
-		margin-left: -8px;
-		margin-right: -8px;
 		align-items: center;
         justify-items: center;
         padding-top: 40px;

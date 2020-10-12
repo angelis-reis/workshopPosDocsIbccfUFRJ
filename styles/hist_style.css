@@ -1,4 +1,4 @@
-html, body, h2, h1, h3, h4, p {  
+html, body, h2, h1, h3, h4, h5, p {  
 	font-family: "Raleway", sans-serif;
     margin: 0;  
 	padding: 0; 
@@ -11,7 +11,6 @@ html {
 	height: auto;
 	scroll-behavior: smooth;
 	width: 100vw;
-	
 }
 
 h4 {
@@ -40,9 +39,6 @@ img {
 }
 
 body {
-	padding-right: -10px;;
-	
-	
 }
 
 .recuo { 
@@ -397,9 +393,6 @@ body {
 
         background-color: #ffffff;
         color: #000000;
-        margin-left: -8px;
-        margin-right: -8px;
-        
         padding-top: 100px;
         padding-bottom: 100px;
         
@@ -701,8 +694,6 @@ body {
 
     #form_insc{
 		background-color: #ffffff;
-		margin-left: -8px;
-		margin-right: -8px;
 		align-items: center;
         justify-items: center;
         padding-top: 40px;
