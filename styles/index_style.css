@@ -94,6 +94,10 @@
 		#button-titulo{
 			padding-top: 50px;
 		}
+
+		#flipdown div{
+
+		}
 	
 		#informacoes-evento{
 			height: auto;
@@ -817,14 +821,6 @@
 		text-align: center;
 	}
 
-	.flipTimer{
-		scale:0.7;
-	}
-
-		.timer{
-			font-size: 1.7rem;
-		}
-
 		#lista-palestrantes{
 			grid-template-rows: repeat(5, 170px);
 			grid-template-columns: 1fr 1fr 1fr;
@@ -1067,16 +1063,10 @@
 		text-align: center;
 	}
 
-	.flipTimer{
-		scale:0.55;
-	}
-
-		.timer{
-			font-size: 1.3rem;
-		}
+	
 
 		#lista-palestrantes{
-			grid-template-rows: 150px repeat(16, 400px);
+			grid-template-rows: 150px repeat(5, 400px);
 			grid-template-columns: 1fr 0px 0px 0px 0px 0px 0px;
 		}	
 
@@ -1153,112 +1143,134 @@
 		#palestrante-foto-6{
 			grid-row: 7/8;	
 			grid-column: 1/2;
+			display: none;
 		}
 		
 		#palestrante-nome-6 {
 			grid-row: 7/8;
 			grid-column: 1/2;
+			display: none;
 		}
 
 		#palestrante-foto-7{
 			grid-row: 8/9;	
 			grid-column: 1/2;
+			display: none;
 		}
 
 		#palestrante-nome-7 {
 			grid-row: 8/9;
 			grid-column: 1/2;
+			display: none;
 		}
 
 		#palestrante-foto-8{
 			grid-row: 9/10;		
 			grid-column: 1/2;
+			display: none;
 		}
 
 		#palestrante-nome-8 {
 			grid-row: 9/10;
 			grid-column: 1/2;
+			display: none;
 		}
 
 		#palestrante-foto-9{
 			grid-row: 10/11;
 			grid-column: 1/2;
+			display: none;
 		}
 
 		#palestrante-nome-9 {
 			grid-row: 10/11;
 			grid-column: 1/2;
+			display: none;
 		}
 
 		#palestrante-foto-10{
 			grid-row: 11/12;
 			grid-column: 1/2;
+			display: none;
 		}
 			
 		#palestrante-nome-10 {
 			grid-row: 11/12;
 			grid-column: 1/2;
+			display: none;
 		}
 
 		#palestrante-foto-11{
 			grid-row: 12/13;
 			grid-column: 1/2;
+			display: none;
 		}
 
 		#palestrante-nome-11 {
 			grid-row: 12/13;
 			grid-column: 1/2;
+			display: none;
 		}
 
 		#palestrante-foto-12{
 			grid-row: 13/14;
-			grid-column: 1/2;	
+			grid-column: 1/2;
+			display: none;	
 		}
 
 		#palestrante-nome-12 {
 			grid-row: 13/14;
 			grid-column: 1/2;
+			display: none;
 		}
 
 		#palestrante-foto-13{
 			grid-row: 14/15;
-			grid-column: 1/2;	
+			grid-column: 1/2;
+			display: none;	
 		}				
 
 		#palestrante-nome-13 {
 			grid-row: 14/15;	
-			grid-column: 1/2;	
+			grid-column: 1/2;
+			display: none;	
 		}
 
 		#palestrante-foto-14{
 			grid-row: 15/16;
 			grid-column: 1/2;
+			display: none;
 		}
 
 		#palestrante-nome-14 {
 			grid-row: 15/16;
 			grid-column: 1/2;
 			font-size: 0.9rem;
+			display: none;
 		}
 
 		#palestrante-foto-15{
 			grid-row: 16/17;
 			grid-column: 1/2;
+			display: none;
 		}
 
 		#palestrante-nome-15 {
 			grid-row: 16/17;
 			grid-column: 1/2;
+			display: none;
 		}
 
 		#palestrante-foto-16{
 			grid-row: 17/18;
 			grid-column: 1/2;
+			display: none;
 		}
 
 		#palestrante-nome-16 {
 			grid-row: 17/18;
 			grid-column: 1/2;
+			display: none;
 		}
 
 		.nome-foto{
@@ -1351,15 +1363,7 @@
 		width: auto;
 		text-align: center;
 	}
-
-	.flipTimer{
-		scale:0.50;
-	}
-
-		.timer{
-			font-size: 1.2rem;
-		}
-
+	
 		#lista-palestrantes{
 			grid-template-rows: 150px repeat(16, 300px);
 			grid-template-columns: 1fr 0px 0px 0px 0px 0px 0px;
