@@ -1,3 +1,7 @@
+<!-- arquivos modulares, o header, contato, realização e footer se repetem em todas as páginas e tem cada um um css próprio.
+O head, apenas mudo o enderelo da folha de estilo específica, neste caso o index-style.css o resto é igual em todas as páginas. -->
+
+
 <!DOCTYPE html>
 
 <html>
@@ -21,17 +25,19 @@
 
 		<!-- links para as folhas de estilo -->
 
-		<link rel="stylesheet" type="text/css" href="styles/style.css">
+		<link rel="stylesheet" type="text/css" href="styles/index_style.css">
+
+		<link rel="stylesheet" type="text/css" href="styles/geral_style.css">
+
+		<link rel="stylesheet" type="text/css" href="styles/header_style.css">
+
+		<link rel="stylesheet" type="text/css" href="styles/sec_realizacao_style.css">
+
+		<link rel="stylesheet" type="text/css" href="styles/sec_contato_style.css">
 
 		<link rel="stylesheet" type="text/css" href="styles/footer.css">
 
-		<link rel="stylesheet" type="text/css" href="styles/header-no-js.css">
-
 		<link rel="stylesheet" type="text/css" href="styles/flipdown.css">
-
-		
-
-		
 
 		<!-- links para as favicons -->
 
@@ -53,114 +59,103 @@
 		<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
 		<meta name="theme-color" content="#ffffff">
 
-		
-
 	</head>
 
 	<body>
 
 		<header>
 
-			
-
 			<div id="cabecalho">
 
 				<a id="logo"  href="index.html"><img  src="images/logo.png" alt="Logo Workshop Pós Doutores"></a>
 
-				
-
 				<nav id="links">
 
 					<ul>
+						<li>
+							<a  href="prog.html">Programação</a>
+						</li>
 
-						<li><a  href="prog.html">Programação</a></li>
+						<li>
+							<a  href="apres.html">Assistir</a>
+						</li>
 
-						<li><a  href="apres.html">Assistir</a></li>
+						<li>
+							<a href="hist.html">O Evento</a>
+						</li>
 
-						<li><a href="hist.html">O Evento</a></li>
-
-						<li><a  href="#contato">Contato</a></li>
-
+						<li>
+							<a  href="#contato">Contato</a>
+						</li>
 					</ul>
 
 				</nav>
 
 				<a id="button-header" class="button-inscricao_header" href="insc.html"  > INSCRIÇÃO </a>
 
-
-
-
 				<div class="nav-toggle">
-					<div class="nav-toggle-bar">
-			
-					</div>
-				</div>
 
+					<div class="nav-toggle-bar">
+					</div>
+
+				</div>
 
 				<nav id="nav" class="nav">
 
 					<ul>
+						<li>
+							<a  href="prog.html">Programação
 
-						
+							</a></li>
 
-						<li><a  href="prog.html">Programação</a></li>
+						<li>
+							<a  href="apres.html">Assistir
 
-						<li><a  href="apres.html">Assistir</a></li>
+							</a></li>
 
-						<li><a href="hist.html">O Evento</a></li>
+						<li>
+							<a href="hist.html">O Evento<
+								/a></li>
 
-						<!-- <li><a  href="#contato">Contato</a></li> -->
-
-						<li><a id="button-header2" class="button-inscricao" href="insc.html"  > INSCRIÇÃO </a></li>
-
-						
-
+						<li>
+							<a id="button-header2" class="button-inscricao" href="insc.html"  > INSCRIÇÃO </a>
+						</li>
 					</ul>
 
 				</nav>
 
-				
-
-
-				
-
 			</div>
-
-			<section id="hero">
-
-				<video id="videoBG" poster="poster.png" autoplay muted loop> <source src="images/abstract_line3.mp4" type="video/mp4"></video>
-
-				<h1 id ="work"class="title-large1"><strong>IV WORKSHOP DOS PÓS DOUTORES  </strong></h1>
-
-				<h1 class="title-large1_1"> <strong> DO IBCCF - UFRJ </strong> </h1>
-
-				<p class="title-large2"><strong>Participe você também </strong></p>
-
-				<p class="title-large3">DATA: 3, 4 E 5 DE NOVEMBRO</p>
-
-				
-
-				<div class="example">
-			
-					<div id="flipdown" class="flipdown">
-		
-					</div>
-					
-				</div>
-
-				<div id="button-titulo" >
-					<a href="insc.html" class="button-inscricao"> INSCRIÇÃO </a>
-				</div>
-
-				
-
-			</section>
 
 		</header>
 
-		<section id="informacoes-evento">
+		<section id="hero-index">
 
+			<!-- trocar pelo abstractline.mp4 -->
+
+			<video id="videoBG" poster="poster.png" autoplay muted loop> <source src="images/abstract_line3.mp4" type="video/mp4"></video>
+
+			<h1 id ="work"class="title-large1"><strong>IV WORKSHOP DOS PÓS DOUTORES  </strong></h1>
+
+			<h1 class="title-large1_1"> <strong> DO IBCCF - UFRJ </strong> </h1>
+
+			<p class="title-large2"><strong>Participe você também </strong></p>
+
+			<p class="title-large3">DATA: 3, 4 E 5 DE NOVEMBRO</p>
 			
+			<div class="example">
+		
+				<div id="flipdown" class="flipdown">
+				</div>
+
+			</div>
+
+			<div id="button-titulo" >
+				<a href="insc.html" class="button-inscricao"> INSCRIÇÃO </a>
+			</div>
+
+		</section>
+
+		<section id="informacoes-evento">
 
 			<h4 class="title" id="titulo-informacoes">VAMOS PENSAR FORA DA CAIXA?</h4>
 
@@ -172,7 +167,7 @@
 
 					<div class="texto-evento">
 					
-						<h4 class="card-title subtitle"  >Assista</h4>		
+						<h5 class="card-title subtitle"  >Assista</h5>		
 					
 						<p class="card-text" >Venha assistir apresentações dos mais variados temas</p>		
 					
@@ -180,21 +175,21 @@
 
 				</div>
 
+
 				<div id="card-evento-2">
 
 					<div class="photo"><img class="photo" src="images/evento/sutudent.jpg" alt="Evento ano anterior"></div>
 
 					<div class="texto-evento">
 					
-						<h4 class="card-title subtitle">Pergunte</h4>		
+						<h5 class="card-title subtitle">Pergunte</h5>		
 					
 						<p class="card-text"> O evento poderá ser incluido como disciplina da pós-graduação <a href="disp.html">(saiba mais)</a></p>		
 					
 					</div>
-						
-	
 					
 				</div>
+
 
 				<div id="card-evento-3">
 
@@ -202,7 +197,7 @@
 
 					<div class="texto-evento">
 					
-						<h4 class="card-title subtitle">Interaja</h4>		
+						<h5 class="card-title subtitle">Interaja</h5>		
 					
 						<p class="card-text">O curso desta edição será sobre comunicação não violenta</p>		
 					
@@ -216,35 +211,21 @@
 		
 
 		<section id="palestrantes" >
-			
 
-			<section id="lista-palestrantes">
+			<div id="lista-palestrantes">
 
 				<div id="titulo-palestrantes">
-
 					<h4 class="title" >CONHEÇA NOSSOS<br> PALESTRANTES</h4>
-
-
 				</div>
-
-				
-
 				
 
 				<div id="palestrante-nome-1" class="foto-palestrante" >
 					<span  class="nome-foto subtitle-1">Prof. Adalberto Vieyra</span>
 					<span class="descricao-foto">Diretor do CENABIO <br> UFRJ </span>
 				</div>
-
-				
-
-				
 				<div id="palestrante-foto-1" class="foto-palestrante" >
 					<img src="images/palestrantes_icons/palestrante1.g.jpeg">
 				</div>
-				
-				
-
 
 
 				<div id="palestrante-nome-2" class="foto-palestrante">
@@ -252,39 +233,33 @@
 					<span class="descricao-foto">Doutora em Comunicação Social - UFF
 					</span>
 				</div>
-
 				<div id="palestrante-foto-2" class="foto-palestrante">
 					<img src="images/palestrantes_icons/palestrante2.g.jpeg">
 				</div>
-
-
 
 				
 				<div id="palestrante-nome-3" class="foto-palestrante">
 					<span class="nome-foto">Prof. Jerson Lima</span>
 					<span class="descricao-foto">Presidente FAPERJ</span>
 				</div>
-
 				<div id="palestrante-foto-3" class="foto-palestrante">
 					<img src="images/palestrantes_icons/palestrante3.1g.jpg">
 				</div>
-
 				
 
 				<div id="palestrante-nome-4" class="foto-palestrante">
 					<span class="nome-foto">Prof. Denise Pires </span>
 					<span class="descricao-foto">Reitora UFRJ</span>
 				</div>
-
 				<div id="palestrante-foto-4" class="foto-palestrante">
 					<img src="images/palestrantes_icons/palestrante3.2g.jpg">
 				</div>
+
 
 				<div id="palestrante-nome-5" class="foto-palestrante">
 					<span class="nome-foto">Prof. Wanderley de Souza</span>
 					<span class="descricao-foto">Academia Brasileira de Ciências</span>
 				</div>
-
 				<div id="palestrante-foto-5" class="foto-palestrante">
 					<img src="images/palestrantes_icons/palestrante3.3.g.jpeg">
 				</div>
@@ -293,17 +268,16 @@
 				<div id="palestrante-nome-6" class="foto-palestrante">
 					<span class="nome-foto">Prof. Tatiana Roque</span>
 					<span class="descricao-foto">Fórum Ciência e Cultura <br> UFRJ</span>
-				</div>
-
+				</div>				
 				<div id="palestrante-foto-6" class="foto-palestrante">
 					<img src="images/palestrantes_icons/palestrante3.4g.webp">
 				</div>
+
 
 				<div id="palestrante-nome-7" class="foto-palestrante">
 					<span class="nome-foto">Prof. Lúcio Caldas</span>
 					<span class="descricao-foto">UFRJ</span>
 				</div>
-
 				<div id="palestrante-foto-7" class="foto-palestrante">
 					<img src="images/palestrantes_icons/palestrante_4g.png">
 				</div>
@@ -313,16 +287,15 @@
 					<span class="nome-foto">Dra. Aline R. Vianna de Souza</span>
 					<span class="descricao-foto">@soapboxsciencebrasil</span>
 				</div>
-
 				<div id="palestrante-foto-8" class="foto-palestrante">
 					<img src="images/palestrantes_icons/palestrante5.1g.jpg">
 				</div>
+
 
 				<div id="palestrante-nome-9" class="foto-palestrante">
 					<span class="nome-foto">Dra. Juliana Cunha Vidal </span>
 					<span class="descricao-foto">@biofatos</span>
 				</div>
-
 				<div id="palestrante-foto-9" class="foto-palestrante">
 					<img src="images/palestrantes_icons/palestrante5.2g.jpg">
 				</div>
@@ -332,17 +305,16 @@
 					<span class="nome-foto">Dra. Paula Mattos</span>
 					<span class="descricao-foto">@lip_ufrj</span>
 				</div>
-
 				<div id="palestrante-foto-10" class="foto-palestrante">
 					<img src="images/palestrantes_icons/palestrante5.3g.jpg">
 				</div>
+
 
 				<div id="palestrante-nome-11" class="foto-palestrante">
 					<span class="nome-foto">Prof. Eliezer Barreiro</span>
 					<span class="descricao-foto">Coordenador do INCT <br> Fármacos e Medicamentos
 					</span>
 				</div>
-
 				<div id="palestrante-foto-11" class="foto-palestrante">
 					<img src="images/palestrantes_icons/palestrante6.g.jpeg">
 				</div>
@@ -352,16 +324,15 @@
 					<span class="nome-foto">Prof. Robson Cruz</span>
 					<span class="descricao-foto">Doutor em Psicologia<br> PUC – MG </span>
 				</div>
-
 				<div id="palestrante-foto-12" class="foto-palestrante">
 					<img src="images/palestrantes_icons/palestrante7.1g.jpg">
 				</div>
+
 
 				<div id="palestrante-nome-13" class="foto-palestrante">
 					<span class="nome-foto">Prof. Lucia Abelha </span>
 					<span class="descricao-foto">Médica e psiquiatra <br>IESC - UFRJ </span>
 				</div>
-
 				<div id="palestrante-foto-13" class="foto-palestrante">
 					<img src="images/palestrantes_icons/palestrante7.2g.jpg">
 				</div>
@@ -371,16 +342,15 @@
 					<span class="nome-foto">Prof. Susana Frases</span>
 					<span class="descricao-foto">Coordenadora PPG Biofísica <br>IBCCF – UFRJ </span>
 				</div>
-
 				<div id="palestrante-foto-14" class="foto-palestrante">
 					<img src="images/palestrantes_icons/palestrante7.3g.jpg">
 				</div>
+
 
 				<div id="palestrante-nome-15" class="foto-palestrante">
 					<span class="nome-foto">Dra. Rafaela Selem</span>
 					<span class="descricao-foto">Prof. Fundação Getúlio Vargas</span>
 				</div>
-
 				<div id="palestrante-foto-15" class="foto-palestrante">
 					<img src="images/palestrantes_icons/palestrante8.g.jpeg">
 				</div>
@@ -388,36 +358,32 @@
 
 				<div id="palestrante-nome-16" class="foto-palestrante">
 					<span class="nome-foto">Prof. Fernanda Cruz</span>
-					<span class="descricao-foto">Vencendora do prêmio L’Oréal “Para mulheres na Ciência” 2018
-					</span>
+					<span class="descricao-foto">Vencendora do prêmio L’Oréal “Para mulheres na Ciência” 2018</span>
 				</div>
-
 				<div id="palestrante-foto-16" class="foto-palestrante">
 					<img src="images/palestrantes_icons/palestrante_9g.png">
 				</div> 
- 
-				
 
-			</section>	
 
+			</div>	
 
 		</section>
-
 
 		<section id="programacao">
 
-			<h4 class="title"  id="titulo-programacao">CONHEÇA NOSSA PROGRAMAÇÃO COMPLETA</h4>
+			<h4 id="titulo-programacao" class="title" >CONHEÇA NOSSA PROGRAMAÇÃO COMPLETA</h4>
 
-			<a id="botao-programacao" href="prog.html"  class="button-inscricao"> VEJA A PROGRAMAÇÃO COMPLETA</a>
+			<div id="botao-programacao" >
+				<a href="prog.html"  class="button-inscricao"> PROGRAMAÇÃO COMPLETA</a>
+			</div>			
 
 		</section>
-
 
 		<section id="inscricao">
 
 			<div id="ingresso">
 
-				<span>GARANTA JÁ SUA <br>INSCRIÇÃO</span>
+				<h4 id="ingresso-titulo" >GARANTA JÁ SUA <br>INSCRIÇÃO</h4>
 
 				<span id="vagas-limitadas"></span>
 
@@ -433,34 +399,40 @@
 					<div class="bolas"></div>
 					<div class="bolas"></div>
 					<div class="bolas"></div>
-					<div class="bolas"></div>
-					
+					<div class="bolas"></div>					
 				</div>
 
 			</div>	
 
 		</section>
 
+		<section id="contato">
 
-		<section class="title" id="contato">
+			<h4 id="contato-titulo" class="title" >DÚVIDAS? ENVIE UMA MENSAGEM PARA:</h4>
 
-			<span  >DÚVIDAS? ENVIE UMA MENSAGEM PARA:<br> <br>workshop.posdoc@biof.ufrj.br</span>
+			<span id="contato-subtitulo" class="title">workshop.posdoc@biof.ufrj.br</span>
 
 		</section>
 
-		
 		<section id="realizacao">
 
-			<span id="org_title" class="title" >REALIZAÇÃO E <BR> ORGANIZAÇÃO</em></span>
+			<h4 id="org_title" class="title" >REALIZAÇÃO E ORGANIZAÇÃO</h4>
 	
-			<a target="_blank"  id="ufrj_logo" href="https://ufrj.br/"><img 
-					src="images/apoios/ufrj.png" class="logos_realizacao" alt="Logo UFRJ" ></a>
+			<a id="ufrj_logo" href="https://ufrj.br/" target="_blank"  >
+				<img src="images/apoios/ufrj.png" class="logos_realizacao" alt="Logo UFRJ" >
+			</a>
 	
-			<a id="pos_biof_logo" href="https://www.posgraduacao.biof.ufrj.br/pos-graduacao-em-biofisica/" target="_blank"><img  src="images/apoios/pos_biof.png" class="logos_realizacao" alt="Logo Pós Biofísica" ></a>
+			<a id="pos_biof_logo" href="https://www.posgraduacao.biof.ufrj.br/pos-graduacao-em-biofisica/" target="_blank">
+				<img  src="images/apoios/pos_biof.png" class="logos_realizacao" alt="Logo Pós Biofísica" >
+			</a>
 	
-			<a id="pos_fisio_logo" href="https://www.posgraduacao.biof.ufrj.br/pos-graduacao-em-fisiologia/" target="_blank"><img class="logos_realizacao" src="images/apoios/pos-fisio.png" alt="Logo Pós Fisiologia" ></a>
+			<a id="pos_fisio_logo" href="https://www.posgraduacao.biof.ufrj.br/pos-graduacao-em-fisiologia/" target="_blank">
+				<img class="logos_realizacao" src="images/apoios/pos-fisio.png" alt="Logo Pós Fisiologia" >
+			</a>
 	
-			<a  id="ibccf_logo" href="https://www.biof.ufrj.br/" target="_blank"><img class="logos_realizacao" src="images/apoios/ibccf.png" alt="Logo IBCCF" ></a>
+			<a id="ibccf_logo" href="https://www.biof.ufrj.br/" target="_blank">
+				<img class="logos_realizacao" src="images/apoios/ibccf.png" alt="Logo IBCCF" >
+			</a>
 	
 	
 		</section>
@@ -469,21 +441,22 @@
 
 			<section class="logos">
 
-				
-
 				<nav id="social">
+
 					<ul>
-						<li id="facebook"><a target="_blank" href="https://pt-br.facebook.com/posdocs_ibccf"><img
-									src="images/face-icon.png" width="50" height="50"></a></li>
+						<li id="facebook">
+							<a target="_blank" href="https://pt-br.facebook.com/posdocs_ibccf"><img src="images/face-icon.png" width="50" height="50"></a>
+						</li>
 
-						<li id="linkedin"><a target="_blank" href="https://www.instagram.com/posdocs_ibccf/"><img
-							src="images/insta-icon.png" width="50" height="50"></a></a></li>
-
+						<li id="linkedin">
+							<a target="_blank" href="https://www.instagram.com/posdocs_ibccf/"><img src="images/insta-icon.png" width="50" height="50"></a>
+						</li>
 					</ul>
 
 				</nav>
 
 				<div id="cop">
+
 					<p>Desenvolvido por <a target="_blank" href="https://github.com/angelis-reis">ANGELIS-REIS </a> </p>
 
 				</div>
@@ -499,9 +472,6 @@
 		<script type="text/javascript" src="scripts/flipdown.js"></script>
 
     	<script type="text/javascript" src="scripts/main_flipdown.js"></script>
-
-
-		
 
 	</body>
 
