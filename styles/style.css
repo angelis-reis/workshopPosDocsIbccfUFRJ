@@ -1,8 +1,6 @@
-html, body, h2, h1, h3, h4, p{  
-	font-family: "Raleway", sans-serif;
+html, body, h2, h1, h3, h4, h5, p{  
+	font-family: 'versaversa', sans-serif;
 	margin: 0;
-	/* margin-right: 10px;  
-	margin-left: 10px; */
 	padding: 0; 
 	color: black;
 }
@@ -189,12 +187,13 @@ body {
 		}
 
 			#titulo-informacoes{
+				/* padronizar as sections com 100px acima e 100 abaixo do título e 100px abaixo do ultimo item */
 				width: 1280px;
 				margin-left: auto;
 				margin-right: auto;
 				text-align: left;
 				padding-top: 100px;
-				padding-bottom: 80px;
+				padding-bottom: 100px;
 			}
 
 
@@ -504,6 +503,7 @@ body {
 		}
 
 		#botao-programacao{
+			padding-bottom: 100px;
 		}
 
 	#inscricao{
@@ -525,6 +525,16 @@ body {
 			justify-content: center;	
 			color: #ffffff;
 		}
+
+			#ingresso-titulo{
+				padding-top: 70px ;
+				text-align: center;
+				background-color: #6e5ed8;;
+				justify-self: stretch;
+				align-self: stretch;
+				z-index: 2;
+				color: #ffffff;
+			}
 
 			#ingresso span{
 				padding-top: 40px;
@@ -559,21 +569,28 @@ body {
 		background-color: #3ca7a3;;
 		color: #fafafa;
 		text-align: center;
+		display: grid;
+		width: 100vw;
+	}
+
+	#contato-titulo{
+		color: #fafafa;
 		padding-top: 100px;
+		padding-bottom: 50px;
+	}
+
+	#contato-subtitulo{
+		color: #fafafa;
 		padding-bottom: 100px;
 		text-transform: none;
-		width: 100vw;
 	}
 
 	#realizacao{
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
-		grid-template-rows: 1fr 2fr;
 		background-color: #ffffff;
 		gap: 30px;
 		width: 100vw;
-		padding-top: 60px;
-		padding-bottom: 60px;
 		align-items: center;
 		justify-items: center;
 		grid-template-areas:
@@ -596,23 +613,30 @@ body {
 		}
 
 		#org_title{
+			padding-top: 100px;
+			padding-bottom: 70px;
+			/* desconto de 30px no padding devido ao gap */
 			grid-area:org_title;
 		}
 
 		#ufrj_logo{
 			grid-area: ufrj_logo;
+			padding-bottom: 100px;
 		}
 
 		#pos_biof_logo{
 			grid-area:pos_biof_logo;
+			padding-bottom: 100px;
 		}
 
 		#pos_fisio_logo{
 			grid-area:pos_fisio_logo;
+			padding-bottom: 100px;
 		}
 
 		#ibccf_logo{
 			grid-area:ibccf_logo;
+			padding-bottom: 100px;
 		}
 
 
@@ -716,7 +740,7 @@ body {
 		}
 
 	#videoBG {
-		width: 1400px
+		width: 1400px;
 	}
 
 	#titulo-programacao{
