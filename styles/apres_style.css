@@ -2,18 +2,34 @@
 	header {
 		margin-top: 80px;
 		height: auto;
-		padding-top: 10px;
+		width: 100vw;
 	}
 
 		#hero-apres{
+			display: grid;
 			text-align: center;
-			background-image: url("../images/hero/evento-1.png");
+			background-image: url("../images/evento/evento-2-2.png");
 			background-size: cover;
 			background-position: center 30%;
 			background-repeat: no-repeat;
 			height: 600px;
-			filter: blur(2px);
-        }
+		}
+
+		#titulo_apresentacao{
+			text-align: center;
+			margin-top: auto;
+			margin-bottom: auto;
+		}
+
+		.title-large1 {
+			color: #ffffff;
+			font-size: 3rem;
+			line-height: 1;
+			padding: 1rem .5rem .5rem .5rem;
+			margin-bottom: 5px;
+			width: auto;
+		}
+		
 /* <---------------------------------seção videos-------> */
 
         #films{
@@ -56,19 +72,11 @@
                     display:none;
 				}
 
-				#titulo_apresentacao{
-					font-size: 2.2rem;
-					color: #000000;
-					width: 60%;
-					margin-left: auto;
-					margin-right: auto;
-					font-weight: bolder;
-					padding-top: 8rem;
-					position: relative;
-				}
+				
         
                 #apresentacao_1{
-					padding-bottom: 10rem;
+					margin-top: auto;
+					margin-bottom: auto;
 					margin-left: auto;
 					margin-right: auto;
                     line-height: 100px;

@@ -6,7 +6,6 @@
 	header {
 		margin-top: 80px;
 		height: auto;
-		padding-top: 10px;
 		width: 100vw;
 	}
 
@@ -16,18 +15,30 @@
 			
 		}
 
-		#hero_prog{
+		#hero-hist{
+			display: grid;
 			text-align: center;
-			background-image: url("../images/hero/evento-3.jpg");
+			background-image: url("../images/evento/evento-3-2.png");
 			background-size: cover;
 			background-position: center 30%;
 			background-repeat: no-repeat;
 			height: 600px;
-			filter: blur(2px);
-			width: 100vw;
-			
-			
-        }
+		}
+
+		#titulo-hist{
+			text-align: center;
+			margin-top: auto;
+			margin-bottom: auto;
+		}
+
+		.title-large1 {
+			color: #ffffff;
+			font-size: 3rem;
+			line-height: 1;
+			padding: 1rem .5rem .5rem .5rem;
+			margin-bottom: 5px;
+			width: auto;
+		}
 
 
 
