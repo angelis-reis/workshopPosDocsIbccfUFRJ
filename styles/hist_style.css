@@ -1,45 +1,3 @@
-html, body, h2, h1, h3, h4, h5, p {  
-	font-family: "Raleway", sans-serif;
-    margin: 0;  
-	padding: 0; 
-	color: black;
-}
-
-html {
-	box-sizing: border-box;
-	overflow: auto;
-	height: auto;
-	scroll-behavior: smooth;
-	width: 100vw;
-}
-
-h4 {
-	font-size: 23px;
-	line-height: 31px;
-	font-style: normal;
-	font-weight: 700;
-	letter-spacing: 0px;
-	text-transform: none;
-}
-
-h2 {
-	font-size: 43px;
-	line-height: 47px;
-	font-style: normal;
-	font-weight: 700;
-	letter-spacing: 0px;
-	text-transform: uppercase;
-}
-
-p {
-}
-
-img {
-	margin: 0;
-}
-
-body {
-}
 
 .recuo { 
 	text-indent:4em 
@@ -52,25 +10,7 @@ body {
 		width: 100vw;
 	}
 
-		.title{
-			font-family: 'versaversa';
-			font-size: 2.1rem;
-			line-height: 1.2em;
-			text-transform: uppercase;
-			color: black;
-		}
-
-		.subtitle{
-			font-family: 'versaversa';
-			font-size: 1.6em;
-			line-height: 1.2em;
-			text-transform: uppercase;
-			color: black;
-		}
-
-
 		
-
 		#hero{
 			text-align: center;
 			
@@ -255,23 +195,7 @@ body {
 		}
 
 	
-		.button-inscricao{
-			background-color: #48D1CC ;
-			color: #fff;
-			border-radius: 35px;        
-			font-size: 20px;
-			font-weight: bolder;
-			padding: 20px 43px;
-			cursor: pointer;
-			transition: 0.2s;
-		}
-	 
-			.button-inscricao:hover {
-				background-color: #3cb1ad ;
-				scale: 1.03;
-				transition: 0.2s;
-    		}
-
+		
 		#button-titulo{
 			margin-bottom: 70px;
 
@@ -578,118 +502,6 @@ body {
 			from {opacity: .4}
 			to {opacity: 1}
 		  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-					
-	
-
-		
-	#contato{
-		width: 100vw;
-		background-color:#3ca7a3;
-		color: #ffffff;
-		text-align: center;
-		padding-top: 100px;
-        padding-bottom: 100px;
-        text-transform: none;
-	}
-
-	#realizacao{
-		width: 100vw;
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr;
-		grid-template-rows: 1fr 2fr;
-		background-color: #ffffff;
-		gap: 30px;
-		padding-top: 60px;
-		padding-bottom: 60px;		
-		align-items: center;
-		justify-items: center;
-		grid-template-areas:
-		"org_title org_title org_title org_title"
-		" ufrj_logo  pos_biof_logo pos_fisio_logo ibccf_logo " ;
-		
-	}
-
-		.logos_realizacao{
-			height: 6rem;
-		}
-
-		
-		#realizacao img{
-			transition: 0.3s;
-
-		}
-
-		#realizacao img:hover{
-			scale: 1.05;
-			transition: 0.3s;
-		}
-
-		#org_title{
-			grid-area:org_title;
-
-		}
-
-		#ufrj_logo{
-			grid-area: ufrj_logo;
-
-		}
-
-		#pos_biof_logo{
-			grid-area:pos_biof_logo;
-
-		}
-
-		#pos_fisio_logo{
-			grid-area:pos_fisio_logo;
-
-		}
-
-		#ibccf_logo{
-			grid-area:ibccf_logo;
-
-		}
     
 
     #form_insc{
@@ -699,31 +511,6 @@ body {
         padding-top: 40px;
         padding-bottom: 40px;
 	}
-
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-
-
-
-
-
-
-
 
 
     .formulario{
@@ -831,8 +618,6 @@ body {
     {
         background: #109177;
     }
-    
-
 
 
     #link_disciplina{
@@ -846,94 +631,7 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (min-width: 1025px) and (max-width: 1268px){
-
-
-
-
-
-	#realizacao{
-		display: grid;
-		grid-template-columns: 1fr 1fr ;
-		grid-template-rows: 1fr 2fr 2fr;
-		background-color: #ffffff;
-		gap: 30px;
-		padding-top: 60px;
-		padding-bottom: 60px;
-		align-items: center;
-		justify-items: center;
-		grid-template-areas:
-		"org_title org_title "
-		" ufrj_logo  pos_biof_logo "
-		"pos_fisio_logo ibccf_logo ";
-	}
-
-	
 
 }
 	
@@ -964,35 +662,6 @@ body {
 		margin-left: auto;
 		margin-right: auto;
 	}
-
-	
-
-
-
-
-
-
-
-
-
-
-
-	
-	#realizacao{
-		display: grid;
-		grid-template-columns: 1fr 1fr ;
-		grid-template-rows: 1fr 2fr 2fr;
-		background-color: #ffffff;
-		gap: 30px;
-		padding-top: 60px;
-		padding-bottom: 60px;
-		align-items: center;
-		justify-items: center;
-		grid-template-areas:
-		"org_title org_title "
-		" ufrj_logo  pos_biof_logo "
-		"pos_fisio_logo ibccf_logo ";
-	}
 }
 
 
@@ -1018,25 +687,6 @@ body {
 		position: relative;
 		right: 70px;
 	}
-
-	
-
-	
-	#realizacao{
-		display: grid;
-		grid-template-columns: 1fr 1fr ;
-		grid-template-rows: 1fr 2fr 2fr;
-		background-color: #ffffff;
-		gap: 30px;
-		padding-top: 60px;
-		padding-bottom: 60px;
-		align-items: center;
-		justify-items: center;
-		grid-template-areas:
-		"org_title org_title "
-		" ufrj_logo  pos_biof_logo "
-		"pos_fisio_logo ibccf_logo ";
-	}
 }
 
 
@@ -1045,45 +695,11 @@ body {
 	#hero_prog{
 		height: 400px;
 		filter: blur(2px);
-		
-		
 	}
 
 	#evento_texto{
 		font-size: 1.2rem;
 	}
-
-	
-
-
-	#contato{
-		font-size: 1.5rem;
-	}
-
-
-	
-
-	
-	#realizacao{
-		display: grid;
-		grid-template-columns: 1fr 1fr ;
-		grid-template-rows: 1fr 2fr 2fr;
-		background-color: #ffffff;
-		gap: 20px;
-		padding-top: 60px;
-		padding-bottom: 60px;
-		align-items: center;
-		justify-items: center;
-		grid-template-areas:
-		"org_title org_title "
-		" ufrj_logo  pos_biof_logo "
-		"pos_fisio_logo ibccf_logo ";
-	}
-
-		#realizacao a img{
-			width: 170px;
-			height: 80px;
-		}
 }
 
 
@@ -1091,43 +707,9 @@ body {
 	#hero_prog{
 		height: 350px;
 		filter: blur(2px);
-		
-		
 	}
 
 	#evento_texto{
 		font-size: 1.4rem;
 	}
-
-	
-
-
-	#contato{
-		font-size: 1.3rem;
-	}
-
-
-	
-
-	
-	#realizacao{
-		display: grid;
-		grid-template-columns: 1fr 1fr ;
-		grid-template-rows: 1fr 2fr 2fr;
-		background-color: #ffffff;
-		gap: 20px;
-		padding-top: 60px;
-		padding-bottom: 60px;
-		align-items: center;
-		justify-items: center;
-		grid-template-areas:
-		"org_title org_title "
-		" ufrj_logo  pos_biof_logo "
-		"pos_fisio_logo ibccf_logo ";
-	}
-
-		#realizacao a img{
-			width: 170px;
-			height: 80px;
-		}
 }

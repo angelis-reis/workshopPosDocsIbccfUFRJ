@@ -1,46 +1,4 @@
-html, body, h2, h1, h3, h4, p {  
-	font-family: "Raleway", sans-serif;
-    margin: 0;  
-	padding: 0; 
-	color: black;
-}
 
-html {
-	box-sizing: border-box;
-	overflow: auto;
-	height: auto;
-	scroll-behavior: smooth;
-	width: 100vw;
-}
-
-h4 {
-	font-size: 23px;
-	line-height: 31px;
-	font-style: normal;
-	font-weight: 700;
-	letter-spacing: 0px;
-	text-transform: none;
-}
-
-h2 {
-	font-size: 43px;
-	line-height: 47px;
-	font-style: normal;
-	font-weight: 700;
-	letter-spacing: 0px;
-	text-transform: uppercase;
-}
-
-p {
-}
-
-img {
-	margin: 0;
-}
-
-body {
-	width: 100vw;
-}
 
 	header {
 		margin-top: 80px;
@@ -48,22 +6,6 @@ body {
 		padding-top: 10px;
 		width: 100vw;
 	}
-
-		.title{
-			font-family: 'versaversa';
-			font-size: 2.1rem;
-			line-height: 1.2em;
-			text-transform: uppercase;
-			color: black;
-		}
-
-		.subtitle{
-			font-family: 'versaversa';
-			font-size: 1.6em;
-			line-height: 1.2em;
-			text-transform: uppercase;
-			color: black;
-		}
 
 		#hero{
 			text-align: center;
@@ -376,151 +318,10 @@ body {
 									transition: 0.2s;
 								}
 
-		.title-large1 {
-			font-family: 'versaversa';
-			color: #ffffff;
-			font-size: 2.5rem;
-			line-height: 1;
-			padding: 1rem .5rem .5rem .5rem;
-			margin-bottom: 5px;
-			width: auto;
-		}
-
-			.title-large1 strong{
-				background-color: #2edb96;
-				padding-left: 10px;
-				padding-right: 10px;
-			}
-
-		.title-large2 {
-			font-family: "RalewayBold", sans-serif;
-			color: #ffffff;
-			font-size: 2.1rem;
-			line-height: 1em;
-			padding: 1rem .5rem .5rem .5rem;
-			margin-bottom: 5px;
-		}
-
-		.title-large2 strong{
-			background-color: #379634;
-			padding-left: 10px;
-			padding-right: 10px;
-		}
-
-		.title-large3 {
-			font-family: 'sora';
-			color: #ffffff;
-			font-size: 2rem;
-			line-height: 1.2em;
-			padding: 1rem .5rem .5rem .5rem;
-			margin-bottom: 60px;
-			margin-top: 60px;
-		}
-
-		#temporizador{
-			background-color: #7CFFCB;
-			height: 150px;
-			width: 800px;
-			margin-left: auto;
-			margin-right: auto;
-			margin-bottom: 70px;
-			margin-top: 70px;
-		}
+		
 	
-		.button-inscricao{
-			background-color: #48D1CC ;
-			color: #fff;
-			border-radius: 35px;        
-			font-size: 20px;
-			font-weight: bolder;
-			padding: 20px 43px;
-			cursor: pointer;
-			transition: 0.2s;
-		}
-	 
-			.button-inscricao:hover {
-				background-color: #3cb1ad ;
-				scale: 1.03;
-				transition: 0.2s;
-    		}
-	
-		#informacoes-evento{
-			height: auto;
-			background-color: #f4f4fb;
-		}
-
-			#titulo-informacoes{
-				padding-top: 100px;
-				margin-left: 310px;
-				padding-bottom: 80px;
-			}
-
-			#cards-evento{
-				margin-left: auto;
-				margin-right: auto;
-				display: grid;
-				justify-content: center;  
-				gap: 40px 40px;
-				padding-bottom: 100px;
-				grid-template-columns: 400px 400px 400px;
-				grid-template-rows: 500px;
-			}
-
-				#card-evento-1{
-					justify-self: stretch;
-					align-self: stretch;
-					overflow: hidden;
-					/* overflow: hidden esconde o que ultrapassar do container */
-				}
-
-				#card-evento-2{
-					justify-self: stretch;
-					align-self: stretch;
-					overflow: hidden;
-				}
-
-				#card-evento-3{
-					justify-self: stretch;
-					align-self: stretch;
-					overflow: hidden;
-				}
-
-					.photo{
-						width: 400px;
-						height: 300px;
-						align-self: center;
-						justify-self: center;
-						padding-bottom: 40px;
-						transition-duration: 0.45s;
-					}
-
-						.photo:hover{
-							scale: 1.05;
-							transition-duration: 0.45s;
-						}
-
-					.texto-evento{
-						display: grid;
-						width: 400px;
-					}
-
-						.card-title{
-							display: grid;
-							background-color: rgb(255, 255, 255);
-							text-align: center;
-							align-self: stretch;
-							justify-self: stretch;
-							padding-top: 10px;
-							padding-bottom: 15px;
-						}
-						
-						.card-text{
-							display: grid;
-							background-color: rgb(255, 255, 255);
-							padding:10px;
-							text-align: center;
-							color: rgb(0, 0, 0);
-						}	
+		
+		
 					
 	#inscricao{
 		background-color: #ffffff;
@@ -572,72 +373,6 @@ body {
 				padding-top: 80px;
 
 			}
-		
-	#contato{
-		width: 100vw;
-		background-color:#3ca7a3;
-		color: #ffffff;
-		text-align: center;
-		padding-top: 100px;
-		padding-bottom: 100px;
-		text-transform: none;
-	}
-
-	#realizacao{
-		width: 100vw;
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr;
-		grid-template-rows: 1fr 2fr;
-		background-color: #ffffff;
-		gap: 30px;
-		padding-top: 60px;
-		padding-bottom: 60px;
-		align-items: center;
-		justify-items: center;
-		grid-template-areas:
-		"org_title org_title org_title org_title"
-		" ufrj_logo  pos_biof_logo pos_fisio_logo ibccf_logo " ;
-	}
-
-		.logos_realizacao{
-			height: 6rem;
-		}
-
-		
-		#realizacao img{
-			transition: 0.3s;
-
-		}
-
-		#realizacao img:hover{
-			scale: 1.05;
-			transition: 0.3s;
-		}
-
-		#org_title{
-			grid-area:org_title;
-
-		}
-
-		#ufrj_logo{
-			grid-area: ufrj_logo;
-
-		}
-
-		#pos_biof_logo{
-			grid-area:pos_biof_logo;
-
-		}
-
-		#pos_fisio_logo{
-			grid-area:pos_fisio_logo;
-
-		}
-
-		#ibccf_logo{
-			grid-area:ibccf_logo;
-		}
-
 /* <----------------------------------@media--------------------------------------> */
 
 @media only screen and (min-width: 1025px) and (max-width: 1268px){
@@ -671,22 +406,6 @@ body {
 		"horario titulo_palestra"
 		"... icon_palestrate"
 		"categoria icon_palestrante";
-	}
-
-	#realizacao{
-		display: grid;
-		grid-template-columns: 1fr 1fr ;
-		grid-template-rows: 1fr 2fr 2fr;
-		background-color: #ffffff;
-		gap: 30px;
-		padding-top: 60px;
-		padding-bottom: 60px;
-		align-items: center;
-		justify-items: center;
-		grid-template-areas:
-		"org_title org_title "
-		" ufrj_logo  pos_biof_logo "
-		"pos_fisio_logo ibccf_logo ";
 	}
 }
 	
@@ -766,22 +485,6 @@ body {
 		.icon_palestrante3 {
 			padding-bottom: 10px;
 		}
-	
-	#realizacao{
-		display: grid;
-		grid-template-columns: 1fr 1fr ;
-		grid-template-rows: 1fr 2fr 2fr;
-		background-color: #ffffff;
-		gap: 30px;
-		padding-top: 60px;
-		padding-bottom: 60px;
-		align-items: center;
-		justify-items: center;
-		grid-template-areas:
-		"org_title org_title "
-		" ufrj_logo  pos_biof_logo "
-		"pos_fisio_logo ibccf_logo ";
-	}
 }
 
 
@@ -875,22 +578,6 @@ body {
 		.icon_palestrante3 {
 			padding-bottom: 10px;
 		}
-
-	#realizacao{
-		display: grid;
-		grid-template-columns: 1fr 1fr ;
-		grid-template-rows: 1fr 2fr 2fr;
-		background-color: #ffffff;
-		gap: 30px;
-		padding-top: 60px;
-		padding-bottom: 60px;
-		align-items: center;
-		justify-items: center;
-		grid-template-areas:
-		"org_title org_title "
-		" ufrj_logo  pos_biof_logo "
-		"pos_fisio_logo ibccf_logo ";
-	}
 }
 
 
@@ -977,31 +664,6 @@ body {
 
 		.icon_palestrante3 {
 			padding-bottom: 10px;
-		}
-
-	#contato span{
-		font-size: 1.7rem;
-	}
-	
-	#realizacao{
-		display: grid;
-		grid-template-columns: 1fr 1fr ;
-		grid-template-rows: 1fr 2fr 2fr;
-		background-color: #ffffff;
-		gap: 30px;
-		padding-top: 60px;
-		padding-bottom: 60px;
-		align-items: center;
-		justify-items: center;
-		grid-template-areas:
-		"org_title org_title "
-		" ufrj_logo  pos_biof_logo "
-		"pos_fisio_logo ibccf_logo ";
-	}
-
-		#realizacao img{
-			width: 180px;
-			height: 80px;
 		}
 }
 
@@ -1094,30 +756,4 @@ body {
 		.icon_palestrante3 {
 			padding-bottom: 10px;
 		}
-
-	#contato span{
-		font-size: 1.3rem;
-	}
-	
-	#realizacao{
-		display: grid;
-		grid-template-columns: 1fr 1fr ;
-		grid-template-rows: 1fr 2fr 2fr;
-		background-color: #ffffff;
-		gap: 30px;
-		padding-top: 60px;
-		padding-bottom: 60px;
-		align-items: center;
-		justify-items: center;
-		grid-template-areas:
-		"org_title org_title "
-		" ufrj_logo  pos_biof_logo "
-		"pos_fisio_logo ibccf_logo ";
-	}
-
-		#realizacao img{
-			width: 160px;
-			height: 70px;
-		}
-
 }
