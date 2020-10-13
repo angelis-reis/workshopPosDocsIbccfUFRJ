@@ -154,7 +154,7 @@
 					}
 
 					.icon_palestrante{
-						padding-bottom: 40px;						
+						padding-bottom: 40px;	
 						grid-area: icon_palestrante;
 					}
 
@@ -162,7 +162,15 @@
 							width: 80px;
 							height: 80px;
 							border-radius: 50%;
-					}
+							transition: 0.4s;
+						}
+
+						.icon_palestrante img:hover{
+							width:85px;
+							height: 85px;
+							transition: 0.4s;
+						}
+
 
 				.horario_prog4{
 					display: grid;
@@ -259,13 +267,13 @@
 									width: 80px;
 									height: 80px;
 									border-radius: 50%;
-									transition: 0.2s;
+									transition: 0.4s;
 								}
 		
 								.icon_palestrante4 img:hover{
-									width:90px;
-									height: 90px;
-									transition: 0.2s;
+									width:85px;
+									height: 85px;
+									transition: 0.4s;
 								}
 					
 						.horario_prog3{
@@ -313,13 +321,13 @@
 									width: 80px;
 									height: 80px;
 									border-radius: 50%;
-									transition: 0.2s;
+									transition: 0.4s;
 								}
 		
 								.icon_palestrante3 img:hover{
-									width:90px;
-									height: 90px;
-									transition: 0.2s;
+									width:85px;
+									height: 85px;
+									transition: 0.4s;
 								}
 
 		
