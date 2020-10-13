@@ -35,7 +35,7 @@
         #films{
 			display: grid;
 			width: 100vw;
-o           display: none;
+            display: none;
             grid-template-columns: 1fr;
             grid-template-rows: 700px ;
             grid-template-areas: 
