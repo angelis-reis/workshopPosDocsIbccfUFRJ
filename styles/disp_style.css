@@ -341,13 +341,17 @@
 
 	#evento_texto{
 		font-size: 1.4rem;
+		line-height: 2.1rem;
 	}
 }
 
 
 @media only screen and (max-width: 399px){
 
+	
+
 	#evento_texto{
-		font-size: 1.4rem;
+		font-size: 1.1rem;
+		line-height: 2.1rem;
 	}
 }
