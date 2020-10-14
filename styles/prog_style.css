@@ -1,443 +1,59 @@
 
 
-	header {
-		margin-top: 80px;
-		height: auto;
-		width: 100vw;
-	}
-
-		
-
-		#hero_prog{
-			display: grid;
-			text-align: center;
-			background-image: url("../images/hero/prog_hero-2.jpeg");
-			background-size: cover;
-			background-position: center 30%;
-			background-repeat: no-repeat;
-			height: 600px;
-		}
-		
-		.title-large1 {
-			color: #ffffff;
-			font-size: 3rem;
-			line-height: 1;
-			padding: 1rem .5rem .5rem .5rem;
-			margin-bottom: 5px;
-			width: auto;
-		}
-		
-		#programacao{
-			width: 100vw;
-			height:auto;
-			background-color: #c7fceb;
-			padding-bottom: 80px;
-		}
-
-			#prog_title{
-				height: 100px;
-				text-align: center;
-				margin-top: auto;
-				margin-bottom: auto;
-			}
-
-			#prog_subtitle{
-				height: 100px;
-				width: 70%;
-				text-align: left;
-				margin-left: auto;
-				margin-right: auto;
-				padding-top: 100px;
-			}
-
-		.programacao_completa{
-			margin-left: auto;
-			margin-right: auto;
-			width: 70%;
-			height: auto;
-			display: grid;
-			padding-bottom: 40px;
-			gap: 50px;
-			grid-template-columns: 1fr 3fr;
-			grid-template-areas: 
-			"icone_dia dia";
-		}
-
-			#apontador_dia{
-				display:grid;
-				grid-template-columns: 220px 10px;
-				grid-template-areas:
-				"icone_dia recorte";
-			}
-
-			.icone_dia{
-				grid-area: icone_dia;
-				background-color: #836FFF;
-				height: 150px;
-				text-align: justify;
-				padding: 20px;
-			}
-
-				.icone_dia p{
-					color: #fff;
-				}
-
-			#recorte{
-				position: relative;
-				right: 30px;
-				grid-area: recorte;
-				margin-right: 5px;
-			}
-
-				.seta{
-					background-color:#836FFF;				
-					margin-top: 75px;	
-					height: 50px;
-					padding-right: 70px;					
-					border-radius: 150%;
-				}
-
-			.dia{				
-				grid-area: dia;
-				background-color: #ffffff;
-			}
-
-				.dia_title{
-					text-align: center;
-					height: 130px;
-					border-bottom-style: solid;
-				}
-
-					.dia_title p{
-						padding-top: 2.5rem;
-					}
-
-					.separador{
-						height: 20px;
-						background-color:#3ea7d1;
-					}
-
-				.horario_prog{
-					display: grid;
-					grid-template-columns: 1fr 3fr;
-					grid-template-rows: 3fr 0.5fr 3fr;
-					align-items: center;
-					justify-items: left;
-					border-bottom-style: dashed;
-					grid-template-areas:
-					"horario titulo_palestra"
-					"... icon_palestrate"
-					"categoria icon_palestrante";
-				}
-
-					.horario_prog p, img{
-						margin-left: 40px;
-					}
-
-					.horario{
-						grid-area: horario;
-					}
-
-					.categoria{
-						grid-area: categoria;
-					}
-
-					.titulo_palestra{
-						margin: 40px;
-						grid-area: titulo_palestra;
-						justify-self: left;
-						font-size: 1.4rem;
-						font-family: 'versaversa';
-						line-height: 1.2em;
-						text-transform: initial;
-						color: black;
-					}
-
-					.icon_palestrante{
-						padding-bottom: 40px;	
-						grid-area: icon_palestrante;
-					}
-
-						.icon_palestrante img{
-							width: 80px;
-							height: 80px;
-							border-radius: 50%;
-							transition: 0.4s;
-						}
-
-						.icon_palestrante img:hover{
-							width:85px;
-							height: 85px;
-							transition: 0.4s;
-						}
-
-
-				.horario_prog4{
-					display: grid;
-					grid-template-columns: 1fr 3fr;
-					grid-template-rows: 3fr 0.5fr 3fr;
-					align-items: center;
-					justify-items: left;
-					border-bottom-style: dashed;
-					grid-template-areas:
-					"horario4 titulo_palestra4"
-					"... icon_palestrate4"
-					"categoria4 icon_palestrante_4";
-				}
-
-					.horario_prog4 p, img{
-						margin-left: 40px;
-					}
-
-					.horario4{
-						grid-area: horario;
-					}
-
-					.categoria4{
-						grid-area: categoria;
-					}
-			
-				.horario_prog4{
-					display: grid;
-					grid-template-columns: 1fr 3fr;
-					grid-template-rows: 3fr 0.5fr 3fr;
-					align-items: center;
-					justify-items: left;
-					border-bottom-style: dashed;
-					grid-template-areas:
-					"horario4 titulo_palestra4"
-					"... icon_palestrate4"
-					"categoria4 icon_palestrante_4";
-				}
-
-					.horario_prog4 p, img{
-						margin-left: 40px;
-					}
-
-					.horario4{
-						grid-area: horario;
-					}
-
-					.categoria4{
-						grid-area: categoria;
-					}
-
-						.horario_prog4{
-							display: grid;
-							grid-template-columns: 1fr 3fr;
-							grid-template-rows: 3fr 0.5fr 3fr;
-							align-items: center;
-							justify-items: left;
-							border-bottom-style: dashed;
-							grid-template-areas:
-							"horario4 titulo_palestra4"
-							"... icon_palestrate4"
-							"categoria4 icon_palestrante_4";
-						}
-		
-							.horario_prog4 p, img{
-								margin-left: 40px;
-							}
-		
-							.horario4{
-								grid-area: horario;
-							}
-		
-							.categoria4{
-								grid-area: categoria;
-							}
-		
-							.titulo_palestra4{
-								margin: 40px;
-								grid-area: titulo_palestra;
-								justify-self: left;
-								font-size: 1.4rem;		
-								font-family: 'versaversa';
-								line-height: 1.2em;
-								text-transform: initial;
-								color: black;		
-							}
-		
-							.icon_palestrante4{
-								padding-bottom: 40px;								
-								grid-area: icon_palestrante;		
-							}
-		
-								.icon_palestrante4 img{
-									width: 80px;
-									height: 80px;
-									border-radius: 50%;
-									transition: 0.4s;
-								}
-		
-								.icon_palestrante4 img:hover{
-									width:85px;
-									height: 85px;
-									transition: 0.4s;
-								}
-					
-						.horario_prog3{
-							display: grid;
-							grid-template-columns: 1fr 3fr;
-							grid-template-rows: 3fr 0.5fr 3fr;
-							align-items: center;
-							justify-items: left;
-							border-bottom-style: dashed;
-							grid-template-areas:
-							"horario3 titulo_palestra3"
-							"... icon_palestrante3"
-							"categoria3 icon_palestrante3";
-						}
-
-							.horario_prog3 p, img{
-								margin-left: 40px;
-							}
-		
-							.horario3{
-								grid-area: horario3;		
-							}
-		
-							.categoria3{
-								grid-area: categoria3;
-							}
-		
-							.titulo_palestra3{
-								margin: 40px;
-								grid-area: titulo_palestra3;
-								justify-self: left;
-								font-size: 1.4rem;
-								font-family: 'versaversa';
-								line-height: 1.2em;
-								text-transform: initial;
-								color: black;
-							}
-		
-							.icon_palestrante3{
-								padding-bottom: 40px;
-								grid-area: icon_palestrante3;
-							}
-		
-								.icon_palestrante3 img{
-									width: 80px;
-									height: 80px;
-									border-radius: 50%;
-									transition: 0.4s;
-								}
-		
-								.icon_palestrante3 img:hover{
-									width:85px;
-									height: 85px;
-									transition: 0.4s;
-								}
-
-		
-	
-		
-		
-					
-	#inscricao{
-		background-color: #ffffff;
-		width: 100vw;
-	}
-
-		#ingresso{
-			display: grid;
-			grid-template-rows: 120px 120px 180px 20px;
-			font-size: 30px;
-			padding-top: 100px;
-			padding-bottom: 100px;			
-			margin-left: auto;
-			margin-right: auto;
-			grid-template-columns: 450px;
-			width: 450px;
-			align-items: center;
-			justify-items: center;	
-			color: #ffffff
-		}
-
-			#ingresso span{
-				padding-top: 40px;
-				text-align: center;
-				background-color: #534893;
-				justify-self: stretch;
-				align-self: stretch;
-			}
-
-			#vagas-limitadas{
-				border-bottom: dotted;
-			}
-
-			#ingresso a{
-
-				align-self: center;
-			}
-
-			#recorte{
-				display:flex;
-			}
-
-			.bolas{
-				background-color: #ffffff;
-				width: 70px;
-				border-top: solid;
-				border-color: #ffffff;
-				border-radius: 50%;
-				padding-top: 80px;
-
-			}
-/* <----------------------------------@media--------------------------------------> */
-
-@media only screen and (min-width: 1025px) and (max-width: 1268px){
-
-	.titulo_palestra{
-		margin-top: 1px;
-		margin-right: 10px;
-		margin-bottom: 1px;
-	}
-
-	#apontador_dia{
-		display:grid;
-		grid-template-columns: 180px 10px;
-		grid-template-areas:
-		"icone_dia recorte";
-		font-size: 0.8rem;
-	}
-
-	.dia{
-		width: 580px;
-	}
-
-	.horario_prog{
-		display: grid;
-		grid-template-columns: 2fr 4fr;
-		grid-template-rows: 3fr 0.5fr 3fr;
-		align-items: center;
-		justify-items: left;
-		border-bottom-style: dashed;
-		grid-template-areas:
-		"horario titulo_palestra"
-		"... icon_palestrate"
-		"categoria icon_palestrante";
-	}
+header {
+	margin-top: 80px;
+	height: auto;
+	width: 100vw;
 }
+
 	
-@media only screen and (min-width: 730px) and (max-width: 1024px){
 
-	#prog_title {
-		margin-left: auto;
-		margin-right: auto;
+	#hero_prog{
+		display: grid;
 		text-align: center;
+		background-image: url("../images/hero/prog_hero-2.jpeg");
+		background-size: cover;
+		background-position: center 30%;
+		background-repeat: no-repeat;
+		height: 600px;
+	}
+	
+	.title-large1 {
+		color: #ffffff;
+		font-size: 3rem;
+		line-height: 1;
+		padding: 1rem .5rem .5rem .5rem;
+		margin-bottom: 5px;
+		width: auto;
+	}
+	
+	#programacao{
+		width: 100vw;
+		height:auto;
+		background-color: #c7fceb;
+		padding-bottom: 80px;
 	}
 
-	#prog_subtitle {
-		text-align: center;
-		padding-bottom: 50px;
-	}
+		#prog_title{
+			height: 100px;
+			text-align: center;
+			margin-top: auto;
+			margin-bottom: auto;
+		}
+
+		#prog_subtitle{
+			height: 100px;
+			width: 70%;
+			text-align: left;
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 100px;
+		}
 
 	.programacao_completa{
 		margin-left: auto;
 		margin-right: auto;
-		width: 90%;
+		width: 70%;
 		height: auto;
 		display: grid;
 		padding-bottom: 40px;
@@ -447,326 +63,710 @@
 		"icone_dia dia";
 	}
 
-	#apontador_dia{
-		display:grid;
-		grid-template-columns: 160px 6px;
-		grid-template-areas:
-		"icone_dia recorte";
-		font-size: 0.7rem;
-	}
+		#apontador_dia{
+			display:grid;
+			grid-template-columns: 220px 10px;
+			grid-template-areas:
+			"icone_dia recorte";
+		}
 
-	.dia{
-		width: 500px;
-	}
+		.icone_dia{
+			grid-area: icone_dia;
+			background-color: #836FFF;
+			height: 150px;
+			text-align: justify;
+			padding: 20px;
+		}
 
-	.horario_prog{
+			.icone_dia p{
+				color: #fff;
+			}
+
+		#recorte{
+			position: relative;
+			right: 30px;
+			grid-area: recorte;
+			margin-right: 5px;
+		}
+
+			.seta{
+				background-color:#836FFF;				
+				margin-top: 75px;	
+				height: 50px;
+				padding-right: 70px;					
+				border-radius: 150%;
+			}
+
+		.dia{				
+			grid-area: dia;
+			background-color: #ffffff;
+		}
+
+			.dia_title{
+				text-align: center;
+				height: 130px;
+				border-bottom-style: solid;
+			}
+
+				.dia_title p{
+					padding-top: 2.5rem;
+				}
+
+				.separador{
+					height: 20px;
+					background-color:#3ea7d1;
+				}
+
+			.horario_prog{
+				display: grid;
+				grid-template-columns: 1fr 3fr;
+				grid-template-rows: 3fr 0.5fr 3fr;
+				align-items: center;
+				justify-items: left;
+				border-bottom-style: dashed;
+				grid-template-areas:
+				"horario titulo_palestra"
+				"... icon_palestrate"
+				"categoria icon_palestrante";
+			}
+
+				.horario_prog p, img{
+					margin-left: 40px;
+				}
+
+				.horario{
+					grid-area: horario;
+				}
+
+				.categoria{
+					grid-area: categoria;
+				}
+
+				.titulo_palestra{
+					margin: 40px;
+					grid-area: titulo_palestra;
+					justify-self: left;
+					font-size: 1.4rem;
+					font-family: 'versaversa';
+					line-height: 1.2em;
+					text-transform: initial;
+					color: black;
+				}
+
+				.icon_palestrante{
+					padding-bottom: 40px;	
+					grid-area: icon_palestrante;
+				}
+
+					.icon_palestrante img{
+						width: 80px;
+						height: 80px;
+						border-radius: 50%;
+						transition: 0.4s;
+					}
+
+					.icon_palestrante img:hover{
+						width:85px;
+						height: 85px;
+						transition: 0.4s;
+					}
+
+
+			.horario_prog4{
+				display: grid;
+				grid-template-columns: 1fr 3fr;
+				grid-template-rows: 3fr 0.5fr 3fr;
+				align-items: center;
+				justify-items: left;
+				border-bottom-style: dashed;
+				grid-template-areas:
+				"horario4 titulo_palestra4"
+				"... icon_palestrate4"
+				"categoria4 icon_palestrante_4";
+			}
+
+				.horario_prog4 p, img{
+					margin-left: 40px;
+				}
+
+				.horario4{
+					grid-area: horario;
+				}
+
+				.categoria4{
+					grid-area: categoria;
+				}
+		
+			.horario_prog4{
+				display: grid;
+				grid-template-columns: 1fr 3fr;
+				grid-template-rows: 3fr 0.5fr 3fr;
+				align-items: center;
+				justify-items: left;
+				border-bottom-style: dashed;
+				grid-template-areas:
+				"horario4 titulo_palestra4"
+				"... icon_palestrate4"
+				"categoria4 icon_palestrante_4";
+			}
+
+				.horario_prog4 p, img{
+					margin-left: 40px;
+				}
+
+				.horario4{
+					grid-area: horario;
+				}
+
+				.categoria4{
+					grid-area: categoria;
+				}
+
+					.horario_prog4{
+						display: grid;
+						grid-template-columns: 1fr 3fr;
+						grid-template-rows: 3fr 0.5fr 3fr;
+						align-items: center;
+						justify-items: left;
+						border-bottom-style: dashed;
+						grid-template-areas:
+						"horario4 titulo_palestra4"
+						"... icon_palestrate4"
+						"categoria4 icon_palestrante_4";
+					}
+	
+						.horario_prog4 p, img{
+							margin-left: 40px;
+						}
+	
+						.horario4{
+							grid-area: horario;
+						}
+	
+						.categoria4{
+							grid-area: categoria;
+						}
+	
+						.titulo_palestra4{
+							margin: 40px;
+							grid-area: titulo_palestra;
+							justify-self: left;
+							font-size: 1.4rem;		
+							font-family: 'versaversa';
+							line-height: 1.2em;
+							text-transform: initial;
+							color: black;		
+						}
+	
+						.icon_palestrante4{
+							padding-bottom: 40px;								
+							grid-area: icon_palestrante;		
+						}
+	
+							.icon_palestrante4 img{
+								width: 80px;
+								height: 80px;
+								border-radius: 50%;
+								transition: 0.4s;
+							}
+	
+							.icon_palestrante4 img:hover{
+								width:85px;
+								height: 85px;
+								transition: 0.4s;
+							}
+				
+					.horario_prog3{
+						display: grid;
+						grid-template-columns: 1fr 3fr;
+						grid-template-rows: 3fr 0.5fr 3fr;
+						align-items: center;
+						justify-items: left;
+						border-bottom-style: dashed;
+						grid-template-areas:
+						"horario3 titulo_palestra3"
+						"... icon_palestrante3"
+						"categoria3 icon_palestrante3";
+					}
+
+						.horario_prog3 p, img{
+							margin-left: 40px;
+						}
+	
+						.horario3{
+							grid-area: horario3;		
+						}
+	
+						.categoria3{
+							grid-area: categoria3;
+						}
+	
+						.titulo_palestra3{
+							margin: 40px;
+							grid-area: titulo_palestra3;
+							justify-self: left;
+							font-size: 1.4rem;
+							font-family: 'versaversa';
+							line-height: 1.2em;
+							text-transform: initial;
+							color: black;
+						}
+	
+						.icon_palestrante3{
+							padding-bottom: 40px;
+							grid-area: icon_palestrante3;
+						}
+	
+							.icon_palestrante3 img{
+								width: 80px;
+								height: 80px;
+								border-radius: 50%;
+								transition: 0.4s;
+							}
+	
+							.icon_palestrante3 img:hover{
+								width:85px;
+								height: 85px;
+								transition: 0.4s;
+							}
+
+	
+
+	
+	
+				
+#inscricao{
+	background-color: #ffffff;
+	width: 100vw;
+}
+
+	#ingresso{
 		display: grid;
-		grid-template-columns: 2fr 4fr;
-		grid-template-rows: 3fr 0.5fr 3fr;
+		grid-template-rows: 120px 120px 180px 20px;
+		font-size: 30px;
+		padding-top: 100px;
+		padding-bottom: 100px;			
+		margin-left: auto;
+		margin-right: auto;
+		grid-template-columns: 450px;
+		width: 450px;
 		align-items: center;
-		justify-items: left;
-		border-bottom-style: dashed;
-		grid-template-areas:
-		"horario titulo_palestra"
-		"... icon_palestrate"
-		"categoria icon_palestrante";
+		justify-items: center;	
+		color: #ffffff
 	}
 
-		.titulo_palestra{
-			font-size: 1.2rem;
-			margin-bottom: 2px;
+		#ingresso span{
+			padding-top: 40px;
+			text-align: center;
+			background-color: #534893;
+			justify-self: stretch;
+			align-self: stretch;
 		}
 
-		.horario_prog p, img {
-			margin-left: 10px;
+		#vagas-limitadas{
+			border-bottom: dotted;
 		}
 
-		.icon_palestrante {
-			padding-bottom: 10px;
+		#ingresso a{
+
+			align-self: center;
 		}
 
-		.titulo_palestra3{
-			font-size: 1.2rem;
-			margin-bottom: 2px;
+		#recorte{
+			display:flex;
 		}
 
-		.horario_prog3 p, img {
-			margin-left: 10px;
-		}
+		.bolas{
+			background-color: #ffffff;
+			width: 70px;
+			border-top: solid;
+			border-color: #ffffff;
+			border-radius: 50%;
+			padding-top: 80px;
 
-		.icon_palestrante3 {
-			padding-bottom: 10px;
 		}
+/* <----------------------------------@media--------------------------------------> */
+
+@media only screen and (min-width: 1025px) and (max-width: 1268px){
+
+.titulo_palestra{
+	margin-top: 1px;
+	margin-right: 10px;
+	margin-bottom: 1px;
+}
+
+#apontador_dia{
+	display:grid;
+	grid-template-columns: 180px 10px;
+	grid-template-areas:
+	"icone_dia recorte";
+	font-size: 0.8rem;
+}
+
+.dia{
+	width: 580px;
+}
+
+.horario_prog{
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+	grid-template-rows: 3fr 0.5fr 3fr;
+	align-items: center;
+	justify-items: left;
+	border-bottom-style: dashed;
+	grid-template-areas:
+	"horario titulo_palestra"
+	"... icon_palestrate"
+	"categoria icon_palestrante";
+}
+}
+
+@media only screen and (min-width: 730px) and (max-width: 1024px){
+
+#prog_title {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#prog_subtitle {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.programacao_completa{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: auto;
+	display: grid;
+	padding-bottom: 40px;
+	gap: 50px;
+	grid-template-columns: 1fr 3fr;
+	grid-template-areas: 
+	"icone_dia dia";
+}
+
+#apontador_dia{
+	display:grid;
+	grid-template-columns: 160px 6px;
+	grid-template-areas:
+	"icone_dia recorte";
+	font-size: 0.7rem;
+}
+
+.dia{
+	width: 500px;
+}
+
+.horario_prog{
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+	grid-template-rows: 3fr 0.5fr 3fr;
+	align-items: center;
+	justify-items: left;
+	border-bottom-style: dashed;
+	grid-template-areas:
+	"horario titulo_palestra"
+	"... icon_palestrate"
+	"categoria icon_palestrante";
+}
+
+	.titulo_palestra{
+		font-size: 1.2rem;
+		margin-bottom: 2px;
+	}
+
+	.horario_prog p, img {
+		margin-left: 10px;
+	}
+
+	.icon_palestrante {
+		padding-bottom: 10px;
+	}
+
+	.titulo_palestra3{
+		font-size: 1.2rem;
+		margin-bottom: 2px;
+	}
+
+	.horario_prog3 p, img {
+		margin-left: 10px;
+	}
+
+	.icon_palestrante3 {
+		padding-bottom: 10px;
+	}
 }
 
 
 @media only screen and (min-width: 550px) and (max-width: 729px){
 
-	#prog_title {
-		margin-left: auto;
-		margin-right: auto;
-		text-align: center;
+#prog_title {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#prog_subtitle {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+
+.programacao_completa{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: auto;
+	display: grid;
+	padding-bottom: 40px;
+	gap: 50px;
+	grid-template-columns: 1fr 3fr;
+	grid-template-areas: 
+	"icone_dia dia";
+}
+
+#apontador_dia{
+	display:grid;
+	grid-template-columns: 130px 3px;
+	grid-template-rows: 100px;
+	grid-template-areas:
+	"icone_dia recorte";
+	font-size: 0.6rem;
+}
+
+.title{
+	font-size: 1.8rem;
+	text-transform: uppercase;
+}
+
+.dia{
+	width: 360px;
+}
+
+.icone_dia{
+	height: 90px;
+}
+
+.seta{
+	margin-top: 40px;
+}
+
+.horario_prog{
+	display: grid;
+	grid-template-columns: 3fr 4fr;
+	grid-template-rows: 3fr 0.5fr 3fr;
+	align-items: center;
+	justify-items: left;
+	border-bottom-style: dashed;
+	grid-template-areas:
+	"horario titulo_palestra"
+	"... icon_palestrante"
+	"categoria icon_palestrante";
+}
+	.titulo_palestra{
+		font-size: 1rem;
+		margin-bottom: 2px;
 	}
 
-	#prog_subtitle {
-		text-align: center;
-		padding-bottom: 50px;
+	.horario_prog p, img {
+		margin-left: 10px;
 	}
 
-
-	.programacao_completa{
-		margin-left: auto;
-		margin-right: auto;
-		width: 90%;
-		height: auto;
-		display: grid;
-		padding-bottom: 40px;
-		gap: 50px;
-		grid-template-columns: 1fr 3fr;
-		grid-template-areas: 
-		"icone_dia dia";
+	.icon_palestrante {
+		padding-bottom: 10px;
 	}
 
-	#apontador_dia{
-		display:grid;
-		grid-template-columns: 130px 3px;
-		grid-template-rows: 100px;
-		grid-template-areas:
-		"icone_dia recorte";
-		font-size: 0.6rem;
+	.titulo_palestra3{
+		font-size: 1.2rem;
+		margin-bottom: 2px;
 	}
 
-	.title{
-		font-size: 1.8rem;
-		text-transform: uppercase;
+	.horario_prog3 p, img {
+		margin-left: 10px;
 	}
 
-	.dia{
-		width: 360px;
+	.icon_palestrante3 {
+		padding-bottom: 10px;
 	}
-
-	.icone_dia{
-		height: 90px;
-	}
-
-	.seta{
-		margin-top: 40px;
-	}
-
-	.horario_prog{
-		display: grid;
-		grid-template-columns: 3fr 4fr;
-		grid-template-rows: 3fr 0.5fr 3fr;
-		align-items: center;
-		justify-items: left;
-		border-bottom-style: dashed;
-		grid-template-areas:
-		"horario titulo_palestra"
-		"... icon_palestrante"
-		"categoria icon_palestrante";
-	}
-		.titulo_palestra{
-			font-size: 1rem;
-			margin-bottom: 2px;
-		}
-
-		.horario_prog p, img {
-			margin-left: 10px;
-		}
-
-		.icon_palestrante {
-			padding-bottom: 10px;
-		}
-
-		.titulo_palestra3{
-			font-size: 1.2rem;
-			margin-bottom: 2px;
-		}
-
-		.horario_prog3 p, img {
-			margin-left: 10px;
-		}
-
-		.icon_palestrante3 {
-			padding-bottom: 10px;
-		}
 }
 
 
 @media only screen and (min-width: 400px) and (max-width: 549px){
 
-	#prog_title {
-		margin-left: auto;
-		margin-right: auto;
-		text-align: center;
+#prog_title {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#prog_subtitle {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.programacao_completa{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: auto;
+	display: grid;
+	padding-bottom: 40px;
+	gap: 50px;
+	grid-template-columns: 0px 1fr;
+	grid-template-areas: 
+	"dia";
+}
+
+#apontador_dia{
+	display:none;
+}
+
+.title{
+	font-size: 1.8rem;
+	text-transform: uppercase;
+}
+
+.dia{
+	width: 360px;
+}
+
+.icone_dia{
+	height: 90px;
+}
+
+.seta{
+	margin-top: 40px;
+}
+
+.horario_prog{
+	display: grid;
+	grid-template-columns: 3fr 4fr;
+	grid-template-rows: 3fr 0.5fr 3fr;
+	align-items: center;
+	justify-items: left;
+	border-bottom-style: dashed;
+	grid-template-areas:
+	"horario titulo_palestra"
+	"... icon_palestrante"
+	"categoria icon_palestrante";
+}
+
+	.titulo_palestra{
+		font-size: 1rem;
+		margin-bottom: 2px;
 	}
 
-	#prog_subtitle {
-		text-align: center;
-		padding-bottom: 50px;
+	.horario_prog p, img {
+		margin-left: 10px;
 	}
 
-	.programacao_completa{
-		margin-left: auto;
-		margin-right: auto;
-		width: 90%;
-		height: auto;
-		display: grid;
-		padding-bottom: 40px;
-		gap: 50px;
-		grid-template-columns: 0px 1fr;
-		grid-template-areas: 
-		"dia";
+	.icon_palestrante {
+		padding-bottom: 10px;
 	}
 
-	#apontador_dia{
-		display:none;
+	.titulo_palestra3{
+		font-size: 1.2rem;
+		margin-bottom: 2px;
 	}
 
-	.title{
-		font-size: 1.8rem;
-		text-transform: uppercase;
+	.horario_prog3 p, img {
+		margin-left: 10px;
 	}
 
-	.dia{
-		width: 360px;
+	.icon_palestrante3 {
+		padding-bottom: 10px;
 	}
-
-	.icone_dia{
-		height: 90px;
-	}
-
-	.seta{
-		margin-top: 40px;
-	}
-
-	.horario_prog{
-		display: grid;
-		grid-template-columns: 3fr 4fr;
-		grid-template-rows: 3fr 0.5fr 3fr;
-		align-items: center;
-		justify-items: left;
-		border-bottom-style: dashed;
-		grid-template-areas:
-		"horario titulo_palestra"
-		"... icon_palestrante"
-		"categoria icon_palestrante";
-	}
-
-		.titulo_palestra{
-			font-size: 1rem;
-			margin-bottom: 2px;
-		}
-
-		.horario_prog p, img {
-			margin-left: 10px;
-		}
-
-		.icon_palestrante {
-			padding-bottom: 10px;
-		}
-
-		.titulo_palestra3{
-			font-size: 1.2rem;
-			margin-bottom: 2px;
-		}
-
-		.horario_prog3 p, img {
-			margin-left: 10px;
-		}
-
-		.icon_palestrante3 {
-			padding-bottom: 10px;
-		}
 }
 
 
 @media only screen and (max-width: 399px){
-	
-	#prog_title {
-		margin-left: auto;
-		margin-right: auto;
-		text-align: center;
+
+#prog_title {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#prog_subtitle {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+
+.programacao_completa{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: auto;
+	display: grid;
+	padding-bottom: 40px;
+	gap: 50px;
+	grid-template-columns: 0px 1fr;
+	grid-template-areas: 
+	"dia";
+}
+
+#apontador_dia{
+	display:none;
+}
+
+.title{
+	font-size: 1.8rem;
+	text-transform: uppercase;
+}
+
+
+
+.dia{
+	width: 340px;
+}
+
+.icone_dia{
+	height: 90px;
+}
+
+.seta{
+	margin-top: 40px;
+}
+
+.horario_prog{
+	display: grid;
+	grid-template-columns: 3fr 4fr;
+	grid-template-rows: 3fr 0.5fr 3fr;
+	align-items: center;
+	justify-items: left;
+	border-bottom-style: dashed;
+	grid-template-areas:
+	"horario titulo_palestra"
+	"... icon_palestrante"
+	"categoria icon_palestrante";
+}
+
+	.titulo_palestra{
+		font-size: 1rem;
+		margin-bottom: 2px;
 	}
 
-	#prog_subtitle {
-		text-align: center;
-		padding-bottom: 50px;
+	.horario_prog p, img {
+		margin-left: 10px;
 	}
 
-
-	.programacao_completa{
-		margin-left: auto;
-		margin-right: auto;
-		width: 90%;
-		height: auto;
-		display: grid;
-		padding-bottom: 40px;
-		gap: 50px;
-		grid-template-columns: 0px 1fr;
-		grid-template-areas: 
-		"dia";
+	.icon_palestrante {
+		padding-bottom: 10px;
 	}
 
-	#apontador_dia{
-		display:none;
+	.titulo_palestra3{
+		font-size: 1.2rem;
+		margin-bottom: 2px;
 	}
 
-	.title{
-		font-size: 1.8rem;
-		text-transform: uppercase;
+	.horario_prog3 p, img {
+		margin-left: 10px;
 	}
 
-	
-
-	.dia{
-		width: 340px;
+	.icon_palestrante3 {
+		padding-bottom: 10px;
 	}
-
-	.icone_dia{
-		height: 90px;
-	}
-
-	.seta{
-		margin-top: 40px;
-	}
-
-	.horario_prog{
-		display: grid;
-		grid-template-columns: 3fr 4fr;
-		grid-template-rows: 3fr 0.5fr 3fr;
-		align-items: center;
-		justify-items: left;
-		border-bottom-style: dashed;
-		grid-template-areas:
-		"horario titulo_palestra"
-		"... icon_palestrante"
-		"categoria icon_palestrante";
-	}
-
-		.titulo_palestra{
-			font-size: 1rem;
-			margin-bottom: 2px;
-		}
-
-		.horario_prog p, img {
-			margin-left: 10px;
-		}
-
-		.icon_palestrante {
-			padding-bottom: 10px;
-		}
-
-		.titulo_palestra3{
-			font-size: 1.2rem;
-			margin-bottom: 2px;
-		}
-
-		.horario_prog3 p, img {
-			margin-left: 10px;
-		}
-
-		.icon_palestrante3 {
-			padding-bottom: 10px;
-		}
 }
