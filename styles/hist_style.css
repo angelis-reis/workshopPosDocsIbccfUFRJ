@@ -393,6 +393,10 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
+
+	#evento{
+		padding-top: 30px;
+	}
 }
 
 
@@ -421,6 +425,11 @@
 
 	#evento_texto{
 		font-size: 1.3rem;
+		line-height: 2.1rem;
+	}
+
+	#evento{
+		padding-top: 30px;
 	}
 }
 
@@ -434,6 +443,11 @@
 
 	#evento_texto{
 		font-size: 1.2rem;
+		line-height: 2.1rem;
+	}
+
+	#evento{
+		padding-top: 30px;
 	}
 }
 
@@ -446,5 +460,12 @@
 
 	#evento_texto{
 		font-size: 1rem;
+		line-height: 2.1rem;
 	}
+
+	#evento{
+		padding-top: 30px;
+	}
+
+	
 }
