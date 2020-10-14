@@ -424,6 +424,10 @@
 	#inscricao{
 		background-color:#e0faf1;
 		width: 100vw;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 
 		#ingresso{
