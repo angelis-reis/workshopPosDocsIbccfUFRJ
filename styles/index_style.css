@@ -1341,12 +1341,12 @@
 	}
 
 	#cards-evento{
-		grid-template-columns: 400px;
+		grid-template-columns: 360px;
 		grid-template-rows: 600px 600px 600px;
 	}
 
 		.texto-evento{
-			width: 400px;
+			width: 360px;
 		}
 
 		.photo{
