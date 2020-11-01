@@ -42,9 +42,18 @@
 		background-color: #ffffff;
 		align-items: center;
         justify-items: center;
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 80px;
+        padding-bottom: 80px;
 	}
+
+		/* .formulario{
+			max-width: 500px;
+			padding: 10px 20px;
+			background: #c8daf1;
+			margin: 10px auto;
+			padding: 20px;
+			border-radius: 8px;
+		} */
 
 		.formulario{
 			max-width: 500px;
@@ -53,6 +62,11 @@
 			margin: 10px auto;
 			padding: 20px;
 			border-radius: 8px;
+		}
+
+
+		.formulario h1{
+			text-align: center;
 		}
 
 		.formulario fieldset{
