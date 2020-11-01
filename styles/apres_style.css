@@ -32,7 +32,7 @@
 		
 /* <---------------------------------seção videos-------> */
 
-        /* #films{
+        #films{
 			display: grid;
 			width: 100vw;
             display: none;
@@ -40,16 +40,16 @@
             grid-template-rows: 700px ;
             grid-template-areas: 
             "film1";
-		} */
+		}
 
-		#films{
+		/* #films{
 			display: grid;
 			width: 100vw;
             grid-template-columns: 1fr;
             grid-template-rows: 700px ;
             grid-template-areas: 
             "film1";
-		}
+		} */
 		
 
 
