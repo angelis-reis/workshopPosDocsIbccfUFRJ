@@ -2,7 +2,7 @@ var play = document.getElementById("apresentacao_1");
 
 var playFilm = document.getElementById("apresentacao_1-player");
 
-var esconderTitulo = document.getElementById("titulo_apresentacao");
+var esconderTitulo = document.getElementById("apresentacao_1");
 
 var play2 = document.getElementById("requiem");
 
@@ -38,7 +38,7 @@ play.addEventListener("click",
 
         play.style.display = "none";
 
-        esconderTitulo.style.display = "none";
+        // esconderTitulo.style.display = "none";
 
         playFilm.style.display= "inherit";
 

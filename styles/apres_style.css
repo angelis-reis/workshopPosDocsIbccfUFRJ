@@ -46,7 +46,7 @@
 			display: grid;
 			width: 100vw;
             grid-template-columns: 1fr;
-            grid-template-rows: 700px ;
+            grid-template-rows: 500px ;
             grid-template-areas: 
             "film1";
 		}
@@ -57,20 +57,20 @@
         
             #films h1{
                 align-self: center ;
-                transition: font-size 0.3s;
+				transition: font-size 0.3s;
+				
             }
         
             #films h1:hover{
                 color: gold;
                 cursor: pointer;
-                font-size: 52px;
+                font-size: 42px;
             }
         
             .film-title{
                 color: azure;
                 text-align: center;
                 text-justify: center;
-                line-height: 100px;
                 font-size: 30px;
             }
         
@@ -88,7 +88,7 @@
 				
         
                 #apresentacao_1{
-					margin-top: auto;
+					
 					margin-bottom: auto;
 					margin-left: auto;
 					margin-right: auto;
@@ -96,13 +96,17 @@
 					font-size: 30px;
 				}
 					#apresentacao_1 img{
+						/* display: flex;
+						justify-content: center;
+						align-items: center; */
 						height: 10rem;
 						transition: 0.3s;
+						scale: 0.7;
 					}
 				
 					#apresentacao_1 img:hover{
 						cursor: pointer;
-						scale: 1.1;
+						scale: 0.8;
 						transition: 0.3s;
 					}
         
