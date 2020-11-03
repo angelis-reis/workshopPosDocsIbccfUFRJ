@@ -32,7 +32,7 @@
 		
 /* <---------------------------------seção videos-------> */
 
-        #films{
+        /* #films{
 			display: grid;
 			width: 100vw;
             display: none;
@@ -40,16 +40,16 @@
             grid-template-rows: 700px ;
             grid-template-areas: 
             "film1";
-		}
+		} */
 
-		/* #films{
+		#films{
 			display: grid;
 			width: 100vw;
             grid-template-columns: 1fr;
             grid-template-rows: 700px ;
             grid-template-areas: 
             "film1";
-		} */
+		}
 		
 
 
@@ -77,7 +77,7 @@
             #film1{
                 display: grid;
                 grid-area: film1;
-                background-image: url(../images/apresentacoes/evento-2.png);
+                background-image: url(../images/evento/evento-1.png);
 				background-size: cover;
             }
         
@@ -122,16 +122,6 @@
                     margin-right: auto;
                 } 
 
-		#breve{
-			width: 100vw;
-			color: #000000;
-			font-weight: bolder;
-			height: 400px;
-			background-color: #BFFFF1;
-			text-align: center;
-			padding-top: 10rem;
-		}
-
 		/* #breve{
 			width: 100vw;
 			color: #000000;
@@ -140,8 +130,18 @@
 			background-color: #BFFFF1;
 			text-align: center;
 			padding-top: 10rem;
-			display: none;
 		} */
+
+		#breve{
+			width: 100vw;
+			color: #000000;
+			font-weight: bolder;
+			height: 400px;
+			background-color: #BFFFF1;
+			text-align: center;
+			padding-top: 10rem;
+			display: none;
+		}
 
 			#titulo_breve{
 			}
