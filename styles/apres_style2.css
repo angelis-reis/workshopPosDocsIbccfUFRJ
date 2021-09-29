@@ -6,7 +6,7 @@
 
 		<meta charset="UTF-8" />
 		<html lang="pt-br">
-		<title>IV WORKSHOP DOS PÓS DOUTORES DO IBCCF - UFRJ </title>
+		<title>V WORKSHOP DOS PÓS DOUTORES DO IBCCF - UFRJ </title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<!-- links para as fontes de estilo -->
@@ -61,7 +61,7 @@
 
 		<header>
 
-			
+
 <div id="cabecalho">
 
 				<a id="logo"  href="index.html"><img  src="images/logo.png" alt="Logo Workshop Pós Doutores"></a>
@@ -112,7 +112,7 @@
 
 						<li>
 							<a href="hist.html">O Evento
-								
+
 							</a></li>
 
 						<li>
@@ -132,118 +132,118 @@
 		</section>
 
 
-		
+
 
 		<section id="films" class="film-title">
 
-				<div id="film1">  
-					
+				<div id="film1">
+
 					<!-- feito -->
 
-					
-					
-				
+
+
+
 					<div id="apresentacao_1">
-						<img src="images/play.png"> 
+						<img src="images/play.png">
 					</div>
 
 
-					<iframe id="apresentacao_1-player" width="840" height="560" src="https://www.youtube.com/embed/cHPeGiLZV0E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>				
-		
+					<iframe id="apresentacao_1-player" width="840" height="560" src="https://www.youtube.com/embed/cHPeGiLZV0E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 				</div>
 
 		</section>
 
 		<section id="films" class="film-title">
 
-			<div id="film1">  	
-				
+			<div id="film1">
+
 				<!-- feito -->
-				
-			
+
+
 				<div id="apresentacao_1">
-					<img src="images/play.png"> 
+					<img src="images/play.png">
 				</div>
 
 
 				<iframe id="apresentacao_1-player" width="840" height="560" src="https://www.youtube.com/embed/VptcDBsetng" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	
+
 			</div>
 
 		</section>
 
-		
+
 
 		<section id="films" class="film-title">
 
-			<div id="film1">  	
+			<div id="film1">
 				<!-- feito			 -->
-				
-			
+
+
 				<div id="apresentacao_1">
-					<img src="images/play.png"> 
+					<img src="images/play.png">
 				</div>
 
 
 				<iframe id="apresentacao_1-player" width="840" height="560" src="https://www.youtube.com/embed/WKCMZgyKvG8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-				
-	
+
+
 			</div>
 
 		</section>
 
 		<section id="films" class="film-title">
 
-			<div id="film1">  	
-				
+			<div id="film1">
+
 				<!-- feito -->
-				
-			
+
+
 				<div id="apresentacao_1">
-					<img src="images/play.png"> 
+					<img src="images/play.png">
 				</div>
 
 
 				<iframe id="apresentacao_1-player" width="840" height="560" src="https://www.youtube.com/embed/QQRuP6P_g0U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-	
+
 			</div>
 
 		</section>
 
 		<section id="films" class="film-title">
 
-			<div id="film1">  
-				
+			<div id="film1">
+
 				<!-- feito -->
-				
-			
+
+
 				<div id="apresentacao_1">
-					<img src="images/play.png"> 
+					<img src="images/play.png">
 				</div>
 
 
 				<iframe id="apresentacao_1-player" width="840" height="560" src="https://www.youtube.com/embed/zEMkfEC16ss" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	
+
 			</div>
 
 		</section>
 
 		<section id="films" class="film-title">
 
-			<div id="film1">  	
-				
+			<div id="film1">
+
 				<!-- feito -->
-				
-			
+
+
 				<div id="apresentacao_1">
-					<img src="images/play.png"> 
+					<img src="images/play.png">
 				</div>
 
 
 				<iframe id="apresentacao_1-player" width="840" height="560" src="https://www.youtube.com/embed/ie5K4i_pVis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	
+
 			</div>
 
 		</section>
@@ -253,14 +253,14 @@
 			<span id= "titulo_breve" class="title" >AS APRESENTAÇÕES SERÃO LIBERADAS EM:</span>
 
 			<div class="example">
-				
+
 				<div id="flipdown" class="flipdown">
 
 				</div>
-				
+
 			</div>
 
-			
+
 
 
 		</section>
@@ -277,24 +277,24 @@
 		<section id="realizacao">
 
 			<h4 id="org_title" class="title" >REALIZAÇÃO E ORGANIZAÇÃO</h4>
-	
+
 			<a id="ufrj_logo" href="https://ufrj.br/" target="_blank"  >
 				<img src="images/apoios/ufrj.png" class="logos_realizacao" alt="Logo UFRJ" >
 			</a>
-	
+
 			<a id="pos_biof_logo" href="https://www.posgraduacao.biof.ufrj.br/pos-graduacao-em-biofisica/" target="_blank">
 				<img  src="images/apoios/pos_biof.png" class="logos_realizacao" alt="Logo Pós Biofísica" >
 			</a>
-	
+
 			<a id="pos_fisio_logo" href="https://www.posgraduacao.biof.ufrj.br/pos-graduacao-em-fisiologia/" target="_blank">
 				<img class="logos_realizacao" src="images/apoios/pos-fisio.png" alt="Logo Pós Fisiologia" >
 			</a>
-	
+
 			<a id="ibccf_logo" href="https://www.biof.ufrj.br/" target="_blank">
 				<img class="logos_realizacao" src="images/apoios/ibccf.png" alt="Logo IBCCF" >
 			</a>
-	
-	
+
+
 		</section>
 
 		<footer>
